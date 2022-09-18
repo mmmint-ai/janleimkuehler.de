@@ -1,0 +1,84 @@
+title: mmmint.ai - building smart solutions
+subtitle: Bargeld anstatt Werkstattbesuch! In unter 5 Minuten zum Kostenvoranschlag! Mit MrFiktiv schnell und einfach Fahrzeugschäden abrechnen.
+baseurl: /
+permalink: "/:year/:month/:day/:title/"
+# Google Analytics
+google_analytics: UA-178049998-1
+collections:
+  posts:
+    permalink: "/blog/:year/:month/:day/:title/"
+
+header:
+  title: mmmint.ai
+  logo_img: images/logo.png
+  has_nav: true
+  nav:
+    Home: "index"
+    Blog: "blog"
+    Solutions: "solutions"
+  palette: blue
+  menu:
+    actions:
+      - label: Sign Up
+        url: /signup
+footer:
+  logo_img: images/logo_alt.png
+  tagline: mmmint.ai - building smart solutions
+  content: "&copy; MMM Intelligence UG (haftungsbeschränkt). All rights reserved."
+  links:
+    - text: Impressum
+      url: "/impressum"
+      new_window: false
+    - text: Datenschutz
+      url: "/datenschutz"
+      new_window: false
+
+  social_title: Community
+
+  nav_title: Company
+  nav:
+    Home: "index"
+    Blog: "blog"
+    Solutions: "solutions"
+    Workshops: "workshops"
+    Career: "career"
+    About: "about"
+    Status: "solutions/status"
+
+  has_subscribe: true
+  subscribe_title: "Subscribe"
+  subscribe_content: "Melde dich jetzt bei unserem Newsletter an und bleibe immer auf dem neuesten Stand. Wir berichten als Start-Up rund um KI & Digitales."
+
+defaults:
+  -
+    scope:
+      path:            "drafts/**"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "images/**"
+    values:
+      sitemap:         false
+
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js

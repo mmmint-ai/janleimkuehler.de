@@ -1,0 +1,55 @@
+- title: Content Creator (m/w/awesome)
+  text: Du hast eine Vorliebe für kreatives Marketing? Grundlegendes Design liegt Dir und Du möchtest eigenverantwortlich Kampagnen entwerfen? Wir suchen Dich!
+  employmentType: PART_TIME
+  posted: 2021-10-12
+  action:
+    label: Zur Stellenbeschreibung 
+    url: /career/2021_10_12_mmmint_ai_contentcreator.pdf
+
+- title: Abschlussarbeit - OCR-Erkennung bei individuellen Schriftarten (m/w/awesome)
+  text: State oft the Art Recherche zum Thema OCR, sowie Benchmarking verschiedener vorhandener OCR-Services, z. B. von Cloudanbietern (wie Azure oder AWS) mittels gängiger Metriken.
+  employmentType: INTERN
+  posted: 2021-04-05
+  action:
+    label: Zur Stellenbeschreibung 
+    url: /career/2021_04_05_mmmint_ai_abschlussarbeit_ocr.pdf
+    
+- title: Abschlussarbeit - Digitaler Assistent der Autowerkstatt (m/w/awesome)
+  text: Konzeption, Entwicklung und Evaluierung eines digitalen Assistenten im Anwendungsszenario Autowerkstatt
+  employmentType: INTERN
+  posted: 2021-04-05
+  action:
+    label: Zur Stellenbeschreibung 
+    url: /career/2021_04_05_mmmint_ai_abschlussarbeit_crashbot.pdf
+    
+- title: Abschlussarbeit - Design-Prinzipien für AI-Based Assistance Systems (m/w/awesome)
+  text: AI-with-Human-in-the-Loop? Forsche an der Einbindung unserer KI-Services in einem Experiment-Setup und leite dabei Erkenntnisse der Design-Prinzipien für AI-Based Assistance Systems ab.
+  employmentType: INTERN
+  posted: 2021-04-05
+  action:
+    label: Zur Stellenbeschreibung 
+    url: /career/2021_04_05_mmmint_ai_abschlussarbeit_ai_based_assistant_systems.pdf
+    
+- title: Abschlussarbeit - KI-basiertes Dispositionssystems (m/w/awesome)
+  text: Konzeption, Entwicklung und Evaluierung eines KI- basierten Dispositionssystems mit Fokus auf den Themen Recommender Systeme und Decision Support Systeme
+  employmentType: INTERN
+  posted: 2021-04-05
+  action:
+    label: Zur Stellenbeschreibung 
+    url: /career/2021_04_05_mmmint_ai_abschlussarbeit_dispositionssystem.pdf
+    
+- title: Wissenschaftliches Projekt - Datenbasierte Serviceprognosen von KFZ (m/w/awesome)
+  text: Konzeption und Evaluierung einer datenbasierten Serviceprognose für Fahrzeuge mit Fokus auf Themen wie Marktzugang und Geschäftsmodell
+  employmentType: INTERN
+  posted: 2021-10-03
+  action:
+    label: Zur Projektarbeit 
+    url: /career/2021_10_03_mmmint_ai_datenbasierte_serviceprognosen.pdf
+
+- title: Full-Stack Developer Teilzeit (m/w/awesome)
+  text: Du brennst fürs Coden und wolltest schon immer in einem innovativen und dynamischen Start-Up arbeiten? Wir bieten dir exzellente Einblicke in die moderne Cloud- und Webentwicklung. Lerne in unserem Dojo, wie sich virtuelle Start-Ups mit modernster Technologie zukunftssicher und skalierbar platzieren.
+  employmentType: PART_TIME
+  posted: 2021-03-07
+  action:
+    label: Zur Stellenbeschreibung
+    url: /career/2021_03_07_mmmint_ai_fullstack.pdf

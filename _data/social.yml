@@ -1,0 +1,22 @@
+- name: LinkedIn
+  link: https://www.linkedin.com/company/mmmint-ai/
+  image: /images/social/linkedin.png
+- name: Instagram
+  link: https://www.instagram.com/mmmint.ai/
+  image: /images/social/instagram.png
+- name: Facebook
+  link: https://www.facebook.com/mmmintai
+  image: /images/social/facebook.png
+- name: Twitter
+  link: https://twitter.com/mmmint_ai
+  image: /images/social/twitter.png
+- name: GitHub
+  link: https://github.com/mmmint-ai
+  image: /images/social/github.png
+- name: Xing
+  link: https://www.xing.com/pages/mmmint-ai
+  image: /images/social/xing.png
+- name: Email
+  link: mailto:info@mmmint.ai
+  image: /images/social/email.png
+  
