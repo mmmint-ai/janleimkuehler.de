@@ -1,16 +1,38 @@
 #image-slider {
   height: 100%;
   width: 100%;
+  margin-top: 20px;
 
   .splide__slide {
-    max-height: 300px;
+    max-height: 380px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    img {
-      max-height: 250px;
-    }
+	.slider-container {
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 20px;
+
+	.slider-title {
+		margin: 0px 0px 1.66667rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: white;
+	}
+
+    .slider-image {
+		max-width: 150px;
+		margin-right: 40px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	}	
   }
 }

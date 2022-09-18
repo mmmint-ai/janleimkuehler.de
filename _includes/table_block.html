@@ -1,0 +1,41 @@
+<section id="{{ include.section.section_id }}" class="table text-block bg-{{ include.section.bg }} outer">
+  <div class="inner-large">
+    <div class="grid">
+      {% assign image_is_not_empty = include.section.image | is_not_empty %}
+      {% if image_is_not_empty %}
+      <div class="table-preview">
+        <img src="{{ include.section.image | relative_url }}" alt="{{ include.section.title }}" />
+      </div><!-- .block-preview -->
+      {% endif %}
+      <div class="block-content table">
+        <h2 class="block-title underline">{{ include.section.title }}</h2>
+        <table>
+          <caption>{{ include.section.subtitle }}</caption>
+          <thead>
+            <tr>
+              {% for header in include.section.table.header %}
+                <th>{{ header }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in include.section.table.body %}
+              <tr>
+                {% for col in row %}
+                  <td>{{ col }}</td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+          <tfoot>
+            {% for row in include.section.table.footer %}
+              {% for col in row %}
+                <td>{{ col }}</td>
+              {% endfor %}
+            {% endfor %}
+          </tfoot>
+        </table>
+      </div><!-- .block-content -->
+    </div><!-- .grid -->
+  </div><!-- .inner -->
+</section><!-- .block -->

@@ -1,0 +1,35 @@
+<section id="{{ include.section.section_id }}" class="video-block">
+  {% assign image_is_not_empty = include.section.image | is_not_empty %} {% if
+  image_is_not_empty %}
+  <div class="block-content">
+    <div class="hero-image-container">
+      <img
+        class="hero-image"
+        src="{{ include.section.image | relative_url }}"
+        alt="{{ include.section.title }}"
+      />
+    </div>
+
+    <div class="cell block-content imagetitle inner">
+      <h1>{{ include.section.title }}</h1>
+      {% assign content_is_not_empty = include.section.content | is_not_empty %}
+       {% if content_is_not_empty %}
+      <div class="block-copy">
+        <h3>{{ include.section.content | markdownify }}</h3>
+      </div>
+      {% endif %}
+      {% assign actions_is_not_empty = include.section.actions | is_not_empty %}
+      {% if actions_is_not_empty %}
+      <p class="block-buttons">
+        {% for action in include.section.actions %}
+        <a href="{{ action.url | relative_url }}" class="button ci large"
+          >{{ action.label }}</a
+        >
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</section>
+<!-- .block -->

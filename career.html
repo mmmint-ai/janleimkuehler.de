@@ -1,19 +1,16 @@
 ---
 title: Karriere
 layout: page
-share-img: images/undraw_online_resume_qyys.svg.png
-subtitle: Werde Teil der Osnabrücker Talentschmiede für Künstliche Intelligenz und Digitales
+subtitle: Werde Teil unseres Teams zur Verbesserung der Elektromobilität und verändere die Welt nachhaltig!
 ---
 
 <div class="row">
+
   <div class="col-4 col-12-medium">
     <!-- Sidebar -->
     <section class="box">
-      <!-- <a href="#" class="image featured"
-        ><img src="/images/pic09.jpeg" alt=""
-      /></a> -->
       <header>
-        <h3>Links</h3>
+        <h4>Links</h4>
       </header>
       <ul>
         {% for career in site.data.career %}
@@ -29,12 +26,13 @@ subtitle: Werde Teil der Osnabrücker Talentschmiede für Künstliche Intelligen
     <article class="box post">
       {% for career in site.data.career %}
       <section>
-        <h4 id="{{forloop.index}}">{{ career.title }}</h4>
+        <h2 id="{{forloop.index}}">{{ career.title }}</h2>
         <p>{{ career.text }}</p>
         {% if career.action %}
         <p class="block-buttons">
           <a
             href="{{ career.action.url | relative_url }}"
+            target="_blank"
             class="button secondary"
             >{{ career.action.label }}</a
           >
@@ -44,16 +42,13 @@ subtitle: Werde Teil der Osnabrücker Talentschmiede für Künstliche Intelligen
       {% endfor %}
 
       <footer>
-        <h3>
+        <h4>
           Schreib uns eine E-Mail mit deiner Bewerbung an
-          <a href="mailto:career@mmmint.ai">career@mmmint.ai</a>
-        </h3>
+          <a href="mailto:career@mintfuture.de">career@mintfuture.de</a>
+        </h4>
         <br />
       </footer>
     </article>
-    <div>
-      <img src="/images/undraw_online_resume_qyys.svg" />
-    </div>
   </div>
 </div>
 
@@ -69,8 +64,8 @@ subtitle: Werde Teil der Osnabrücker Talentschmiede für Künstliche Intelligen
       "@type": "JobPosting",
       "title": "{{ career.title }}",
       "description": "{{ career.text | markdownify | replace: '"', '\"' | strip_newlines }}",
-	  "datePosted": "{{ career.posted }}",
-	  "validThrough" : "2022-31-12",
+	  "datePosted": "{{ career.posted | date_to_xmlschema }}",
+	  "validThrough" : "{{ career.validThrough | date_to_xmlschema }}",
       "applicantLocationRequirements": {
         "@type": "Country",
         "name": "Deutschland"
@@ -81,15 +76,15 @@ subtitle: Werde Teil der Osnabrücker Talentschmiede für Künstliche Intelligen
         "sameAs": "https://www.mmmint.ai/",
         "logo": "https://www.mmmint.ai/images/logo.png"
       },
-	  "baseSalary": {
-		"@type": "MonetaryAmount",
-		"currency": "EUR",
-		"value": {
-		  "@type": "QuantitativeValue",
-		  "value": 450,
-		  "unitText": "MONTH"
-		}
-	  }
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "EUR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": {{ career.monetaryAmount }},
+          "unitText": "MONTH"
+        }
+      },
       "jobLocationType": "TELECOMMUTE",
       "employmentType": "{{ career.employmentType }}"
     }{% unless forloop.last %},{% endunless %}{% endfor %}

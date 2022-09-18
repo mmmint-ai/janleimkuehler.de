@@ -4,56 +4,76 @@ layout: body
 
 {% assign image_is_not_empty = page.share-img | is_not_empty %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ page.title }}",
-  "image": [
-    {% if image_is_not_empty %}"{{ page.share-img | absolute_url }}"{% endif %}
-  ],
-  "datePublished": "{{ page.date | date_to_xmlschema }}"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }}",
+    "image": [
+      {% if image_is_not_empty %}"{{ page.share-img | absolute_url }}"{% endif %}
+    ],
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Organization",
+      "name": "mint future GmbH",
+      "url": "https://www.wirkaufendeinethg.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "mint future GmbH",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.wirkaufendeinethg.de/images/logo.png"
+      }
+    }
+  }
 </script>
-
 <div class="outer">
-  <div class="inner-medium">
+  <div class=" inner">
+    <div class="post-container">
+      <article class="post post-full">
 
-    <article class="post post-full">
-      <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-      </header><!-- .post-header -->
-      {% assign content_img_path_is_not_empty = page.content_img_path | is_not_empty %}
-      {% if content_img_path_is_not_empty %}
-      <div class="post-thumbnail">
-        <img src="{{ page.content_img_path | relative_url }}" alt="{{ page.title }}" />
-      </div><!-- .post-thumbnail -->
-      {% endif %}
-      {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
-      {% if subtitle_is_not_empty %}
-      <div class="post-subtitle">
-        {{ page.subtitle }}
-      </div><!-- .post-subtitle -->
-      {% endif %}
-      <div class="post-content">
-        {{ content }}
-      </div><!-- .post-content -->
-      <footer class="post-meta">
-		<div class="social-block">
-			<div class="header">
-			  <h1>{{ page.social.title }}</h1>
-			</div>
-			<div class="icon-wrapper">
-			  {% for item in page.social.iconlist %} {% assign link_is_not_empty = item.link |
-			  is_not_empty %} {% if link_is_not_empty %}
-			  <a href="{{ item.link }}" target="_blank" rel="noopener"
-				><img src="{{ item.image }}" alt="check"/>
-			  </a>
-			  {% endif %} {% endfor %}
-			</div>
-		  </div>
-        <time class="published"
-          datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%A, %B %e, %Y' }}</time>
-      </footer><!-- .post-meta -->
-    </article><!-- .post -->
-  </div><!-- .inner-medium -->
-</div><!-- .outer-->
+        {% assign content_img_path_is_not_empty = page.content_img_path |
+        is_not_empty %} {% if content_img_path_is_not_empty %}
+        <div class="post-thumbnail">
+          <img class="post-thumbnail-image" src="{{ page.content_img_path | relative_url }}" alt="{{ page.title }}" width="800px" height="350px" />
+        </div> <!-- .post-thumbnail -->
+
+        {% endif %}
+               
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header> <!-- .post-header -->
+
+      {% assign author_is_not_empty = page.author | is_not_empty %}
+        {% if author_is_not_empty %}
+        <div class="post-author">
+          <img class="author-image" src="{{page.authorimage}}" alt="Author avatar" width="50px" height="50px" />
+
+          <span>geschrieben von <b>{{page.author}}</b> am {{ page.date | date:
+            '%d.%m.%Y' }}</span>
+
+        </div>
+        <!-- .post-author -->
+        {% endif %} {% assign subtitle_is_not_empty = page.subtitle | is_not_empty
+        %} {% if subtitle_is_not_empty %}
+        <div class="post-subtitle">{{ page.subtitle }}</div>
+        <!-- .post-subtitle -->
+
+        {% endif %}
+        <div class="post-content">{{ content }}</div>
+        <!-- .post-content -->
+        <footer class="post-meta">
+
+          {% include social-block.html %}
+
+        </footer>
+        <!-- .post-meta -->
+      </article>
+      <!-- .post -->
+
+      {% include posts_static_latest_block.html %}
+    </div>
+    <!-- .inner-large -->
+  </div>
+  <!-- .outer-->
+</div>

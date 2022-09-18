@@ -1,58 +1,98 @@
 ---
-title: FAQ
+title: THG-Quote Häufig gestellte Fragen 
 subtitle: >-
-  Häufig gestellte Fragen.
-share-image: images/logo.png
+  Häufig gestellte Fragen zur THG Quote | wirkaufendeinethg.de erklärt alle wichtigen Informationen zur Beantragung der THG-Quote für dein E-Auto.
+share-img: images/posts/thg-quote-geld-sichern.jpg
 sections:
   - section_id: faq
     component: faq_block.html
     type: faqblock
     bg: gray
     title: Häufige Fragen
-    subtitle: FAQ
+    subtitle: Deine Frage ist nicht dabei? Schreibe uns gerne eine <a href="mailto:info@wirkaufendeinethg.de">E-Mail</a>.
     faqitems:
-      - question: Was bedeutet fiktiv abrechnen?
+      - question: Wieso erhalte ich für mein E-Fahrzeug eine THG-Quote? 
         answer: >-
-           Viele Autofahrer wissen gar nicht, dass es jedem Versicherungsnehmer freisteht, sich nach einem Verkehrsunfall die Schadenssumme auszahlen zu lassen, statt eine Reparatur in Auftrag zu geben. Dieser Prozess des Auszahlens der Reparaturkosten, statt der eigentlichen Reparatur, wird als fiktives Abrechnen bezeichnet. Die rechtliche Grundlage hierfür findet sich in §249 Satz 2 des BGB. Hier steht verständlich formuliert, dass der Geschädigte Anspruch auf den für die Schadensbeseitigung erforderlichen Geldbetrag hat. Mit einem neutralen Gutachten von CheckMyCrash.de steht Ihrem Wunsch zur fiktiven Abrechnung nichts mehr im Wege. Wir haben verstanden, dass nicht jeder Schaden am Fahrzeug repariert werden muss und oftmals der Geldbetrag auf Ihrem Konto besser aufgehoben ist. Wir haben für Sie die Abwicklung mit der Versicherung und unserem bundesweiten Netzwerk aus Sachverständigen so konzipiert, dass Sie bequem von zu Hause mit Ihrem Smartphone fiktiv abrechnen können.
-      - question: Welche Unterlagen benötige ich, um ein Gutachten in Auftrag geben zu können?
+          Wenn du elektrisch fährst, sparst Du CO2 ein. Diese Einsparungen können wir nun für Dich vermarkten, da es seit 2022 eine neue Gesetzesgrundlage für die THG-Quote gibt.
+      - question: Wie hoch ist die Prämie für die THG-Quote?
         answer: >-
-            Die Antwort hierauf ist tatsächlich sehr einfach und kurz. Sie benötigen Ihren Fahrzeugschein (Zulassungsbescheinigung Teil 1), ein paar Fotos von Ihrem beschädigten Fahrzeug, ein Foto des aktuellen Kilometerstandes und im Idealfall eine Schadensnummer von Ihrer Versicherung. Anhand Ihres Fahrzeugscheins werden uns alle relevanten Daten für das Gutachten, sowie Ihre aktuelle Adresse übermittelt. Die Schadensfotos können Sie bequem von zu Hause mit Ihrem Smartphone aufnehmen und der aktuelle Kilometerstand wird für die Vollständigkeit des Gutachtens benötigt. Mit der Schadensnummer Ihrer Versicherung ist es uns möglich zu erkennen, wo Sie versichert sind. Dann können wir, wenn Sie unseren Premium-Service gebucht haben, das Gutachten direkt an die richtige Schadensabteilung übermitteln. Sollten Sie Fragen haben, wie Sie an die Schadensnummer kommen, nehmen Sie einfach Kontakt mit Ihrer Versicherung auf - so ein Telefonat dauert meist keine 5 Minuten!
-      - question: Was kostet mich ein Gutachten?
+          Die aktuelle Auszahlungshöhe der THG-Quote kannst Du immer auf unserer Startseite finden. Schaue einfach nach der entsprechenden Fahrzeugklasse. Wir garantieren mindestens die angegebenen Preise für die THG-Quote!
+      - question: Wie oft kann ich die THG-Quote beantragen?
         answer: >-
-            Das kommt ganz darauf an. Möchten Sie einen Haftpflichtschaden mit uns abwickeln – dann ist für Sie der gesamte Service kostenfrei. Sowohl die Abrechnung, die Erstellung des Gutachtens als auch die Rechtsvertretung. Hierfür benötigen wir nur die Unterschrift auf einer entsprechenden Abtretung. Im Bedarfsfall kümmern wir uns auch gerne um Ihre Mobilhaltung. Unsere Preise für ein PKW / Motorrad Zustandsbericht liegen bei 134€ (inkl. 19% MwSt.) und der Preis für ein PKW / Motorrad Wertgutachten beträgt 154€ (inkl. 19% MwSt.). Bei einem Wohlmobil beträgt die gleiche Leistung entsprechend 194€ (inkl. 19% MwSt.) für einen Zustandsbericht und 254€ (inkl. 19% MwSt.) für ein Wertgutachten. Im Bedarfsfall können wir Ihnen auch bundesweit für Nutzfahrzeuge ein Gutachten erstellen, der Preis für einen Nutzfahrzeug Zustandsbericht liegt bei 194€ (inkl. 19% MwSt.).
-      - question: Wie funktioniert die Abwicklung für ein Gutachten?
+          Du kannst die THG-Quote für jedes vollelektrische Fahrzeug einmal pro Kalenderjahr beantragen.
+      - question: Welche Unterlagen benötige ich zur Registrierung der THG-Quote?
         answer: >-
-           Wir garantieren Ihnen bundesweit eine schnelle und einfache Abwicklung. Dank unserer WebApplikation können Sie Ihren Gutachtenauftrag bequem online melden. Unsere Plattform sucht dann in Echtzeit nach dem richtigen Sachverständigen für Ihr Anliegen in Ihrer Region. Nach der Erteilung wird Ihr Auftrag an unsere Disposition weitergeleitet, von wo aus Sie mit einem persönlichen Sachverständigen in Kontakt gebracht werden. Sollten die übermittelten Schadensbilder es zulassen, können wir Ihnen auch direkt online Ihr persönliches neutrales Gutachten zukommen lassen. Sollte der Schadensumfang eine Besichitung erfordern, setzt sich umgehend Ihr persönlicher Ansprechpartner mit Ihnen in Verbindung. Die Besichtigung erfolgt selbstverständlich nach Ihrem Terminwunsch und an dem Ort Ihrer Wahl. Im Anschluss an die Besichtigung erfolgt unsere Express-Abwicklung. Für diesen Vorgang benötigen wir ca. 24 Stunden und halten Sie währenddessen immer auf dem aktuellen Stand. Im Falle eines Haftpflichtschadens unterstützen wir Sie gerne kostenfrei mit der gesamten Schadensabwicklung und kümmern uns bei Bedarf auch um Ihre Mobilhaltung.
-      - question: Kann ich auch bei einem wirtschaftlichen Totalschaden fiktiv abrechnen?
+         Um die THG-Quote für Dich zu beantragen, benötigen wir neben deinen persönlichen Daten nur ein aktuelles Foto der Vorder- und Rückseite deines Fahrzeugscheins (Zulassungsbescheinigung Teil 1). <br/> <br/> Das Foto kannst Du bequem auf dieser Website hochladen.
+      - question: Kann ich die THG-Quote auch für Leasing-Fahrzeuge beantragen? 
         answer: >-
-            Dieses Recht steht Ihnen zu. Hierzu benötigen Sie ein neutrales Gutachten. Im Haftpflichtschadenfall vermitteln wir Ihnen kostenlos (!) einen Sachverständigen, der sogar zu Ihnen nach Hause kommt zur Besichtigung. Ausgezahlt bekommen Sie in diesem Fall den Wiederbeschaffungswert abzüglich Restwert. Im Teil- oder Vollkaskoschadenfall funktioniert das ähnlich.
-
-
-
-  - section_id: call-to-action
-    component: cta_block.html
-    type: ctablock
-    title: In unter 5 Minuten zum neutralen Wertgutachten!
-    subtitle: Wir setzen Ihren Anspruch durch.
-    actions:
-    - label: Gutachten anfordern
-      url: https://app.mrfiktiv.com/
-
-  - section_id: faq
-    component: faq_block.html
-    type: faqblock
-    bg: gray
-    faqitems:
-      - question: Darf ich mein Fahrzeug reparieren, auch wenn ich fiktiv abgerechnet habe?
+          Ja, die THG-Quote gilt auch für E-Fahrzeuge, die geleast werden.
+      - question: Gilt die THG-Quote auch für E-Roller und S-Pedelecs?
         answer: >-
-           Selbstverständlich, das ist Ihr gutes Recht! Fiktiv abrechnen bedeutet nur, dass Sie die entstehenden Reparaturkosten ausgezahlt bekommen, statt diese für eine Reparatur in einer Werkstatt zu verwenden. So bekommen Sie das Geld auf Ihr Konto und Sie können frei entscheiden, was mit diesem Geld passieren soll. Wenn Sie sich im Nachgang entscheiden doch den entstandenen Schaden an Ihrem Fahrzeug zu reparieren, können Sie das gerne tun. Es kommt noch besser! Sollte der Schaden behoben worden sein, dann haben Sie das Anrecht auf Auszahlung der Mehrwertsteuer, welche Ihnen während des fiktiven Abrechnens gekürzt wurde. Angenommen Sie haben sich 1.000€ Reparaturkosten netto auszahlen lassen von Ihrer Versicherung und dann den Schaden selber für wenige hundert Euro behoben. Mit einem Foto und einem Reparaturnachweis zahlt Ihre Versicherung Ihnen nun die zuvor gekürzte Mehrwertsteuer, 19% * 1.000€ = 190€, zusätzlich aus. Sie sehen, manchmal macht es Sinn erst fiktiv abzurechnen und dann kostengünstig den Schaden beheben zu lassen. Ein neutrales Gutachten von CheckMyCrash.de garantiert Ihnen dabei die korrekte Bezifferung des entstandenen Schadens.
-      - question: Gibt es einen Unterschied zwischen fiktiver Abrechnung nach Gutachten und fiktiver Abrechnung nach Kostenvoranschlag?
+          Ja, die THG-Quote gilt auch für E-Roller und S-Pedelecs. Vorraussetzung zur Beantragung ist jedoch, dass du eine Zulassungsbescheinigung Teil I für deinen E-Roller oder dein S-Pedelec besitzt.
+      - question: Muss ich die Erlöse aus der THG-Quote als Privatperson versteuern?
         answer: >-
-            Der Unterschied liegt hier im Aufwand der Erstellung und der Gültigkeit beispielsweise in einem Rechtsstreit. Ein Kostenvoranschlag wird Ihnen von einer lokalen Werkstatt erstellt, welche Interesse daran hat, den Schaden zu beheben. Dieser Interessenkonflikt kann vor Gericht oft zu einer Ablehnung der kalkulierten Schadenssumme führen. Ein Gutachten, welches beispielsweise von unserem bundesweiten Netz an Sachverständigen erstellt wurde ist hingegen neutral und hat in einem Rechtsstreit ein deutlich höheres Gewicht. Der Preisunterschied von Kostenvoranschlag (ca. 100€) zu einem Gutachten begründet sich im entstehenden Aufwand. Ein Gutachten kann nur ein staatlich vereidigter Sachverständigter erstellen. Hier werden zusätzlich zur Kalkulation der Reparatur auch noch der Wiederbeschaffungswert, die vielleicht entstandene Wertminderung, der Nutzungsausfall, sowie der Restwert des Fahrzeuges festgehalten. All diese Werte finden in einem Kostenvoranschlag keine Berücksichtigung. Unfallschadenabwicklung ist unser Spezialgebiet, setzen Sie im Schadensfall am Besten auf die Profis von CheckMyCrash.de.
-      - question: Meine Frage war nicht dabei, was kann ich jetzt tun?
+            Die Erlöse der THG Quote müssen für Privatpersonen **nicht** versteuert werden.<br/>
+            Bitte beachte noch unseren Hinweis: Das ist keine steuerliche Beratung oder eine Empfehlung für eine Anlageentscheidung; bei Fragen zu der Thematik empfehlen wir einen Steuerberater zu kontaktieren.
+      - question: Kann ich für mehrere Fahrzeuge die THG-Quote beantragen?
         answer: >-
-            Schreiben Sie uns einfach eine kurze Mail oder rufen Sie uns an. Wir finden sicher eine Lösung für Ihr Anliegen. Gerne können Sie Ihre Frage auch im Kontaktformular hinterlassen!
-
-layout: home
+          Selbstverständlich. Jedes Elektrofahrzeug (Hybridfahrzeuge sind ausgenommen) in Deutschland ist quotenberechtigt. Dabei ist es egal ob Du gewerblich Halter des Fahrzeuges bist oder sich das Fahrzeug in Privatbesitz befindet. <br/>
+      - question: Kann ich die THG-Quote für meinen Furhpark beantragen?
+        answer: >-
+          Wenn Du eine Reihe an E-Fahrzeugen hast, profitierst Du sogar noch mehr, da Du für jedes E-Fahrzeug aus dem Furhpark die THG-Quote beantragen kannst.
+      - question: Kann ich auch als Fahrer eins Hybridfahrzeugs von der THG Quote profitieren?
+        answer: >-
+          Leider nein. Derzeit sind weder Hybrid- noch Plug-In-Hybridfahrzeuge quotenberechtigt.
+      - question: Was passiert, wenn ich meine THG-Quote nicht verkaufe?
+        answer: >-
+          In diesem Fall kannst Du nicht von der Prämie profitieren, da die Bundesregierung sich vorbehalten hat, nicht veräußerte THG-Quoten zu vermarkten. Die Erlöse fließen dann in den Bundeshaushalt. Deswegen empfehlen wir dir, die THG-Quote zu verkaufen. Sichere dir jetzt deine Prämie.
+      - question: Was passiert, wenn ich mein Elektrofahrzeug verkaufe?  
+        answer: >-
+          In diesem Fall möchten wir dich bitten uns eine formlose E-Mail zu senden. <br/>
+          Sollte die Auszahlung der THG-Quote bereits erfolgt sein, musst Du jedoch nicht aktiv werden. Wir bieten auch eine Empfehlungsprämie bei der Weiterleitung an Freunde an. <br/>
+          Um dich jedoch im Hinblick auf die THG-Quote zu beruhigen, unter keinen Umständen musst Du die erhaltene Prämie zurückzahlen. Die Auszahlung steht jedem Elektrofahrzeug einmal pro Jahr zu. Der neue Besitzer deines Elektrofahrzeuges ist dann im Folgejahr antragsberechtigt und darf gerne über wirkaufendeinethg.de seinen Antrag stellen.    
+      - question: Gibt es eine gesetzliche Grundlage für die THG-Quote? 
+        answer: >-
+          Auf EU-Ebene verpflichtet die Renewable Energy Directive II (RED II) (2018/2001/EU) ihre Mitgliedsstaaten die CO2-Emissionen stark zu reduzieren. <br/>
+          In Deutschland findet sich die gesetzliche Grundlage für die THG-Quote im Bundes-Immissionsschutzgesetz (BImSchG), sowie in der 38. Bundes-Immissionsschutzverordnung (38. BImSchV). Zudem ist in § 37 des Bundes-Immissionsschutzgesetzes geregelt, dass deutsche Unternehmen, die 2022 mehr CO2 als erlaubt in Umlauf bringen, für jede zusätzliche Tonne 600 Euro Strafe zu zahlen haben. Daher wird der Erwerb von THG-Quoten in größeren Paketen für große Unternehmen ab 2022 spannend.   
+      - question: Wie verdient wirkaufendeinethg.de Geld? 
+        answer: >-
+          Wir verdienen anteilig am Verkauf der THG-Quote. Unsere Provision liegt bei lediglich 10 % und ist in den angegebenen Preisen auf dieser Website schon eingerechnet!
+      - question: Wie genau läuft der Handel mit den Treibhausgasquoten ab? 
+        answer: >-
+          Wir sammeln von vielen Fahrern von Elektrofahrzeugen die Fotos der Fahrzeugscheine ein. Mit diesen Dokumenten werden wir dann beim Umweltbundesamt vorstellig und beantragen die Zertifizierung der eingesparten CO2-Mengen – die THG-Quote. <br/>
+          Mit den Zertifikaten treten wir dann in den Handel mit großen Mineralölunternehmen. Sobald die THG-Quoten veräußert wurden, zahlen wir die THG-Quote aus. <br/>
+          Dieser Handel ist gesetzlich verankert in der 38. Bundes-Immissionsschutzverordnung (38. BImSchV) als Reaktion auf die Renewable Energy Directive II (RED II) (2018/2001/EU) welche die Mitgliedsstaaten der EU dazu verpflichtet ihre Treibhausgase zu reduzieren. <br/>
+          Jedes Elektrofahrzeug ist pro Jahr 1 mal antragsberechtigt.    
+      - question: Welche Fahrzeuge sind antragsberechtigt für die THG-Quote?
+        answer: >-
+          Es sind alle rein batterieelektrisch betriebenen Fahrzeuge antragsberechtigt. <br/>
+          icht berechtigt sind beispielsweise Hybridfahrzeuge. Zudem sind neben dem klassischem E-PKW auch E-Nutzfahrzeuge und E-Busse, sowie sonstige rein elektrischen Fahrzeuge (Klasse L3e, L4e, L5e, L7e) antragsberechtigt.
+      - question: Ist die Höhe der THG-Quote abhängig vom Fahrzeugmodell?
+        answer: >-
+          Nein, aktuell gibt es keine Modellunterschiede für PKWs - größer oder kleiner macht keinen Unterschied - außer wir sprechen über Elektro-LKWs oder Busse.
+      - question: Sind neben Elektrofahrzeugen auch beispielsweise Ladesäulen quotenberechtigt?
+        answer: >-
+          Ja, vorausgesetzt es handelt sich um eine öffentliche, bei der Bundesnetzagentur eingetragene und geeichte Ladesäule, die frei zugänglich für Dritte ist.
+      - question: Werden die Daten sicher und DSGVO-konform gespeichert?
+        answer: >-
+          Alle Daten werden ausschließlich in deutschen Rechenzentren gespeichert und können nur mit entsprechender Zugriffsberechtigung abgerufen werden. Besonders sensible Daten, wie z. B. die Bankverbindungen, werden zusätzlich besonders verschlüsselt gespeichert. Die Plattform ist DSGVO-konform und unterliegt laufenden Prüfungen.
+      - question: Ich möchte meinen Daten löschen. Geht das?
+        answer: >-
+          Selbstverständlich können wir Deine Daten löschen. Eine formlose E-Mail reicht dazu aus.
+      - question: Wie kann ich als Kfz-Betrieb die THG-Quote sinnvoll nutzen?
+        answer: >-
+          Hierfür bieten sich verschiedene Möglichkeiten an. <br/>
+          Im Automobilhandel kann die THG-Quote für die Subventionierung der Leasingrate eingesetzt werden. <br/>
+          Im Kontext eines Unfallschadens kann die THG-Quote von 370€ beispielsweise dafür genutzt werden, die Selbstbeteiligung des Kunden zu finanzieren. <br/>
+          Bei Bedarf kann wirkaufendeinethg.de die App im Design des jeweiligen Kfz-Betriebs oder Autohauses bereitstellen und bietet dem Kunden so eine einfache und schnelle Beantragung der Quote CI-konform an. Dies erhöht die Kundenbindung und das Image des Kfz-Betriebs.
+      - question: Wie differenziert wirkaufendeinethg.de sich von anderen Anbietern?
+        answer: >-
+          Bei wirkaufendeinethg.de steht ein nachhaltiger und fairer Quotenhandel im Vordergrund. <br/>
+          wirkaufendeinethg.de gibt den Großteil der Verkaufserlöse direkt an den Endkunden weiter (90 % der Erlöse werden ausgezahlt, im Gegensatz zu anderen Wettbewerbern, bei denen die Marge häufig zwischen 15 % und 35 % liegt). <br/>
+          wirkaufendeinethg.de ist fest davon überzeugt, dass die Weitergabe des Großteils der Erlöse aus dem Verkauf der THG-Quoten der fairste und nachhaltigste Weg im bislang undurchsichtigen und schwer verständlichen THG-Quotenhandel ist. <br/>
+          Realisierbar wird die hohe Auszahlung durch digitalisierte und automatisierte Prozesse. <br/> 
+          Neben der reinen Auszahlung bietet die Plattform die Möglichkeit an in nachhaltige Projekte zu investieren. Beispielsweise investiert das Startup in den Ausbau von Ladeinfrastruktur in Deutschland. <br/>
+          Der Bau der ersten Ladesäule ist bereits in Ende Q1 2022 geplant.
+layout: faq
 ---
 

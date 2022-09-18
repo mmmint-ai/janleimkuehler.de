@@ -1,0 +1,44 @@
+<section
+  id="{{ include.section.section_id }}"
+  class="block reviews-block bg-{{ include.section.bg }} outer"
+>
+  <div class="block-header inner">
+    <h2 class="block-title">{{ include.section.title }}</h2>
+    {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ include.section.subtitle }}</p>
+    {% endif %}
+  </div>
+  <!-- .block-header -->
+  <div class="inner">
+    <div class="grid">
+      <div class="peoples-container">
+        {% for employe in site.data.employees %}
+        <div class="people-container">
+          <img
+            src="{{ employe.picture }}"
+            alt="Employe avatar"
+            class="people-image"
+          />
+          <div class="people-text-container">
+            <div class="people-name-container">
+              <p class="people-title">{{ employe.name }}</p>
+              <a href="{{ employe.linkedin }}" target="_blank"
+                ><img
+                  src="/images/icon-linkedin.png"
+                  alt="LinkedIn icon"
+                  class="linked-in-icon"
+              /></a>
+            </div>
+            <p class="people-subtitle">{{ employe.title }}</p>
+            <p class="people-details">{{ employe.details }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- .grid -->
+  </div>
+  <!-- .inner -->
+</section>
+<!-- .block -->

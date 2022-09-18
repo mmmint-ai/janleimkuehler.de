@@ -1,0 +1,33 @@
+<!-- Check if any share-links are active -->
+{% assign any-share-links = false %} {% for links in site.share-links-active %}
+{% if links[1] == true %} {% assign any-share-links = true %} {% endif %} {%
+endfor %} {% if any-share-links %}
+<section id="social-share-section">
+  <div class="header">
+    <h4>Blogpost teilen</h4>
+  </div>
+  <div class="share-wrapper">
+    {% if site.share-links-active.twitter %}
+    <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+      title="Auf Twitter teilen">
+      <img src="/images/social/twitter-square-brands.svg" alt="Twitter share" />
+    </a>
+
+    {% endif %} {% if site.share-links-active.facebook %}
+    <!--- Share on Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+      title="Auf Facebook teilen">
+      <img src="/images/social/facebook-square-brands.svg" alt="Facebook share" />
+    </a>
+    {% endif %} {% if site.share-links-active.linkedin %}
+    <!--- Share on LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
+      title="Auf LinkedIn teilen">
+      <img src="/images/social/linkedin-brands.svg" alt="LinkedIn share" />
+    </a>
+    {% endif %}
+  </div>
+</section>
+
+{% endif %}

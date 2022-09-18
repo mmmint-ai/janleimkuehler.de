@@ -1,0 +1,13 @@
+<section id="{{ include.section.section_id }}" class="block outer">
+  <div class="block-header inner">
+    <h2 class="block-title mission-header">{{ include.section.title }}</h2>
+  </div>
+  <div class="inner">
+    <p class="block-subtitle">{{ include.section.subtitle }}</p>
+    <p class="block-buttons">
+      <a href="{{ action.url | relative_url }}" class="button ci large"
+        >{{ section.action }}</a
+      >
+    </p>
+  </div>
+</section>

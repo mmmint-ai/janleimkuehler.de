@@ -2,8 +2,8 @@
   id="{{ include.section.section_id }}"
   class="block reviews-block bg-{{ include.section.bg }} outer"
 >
-  <div class="block-header inner-small">
-    <h2 class="block-title">{{ include.section.title }}</h2>
+  <div class="block-header inner">
+    <h2 class="block-title white-header">{{ include.section.title }}</h2>
     {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
     {% if subtitle_is_not_empty %}
     <p class="block-subtitle">{{ include.section.subtitle }}</p>

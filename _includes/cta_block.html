@@ -1,5 +1,5 @@
 <section id="{{ include.section.section_id }}" class="block cta-block bg-accent outer">
-  <div class="inner-large">
+  <div class="inner">
     <div class="grid">
       <div class="cell block-content">
         <h2 class="block-title">{{ include.section.title }}</h2>
@@ -14,7 +14,7 @@
       {% if actions_is_not_empty %}
       <div class="cell block-buttons">
         {% for action in include.section.actions %}
-        <a href="{{ action.url | relative_url }}" class="button white large">{{ action.label }}</a>
+        <a href="{{ action.url | relative_url }}" class="button white large cta-button">{{ action.label }}</a>
         {% endfor %}
       </div><!-- .block-buttons -->
       {% endif %}

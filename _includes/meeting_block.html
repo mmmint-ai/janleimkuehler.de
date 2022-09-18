@@ -1,0 +1,25 @@
+<div class="outer">
+  <div class="inner">
+    {% assign title_is_not_empty = include.section.title | is_not_empty %}
+    {% if title_is_not_empty %}
+    <div class="block-header inner">
+      <h2 class="block-title">{{ include.section.title }}</h2>
+      {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <p class="block-subtitle">
+        {{ include.section.subtitle }}
+      </p>
+      {% endif %}
+    </div><!-- .block-header -->
+    {% endif %}
+    {% assign calendar_is_not_empty = include.section.calendar | is_not_empty %}
+    {% if calendar_is_not_empty %}
+    <!-- Start of Meetings Embed Script -->
+    <div class="meetings-iframe-container"
+      data-src="https://meetings-eu1.hubspot.com/meetings/{{ include.section.calendar }}?embed=true">
+    </div>
+    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+    <!-- End of Meetings Embed Script -->
+    {% endif %}
+  </div><!-- .inner -->
+</div><!-- .outer -->

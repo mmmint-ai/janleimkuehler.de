@@ -1,0 +1,28 @@
+# !!Does not work!!
+default:
+  price: 500
+auto:
+  name: E-Auto
+  price: 370
+  class: M1
+  image: images/options/electric_car.png
+roller:
+  name: E-Roller
+  price: 370
+  class: L3e, L4e, L5e, L7e
+  image: images/options/electric_scooter.png
+nutzfahrzeug:
+  name: E-Nutzfahrzeug
+  price: 555
+  class: N1
+  image: images/options/electric_truck.png
+bus:
+  name: E-Bus
+  price: 13.300
+  class: M3
+  image: images/options/electric_bus.png
+ladestationen: 
+  name: Ladestationen
+  price: 185
+  class: eingetragen & öffentlich
+  image: images/options/electric_charging_station.png

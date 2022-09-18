@@ -22,7 +22,6 @@
   -ms-flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
-
   a {
     border: 0;
     color: inherit;
@@ -41,12 +40,14 @@
   margin: 0;
 
   img {
-    max-height: 40px;
+    width: 150px;
+	height: 36px;
   }
 }
 
 .site-navigation {
   margin-left: auto;
+  font-weight: bold;
 
   .menu {
     list-style: none;
@@ -107,10 +108,20 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .site {
     overflow: hidden;
     position: relative;
+  }
+
+  #menu-open {
+    display: block;
+    margin-right: auto;
+    order: 1;
+  }
+
+  .site-branding {
+    order: 2;
   }
 
   .site-header:before {
@@ -129,19 +140,14 @@
     z-index: 998;
   }
 
-  #menu-open {
-    display: block;
-    margin-left: auto;
-  }
-
   .site-navigation {
     background: #fff;
     box-sizing: border-box;
     height: 100vh;
     -webkit-overflow-scrolling: touch;
     position: absolute;
-    right: -360px;
-    top: 0;
+	top: 0;
+	left: 0;
     -webkit-transition: right 0.3s ease-in-out, visibility 0s 0.3s ease-in-out;
     transition: right 0.3s ease-in-out, visibility 0s 0.3s ease-in-out;
     visibility: hidden;
@@ -214,10 +220,10 @@
     }
 
     .site-navigation {
-      right: 0;
       -webkit-transition: right 0.3s ease-in-out;
       transition: right 0.3s ease-in-out;
-      visibility: visible;
+	  visibility: visible;
+	  left: 0;
     }
 
     .site-header:before {
@@ -232,10 +238,15 @@
 @media only screen and (max-width: 360px) {
   #menu-open {
     display: block;
-    margin-left: auto;
+    margin-right: auto;
+    order: 1;
   }
 
   .site-navigation {
     width: 100%;
+  }
+
+  .site-branding {
+    order: 2;
   }
 }

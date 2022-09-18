@@ -1,57 +1,88 @@
 ---
 layout: body
 title: Blog
-share-image: images/logo.png
+share-img: images/wirkaufendeinethg_logo.png
 ---
 
-<div class="outer">
-  <div class="inner">
-    <div class="post-feed">
-      {% for post in site.posts %}
-      <article class="post post-card">
+<div class="hero-image-container">
+  <img class="hero-image" src="/images/Banner-Blog.jpg" alt="Banner Blog" />
+</div>
+<div class="cell block-content imagetitle inner">
+  <h1>Alle Neuigkeiten aus der E-Welt</h1>
+</div>
+<div class="block outer">
+  <div class="inner content-container">
+    <div class="content-text-container">
+      <h2 class="block-title">DIE WELT DER ELEKTROMOBILITÄT</h2>
+      <p class="block-subtitle">Wir informieren Sie wöchentlich über die aktuellen News im Bereich E-Mobility, Quotenhandel und technischen automotiven Fortschritt.  
+		  Abonnieren Sie unseren Blog, wir schicken Ihnen die Artikel regelmäßig per Mail!</p>
+	
+    </div>
+    <div class="image-container">
+      <img
+        class="cls-image blog-header-image"
+        src="/images/Blog-Message.png"
+        alt="Blog Message"
+      />
+    </div>
+  </div>
+<div class="inner">
+  <div class="post-feed">
+    {% for post in site.posts %}
+	<article class="post post-card">
         <div class="post-card-inside">
-          {% assign thumb_img_path_is_not_empty = post.thumb_img_path |
-          is_not_empty %} {% if thumb_img_path_is_not_empty %}
-          <a class="post-card-thumbnail" href="{{ post.url | relative_url }}">
-            <img
-              class="thumbnail"
-              src="{{ post.thumb_img_path | relative_url }}"
-              alt="{{ post.title }}"
-            />
-          </a>
+          {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+          {% if thumb_img_path_is_not_empty %}
+          <a class="post-card-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
+              src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" loading="lazy" /></a>
           {% endif %}
           <div class="post-card-content">
             <header class="post-header">
-              <h2 class="post-title">
-                <a href="{{ post.url | relative_url }}" rel="bookmark"
-                  >{{ post.title }}</a
-                >
-              </h2>
+              <h3 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h3>
+			  <time class="post-subheader">{{ post.date | date: '%d.%m.%Y' }}</time>
+			  <span class="post-subheader"> - {{ post.time }} Lesezeit </span>
             </header>
-            <!-- .post-header -->
             <div class="post-excerpt">
               <p>{{ post.excerpt }}</p>
             </div>
             <footer class="post-meta">
-              <time
-                class="published"
-                datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}"
-                >{{ post.date | date: '%B %d, %Y' }}</time
-              >
-              <span> - {{ post.time }}</span>
+				<a href="{{ post.url | relative_url }}" class="button ci large post-cta"
+			>Lesen</a>
             </footer>
-          </div>
-          <!-- post-card-content -->
-        </div>
-        <!-- .post-card-inside -->
-      </article>
-      <!-- .post -->
-      {% endfor %}
-    </div>
-    <!-- .post-feed -->
-
-    -->
+          </div><!-- .post-card-content -->
+        </div><!-- .post-card-inside -->
+      </article><!-- .post -->
+    {% endfor %}
+    <!-- .grid -->
   </div>
-  <!-- .inner -->
+  <div class="outer">
+	<div class="block-header inner">
+	  <h2 class="block-title">Autoren</h2>
+	</div>
+<div class="inner">
+<div class="grid">
+<div class="peoples-container">
+{% for author in site.data.authors %}
+  <div class="people-container">
+	<img
+	  src="{{ author.picture }}"
+	  alt="Author avatar"
+	  class="people-image"
+	/>
+	<div class="people-text-container">
+		<div class="people-name-container">
+			<p class="people-title">{{ author.name }}</p>
+			<a href="{{ author.linkedin }}" target="_blank"><img
+				src="/images/icon-linkedin.png"
+				alt="LinkedIn icon"
+				class="linked-in-icon"
+			  /></a>
+		</div>
+	  <p class="people-subtitle">{{ author.title }}</p>
+	  <p class="people-details">{{ author.details }}</p>
+	</div>
+  </div>
+  {% endfor %}
 </div>
-<!-- .outer-->
+</div>
+</div>

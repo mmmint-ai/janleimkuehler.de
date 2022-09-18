@@ -1,0 +1,42 @@
+<article id="{{ include.section.section_id }}" class="block posts-block-latest">
+	  <div class="post-feed-latest">
+	  {% for post in site.posts limit:5 %}
+		<article class="post post-item-latest">
+		  <div class="post-item-inside">
+			{% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+			{% if thumb_img_path_is_not_empty %}
+			<a class="post-item-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
+				src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" loading="lazy" /></a>
+			{% endif %}
+			<div class="post-item-content">
+			  <header class="post-header">
+				<h5 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h5>
+			  </header>
+			  <div class="post-excerpt">
+				<p>{{ post.excerpt }}</p>
+			  </div>
+			  <footer class="post-meta">
+				<time class="published"
+				  datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%d.%m.%Y' }}</time>
+				  <span> - {{ post.time }} Lesezeit </span>
+			  </footer>
+			</div><!-- .post-item-content -->
+		  </div><!-- .post-item-inside -->
+		</article><!-- .post -->
+		{% endfor %}
+	  </div><!-- .post-feed -->
+		{% assign has_subscribe_is_not_empty = site.footer.has_subscribe | is_not_empty %}
+        {% if has_subscribe_is_not_empty %}
+        <div class="footer-subscribe">
+          <h4 class="widget-title-not-footer">{{ site.footer.subscribe_title }}</h4>
+          {% assign subscribe_content_is_not_empty = site.footer.subscribe_content | is_not_empty %}
+          {% if subscribe_content_is_not_empty %}
+          <p>{{ site.footer.subscribe_content }}</p>
+          {% endif %}
+          {% include subscribe_form.html %}
+        </div><!-- .widget -->
+        {% endif %}
+		
+		{% include social-share.html %}
+  </section><!-- .block -->
+  

@@ -1,0 +1,37 @@
+<section id="{{ include.section.section_id }}" class="ci-color-block offer-block-{{ include.section.density | default: "dense" }} bg-{{ include.section.bg }} outer">
+  <div class="block-header inner">
+    <h2 class="block-title ci-header">{{ include.section.title }}</h2>
+    {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">
+      {{ include.section.subtitle }}
+    </p>
+    {% endif %}
+  </div><!-- .block-header -->
+  {% assign pricingplans_is_not_empty = include.section.pricingplans | is_not_empty %}
+  {% if pricingplans_is_not_empty %}
+  <div class="inner">
+    <div class="offer-container">
+      {% for plan in include.section.pricingplans %}
+
+      <div class="cell offer-{{ include.section.density | default: "dense" }} plan{% assign highlight_is_not_empty = plan.highlight | is_not_empty %}{% if highlight_is_not_empty %} highlight{% endif %}">
+        <div class="offer-inside">
+        <h3 class="offer-name">{{ plan.title }}</h3>
+		<h5 class="offer-subtitle">{{ plan.subtitle }}</h5>
+        {% assign price_is_not_empty = plan.price | is_not_empty %}
+        {% if price_is_not_empty %}
+        <div class="offer-price">{{ plan.price }}</div>
+        {% endif %}
+        <div class="offer-details">
+          {{ plan.details | markdownify }}
+        </div>
+		<a href="{{ plan.url | relative_url }}" class="offer-button button ci large"
+		>{{ plan.label }}</a>
+        </div><!-- .plan-inside -->
+      </div><!-- .cell -->
+
+      {% endfor %}
+    </div><!-- .grid -->
+  </div><!-- .inner -->
+  {% endif %}
+</section><!-- .block -->

@@ -1,0 +1,43 @@
+<section
+  id="{{ include.section.section_id }}"
+  class="block reviews-block bg-{{ include.section.bg }} outer"
+>
+  <div class="block-header inner">
+    <h2 class="block-title">{{ include.section.title }}</h2>
+    {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ include.section.subtitle }}</p>
+    {% endif %}
+  </div>
+  <!-- .block-header -->
+  {% assign images_is_not_empty = include.section.images | is_not_empty %} {% if
+  images_is_not_empty %}
+  <div class="inner">
+    <div class="grid">
+      <div class="images-container">
+        {% for review in include.section.images %} {% assign image_is_not_empty
+        = review.image | is_not_empty %} {% if image_is_not_empty %}
+        <div class="grid-block-container">
+          <img
+            src="{{ review.image | relative_url }}"
+            alt="Author avatar"
+			class="grid-image"
+          />
+          <footer class="grid-footer">
+            <h6 class="grid-title">{{ review.title }}</h6>
+			<p class="grid-text">{{ review.text }}</p>
+			<p class="block-buttons">	
+			<a href="{{ review.url | relative_url }}" class="button ci large"
+			>{{ review.button }}</a>
+			</p>
+          </footer>
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+    <!-- .grid -->
+  </div>
+  <!-- .inner -->
+  {% endif %}
+</section>
+<!-- .block -->

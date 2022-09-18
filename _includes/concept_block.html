@@ -1,0 +1,40 @@
+<section id="{{ include.section.section_id }}" class="block outer">
+  <div class="block-header inner">
+    <h2 class="block-title inner">{{ include.section.title }}</h2>
+  </div>
+  <div class="inner">
+    <div class="concept-container">
+      {% for concept in section.concepts %}
+      <article class="concept-card">
+        <div class="concept-card-inside">
+          <img
+            class="concept-thumbnail"
+            src="{{ concept.image }}"
+            alt="{{ concept.title }}"
+            loading="lazy"
+          />
+          <div class="concept-card-content">
+            <header class="concept-header">
+              <h3 class="concept-title">{{ concept.title }}</h3>
+              <p class="concept-subtitle">{{ concept.subtitle }}</p>
+            </header>
+            <div class="concept-text">
+              <p>{{ concept.text }}</p>
+            </div>
+            {% assign action_is_not_empty = concept.actionurl | is_not_empty %} {%
+            if action_is_not_empty %}
+            <footer class="post-meta">
+              <a
+                href="{{ concept.actionurl }}"
+                class="button ci large post-cta"
+                >{{ concept.actiontitle }}</a
+              >
+            </footer>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

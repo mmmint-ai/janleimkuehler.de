@@ -11,7 +11,7 @@
           </a>
         </p><!-- .site-logo -->
         {% endif %}
-      {% if page.layout == 'home' or page.layout == 'blog' %}
+        {% if page.layout == 'faq' %}
         <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
         {% else %}
         <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
@@ -25,15 +25,19 @@
               class="icon-close" aria-hidden="true"></span></button>
           <ul class="menu">
             {%- for link in site.header.nav -%}
-            {% assign current = page.url | split:'/' | second %}
-            <li class="menu-item {% if current == link[1] %} current-menu-item{% endif %}">
+			{% assign current = page.url | downcase | split: '/' %}
+			<!-- use, if you want to highlight the current nav item
+			{% if current contains link[1] %} active {% endif %} -->
+            <li class="menu-item ">
               <a href="{{ link[1] | relative_url }}">{{ link[0]}}</a>
             </li>
-           
-            {%- endfor -%}  
-             <li class="menu-item menu-button">
-                <a href="/contact" class="button">Kontakt</a>
-              </li>
+            {%- endfor -%}
+            <li class="menu-item menu-button">
+                <a href="https://app.wirkaufendeinethg.de/#/login" class="button secondary cta-button">Login</a>
+			      </li>
+            <li class="menu-item menu-button">
+              <a href="https://app.wirkaufendeinethg.de/#/thgimpactselector" class="button cta-button">Registrieren</a>
+            </li>
           </ul><!-- .menu -->
         </div><!-- .site-nav-inside -->
       </nav><!-- .site-navigation -->

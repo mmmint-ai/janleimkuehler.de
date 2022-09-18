@@ -1,0 +1,39 @@
+<section
+  id="{{ include.section.section_id }}"
+  class="block reviews-block bg-{{ include.section.bg }} outer"
+>
+  <div class="block-header inner">
+    <h2 class="block-title">{{ include.section.title }}</h2>
+    {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ include.section.subtitle }}</p>
+    {% endif %}
+  </div>
+  <!-- .block-header -->
+  {% assign images_is_not_empty = include.section.images | is_not_empty %} {% if
+  images_is_not_empty %}
+  <div class="inner">
+      <div class="advantages-container">
+        {% for review in include.section.images %} {% assign image_is_not_empty
+        = review.image | is_not_empty %} {% if image_is_not_empty %}
+        <div class="advantage-container">
+			<div class="advantage-header">
+				<h2 class="advantage-title">{{ review.title }}</h2>
+				<h3 class="advantage-subtitle">{{ review.subtitle }}</h3>
+			</div>
+			
+          <img
+            src="{{ review.image | relative_url }}"
+            alt="Author avatar"
+			class="advantage-image"
+            style="max-height: 200px"
+          />
+         
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+  </div>
+  <!-- .inner -->
+  {% endif %}
+</section>
+<!-- .block -->

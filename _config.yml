@@ -1,30 +1,34 @@
-title: mmmint.ai - building smart solutions
-subtitle: Bargeld anstatt Werkstattbesuch! In unter 5 Minuten zum Kostenvoranschlag! Mit MrFiktiv schnell und einfach Fahrzeugschäden abrechnen.
+title: Einfach THG-Quote für die eingesparten CO2-Emissionen beantragen.
+subtitle: Wir übernehmen für dich die komplette Abwicklung der THG-Prämie zum Höchstpreis, so kannst du am besten mit deinem E-Auto Geld verdienen. Einfach. Nachhaltig.
+keywords: thg, quote, verkaufen, verdienen, höchstpreis, beste, e-auto, elektroauto, treibhausgasquote
 baseurl: /
 permalink: "/:year/:month/:day/:title/"
-# Google Analytics
-google_analytics: UA-178049998-1
+google_analytics: G-8KCRQTHWM4
+google_analytics_aw: AW-10872540144
+google_tag_manager: GTM-MHMZX35
+facebook_pixel: 711179920243982
+clarity: b43h9m1ucc
+elfsight: elfsight-app-69f92529-007a-4518-a78e-625646458fa6
+hubspot: 25801309
+elfsight_customers: elfsight-app-ca2cdd3c-95cf-4eca-8002-91d7d12a6b81
 collections:
   posts:
     permalink: "/blog/:year/:month/:day/:title/"
 
 header:
-  title: mmmint.ai
-  logo_img: images/logo.png
+  title: THG-Quote Verkaufen und mit E-Auto Geld verdienen. Einfach. Nachhaltig. Zum Höchstpreis. Beim besten Anbieter - wirkaufendeinethg.de
+  logo_img: images/wirkaufendeinethg_logo.png
   has_nav: true
   nav:
     Home: "index"
+    Kooperation: "kooperation"
     Blog: "blog"
-    Solutions: "solutions"
+    Über uns: "about"
   palette: blue
-  menu:
-    actions:
-      - label: Sign Up
-        url: /signup
 footer:
-  logo_img: images/logo_alt.png
-  tagline: mmmint.ai - building smart solutions
-  content: "&copy; MMM Intelligence UG (haftungsbeschränkt). All rights reserved."
+  logo_img: images/logo_white.png
+  tagline:
+  content: "&copy; mint future GmbH. All rights reserved."
   links:
     - text: Impressum
       url: "/impressum"
@@ -32,34 +36,51 @@ footer:
     - text: Datenschutz
       url: "/datenschutz"
       new_window: false
+    - text: Status
+      url: "http://status.wirkaufendeinethg.de/"
+      new_window: true
 
   social_title: Community
 
-  nav_title: Company
+  nav_title: Firma
   nav:
     Home: "index"
+    Karriere: "career"
     Blog: "blog"
-    Solutions: "solutions"
-    Workshops: "workshops"
-    Career: "career"
-    About: "about"
-    Status: "solutions/status"
+    Transparenz: "transparency"
+    FAQ: "faq"
+    AGB: "agbs"
+    Teilen: "share"
 
+  products_title: Produkte
+  products:
+    E-Auto: "e-auto"
+    E-Roller: "e-roller"
+    E-Bus: "e-bus"
+    E-Nutzfahrzeug: "e-nutzfahrzeug"
+    Ladestation: "ladestation"
+    Autohaus: "autohaus"
+    Stadtwerke: "stadtwerke"
+    # Leasing: "leasing"
   has_subscribe: true
-  subscribe_title: "Subscribe"
-  subscribe_content: "Melde dich jetzt bei unserem Newsletter an und bleibe immer auf dem neuesten Stand. Wir berichten als Start-Up rund um KI & Digitales."
+  subscribe_title: "Newsletter abonnieren"
+  subscribe_content: "Melde Dich jetzt bei unserem Newsletter an und bleibe immer auf dem neusten Stand. Wir berichten laufend zur THG Quote und Elektromobilität."
 
+  # Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  
 defaults:
-  -
-    scope:
-      path:            "drafts/**"
+  - scope:
+      path: "drafts/**"
     values:
-      sitemap:         false
-  -
-    scope:
-      path:            "images/**"
+      sitemap: false
+  - scope:
+      path: "images/**"
     values:
-      sitemap:         false
+      sitemap: false
 
 sass:
   indentWidth: 4

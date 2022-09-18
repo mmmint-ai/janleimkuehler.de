@@ -1,5 +1,18 @@
 
-markwarneke:
-  name: Mark Warneke
-  picture: https://avatars3.githubusercontent.com/u/7847915?s=460&u=6c71393120514c3e7556688a037a166927ca2282&v=4
-  twitter: MarkWarneke
+- name: Mattis Schürmann
+  title: Web Developer
+  picture: /images/Autor-Mattis.png
+  linkedin: https://www.linkedin.com/in/mattis-sch%C3%BCrmann-1325a0193/
+  details: Mattis arbeitet als Full Stack Developer. Sein beruflicher Schwerpunkt liegt derzeit in der internationalen Logistik. Mit seiner Expertise bildet er die perfekte Schnittstelle zwischen State of the Art Entwicklung und praxisnaher Umsetzung.
+
+- name: Mark Warneke
+  title: Software Architekt
+  picture: /images/Autor-Mark.png
+  linkedin: https://www.linkedin.com/in/markwarneke/
+  details: Mark ist unser Software-Experte. Als Ex-Microsoft Software-Engineer bringt er Erfahrung aus zahlreichen Cloud- und Softwareprojekten mit. Er hält zudem mehrere Software Zertifizierungen. Er ist für die Entwicklung, Sicherheit sowie die Verfügbarkeit unserer Systeme zuständig. 
+
+- name: Max Leimkühler
+  title: Experte Maschinenbau und Digitalisierung
+  picture: /images/Autor-Max.png
+  linkedin: https://www.linkedin.com/in/maxleimkuehler/
+  details: Max ist unser Experte für Digitales. Er hat weitreichende Erfahrung in  Forschungs-  sowie  Beratungsprojekten  gesammelt.  Zuvor  war  er bei der BMW Group in der Digitalisierung und beim DFKI in der KI-Forschung  beschäftigt.  Seine  Leidenschaft  zur  Innovation  ist  treibend für unsere smarten Lösungen.
