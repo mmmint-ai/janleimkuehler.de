@@ -146,72 +146,31 @@ sections:
       - label: Häufig gestellte Fragen
         url: /faq/
 
+  - section_id: faq
+    component: faq_block.html
+    type: faqblock
+    bg: gray
+    title: FAQ - Häufige Fragen
+    subtitle: 
+    faqitems:
+      - question: Wie sieht das unverbindliche Erstgespräch aus? 
+        answer: >-
+          Wenn du elektrisch fährst, sparst Du CO2 ein. Diese Einsparungen können wir nun für Dich vermarkten, da es seit 2022 eine neue Gesetzesgrundlage für die THG-Quote gibt.
+      - question: Ich bin mir nicht ganz sicher, ob mir bei meinem Projekt geholfen werden kann?
+        answer: >-
+          Die aktuelle Auszahlungshöhe der THG-Quote kannst Du immer auf unserer Startseite finden. Schaue einfach nach der entsprechenden Fahrzeugklasse. Wir garantieren mindestens die angegebenen Preise für die THG-Quote!
+      - question: Ich bin mir nicht sicher, ob mein Produkt CE-kennzeichnungspflichtig ist und was zu tun ist?
+        answer: >-
+          Du kannst die THG-Quote für jedes vollelektrische Fahrzeug einmal pro Kalenderjahr beantragen.
+      - question: Ich bin mir unsicher, ob mein Produkt sicher ist? Dürfen wir so ausliefern?
+        answer: >-
+         Um die THG-Quote für Dich zu beantragen, benötigen wir neben deinen persönlichen Daten nur ein aktuelles Foto der Vorder- und Rückseite deines Fahrzeugscheins (Zulassungsbescheinigung Teil 1). <br/> <br/> Das Foto kannst Du bequem auf dieser Website hochladen.
+      - question: Wie lange dauert der Beratungsprozess? 
+        answer: >-
+          Ja, die THG-Quote gilt auch für E-Fahrzeuge, die geleast werden.
+      - question: Mit welchen Kosten ist zu rechnen?
+        answer: >-
+          Ja, die THG-Quote gilt auch für E-Roller und S-Pedelecs. Vorraussetzung zur Beantragung ist jedoch, dass du eine Zulassungsbescheinigung Teil I für deinen E-Roller oder dein S-Pedelec besitzt.
+      
 layout: home
 ---
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "url": "http://www.wirkaufendeinethg.de",
-    "logo": "http://www.wirkaufendeinethg.de/images/logo.png"
-  }
-</script>
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutomotiveBusiness",
-    "image": ["https://www.wirkaufendeinethg.de/images/logo.png"],
-    "@id": "https://www.wirkaufendeinethg.de/",
-    "name": "wirkaufendeinethg.de",
-    "knowsAbout" : "Bei wirkaufendeinethg.de helfen wir Besitzern von Elektrofahrzeugen jährlich eine Förderung für die eingesparten CO2-Emissionen zu erhalten. THG-Quote Verkaufen. Einfach. Nachhaltig.",
-    "award": "Digital Automotive Award 2021",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Marie-Curie-Str. 3",
-      "addressLocality": "Osnabrück",
-      "addressRegion": "Niedersachsen",
-      "postalCode": "49076",
-      "addressCountry": "DE"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 52.288194407061624,
-      "longitude": 8.014688177551546
-    },
-    "url": "https://www.wirkaufendeinethg.de/",
-    "priceRange": "$$$",
-     "telephone": "+4917672884125",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "00:00",
-        "closes": "23:59"
-      }
-    ]
-  }
-</script>
-
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "wirkaufendeinethg.de",
-    "applicationCategory": "ShoppingApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "370",
-      "priceCurrency": "Euro"
-    }
-  }
-</script>

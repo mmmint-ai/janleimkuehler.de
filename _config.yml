@@ -1,32 +1,29 @@
-title: Einfach THG-Quote für die eingesparten CO2-Emissionen beantragen.
+title: Jan Leimkühler - Maschinenbauexperte 
 subtitle: Wir übernehmen für dich die komplette Abwicklung der THG-Prämie zum Höchstpreis, so kannst du am besten mit deinem E-Auto Geld verdienen. Einfach. Nachhaltig.
 keywords: thg, quote, verkaufen, verdienen, höchstpreis, beste, e-auto, elektroauto, treibhausgasquote
 baseurl: /
 permalink: "/:year/:month/:day/:title/"
-google_analytics: G-8KCRQTHWM4
-google_analytics_aw: AW-10872540144
-google_tag_manager: GTM-MHMZX35
-facebook_pixel: 711179920243982
-clarity: b43h9m1ucc
-elfsight: elfsight-app-69f92529-007a-4518-a78e-625646458fa6
 hubspot: 25801309
-elfsight_customers: elfsight-app-ca2cdd3c-95cf-4eca-8002-91d7d12a6b81
+
 collections:
   posts:
     permalink: "/blog/:year/:month/:day/:title/"
 
 header:
-  title: THG-Quote Verkaufen und mit E-Auto Geld verdienen. Einfach. Nachhaltig. Zum Höchstpreis. Beim besten Anbieter - wirkaufendeinethg.de
-  logo_img: images/wirkaufendeinethg_logo.png
+  title: Jan Leimkühler - Maschinenbauexperte 
+  logo_img: images/logo/rgb_logo.png
   has_nav: true
   nav:
-    Home: "index"
-    Kooperation: "kooperation"
+    Unternehmen: "company"
+    Diensleistungen: "services"
+    Kunden: "customers"
+    Lösungen: "solutions"
+    Kontakt: "contact"
     Blog: "blog"
-    Über uns: "about"
-  palette: blue
+    Infos: "infos"
+
 footer:
-  logo_img: images/logo_white.png
+  logo_img: images/logo/logo_white.svg
   tagline:
   content: "&copy; mint future GmbH. All rights reserved."
   links:
@@ -61,7 +58,6 @@ footer:
     Ladestation: "ladestation"
     Autohaus: "autohaus"
     Stadtwerke: "stadtwerke"
-    # Leasing: "leasing"
   has_subscribe: true
   subscribe_title: "Newsletter abonnieren"
   subscribe_content: "Melde Dich jetzt bei unserem Newsletter an und bleibe immer auf dem neusten Stand. Wir berichten laufend zur THG Quote und Elektromobilität."

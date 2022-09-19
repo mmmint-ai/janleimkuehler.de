@@ -1,0 +1,46 @@
+---
+title: Karriere
+layout: page
+subtitle: Werde Teil unseres Teams!
+---
+
+<div class="row">
+
+  <div class="col-4 col-12-medium">
+    <!-- Sidebar -->
+    <section class="box">
+      <header>
+        <h4>Links</h4>
+      </header>
+      <ul>
+        {% for career in site.data.career %}
+        <li><a href="#{{forloop.index}}">{{ career.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <footer></footer>
+    </section>
+  </div>
+
+  <div class="col-8 col-12-medium imp-medium">
+    <!-- Content -->
+    <article class="box post">
+      {% for career in site.data.career %}
+      <section>
+        <h2 id="{{forloop.index}}">{{ career.title }}</h2>
+        <p>{{ career.text }}</p>
+        {% if career.action %}
+        <p class="block-buttons">
+          <a
+            href="{{ career.action.url | relative_url }}"
+            target="_blank"
+            class="button secondary"
+            >{{ career.action.label }}</a
+          >
+        </p>
+        {% endif %}
+      </section>
+      {% endfor %}
+    </article>
+  </div>
+</div>
+
