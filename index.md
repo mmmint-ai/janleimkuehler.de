@@ -27,6 +27,26 @@ sections:
       - url: https://www.seedhouse.de/
         image: /images/verbaende/vdsi.jpg
 
+  - section_id: aboutme
+    component: features_block.html
+    type: featuresblock
+    bg: gray
+    title: 
+    subtitle:
+    featureslist:
+      - title: Über mich
+        image: images/jan.png
+        content: >-
+          - Geboren im Jahr 1989, verheiratet und in Osnabrück beheimatet.
+          
+          - Ingenieur und ausgebildeter Elektroniker für Betriebstechnik
+          
+          - ZMSE®  Zertifizierter Maschinensicherheitsexperte, CE-Koordinator (TÜV).
+          
+          - 10 Jahre Berufserfahrung im Sondermaschinenbau und in der CE-Kennzeichnung.
+          
+          - seit 2021 geschäftsführender Gesellschafter der Ingenieurbüro Leimkühler UG (haftungsbeschränkt).
+    
   - section_id: leistungen
     component: features_block.html
     type: featuresblock
