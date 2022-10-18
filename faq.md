@@ -1,98 +1,71 @@
 ---
-title: THG-Quote Häufig gestellte Fragen 
+title: FAQ - Häufig gestelle Fragen
 subtitle: >-
-  Häufig gestellte Fragen zur THG Quote | wirkaufendeinethg.de erklärt alle wichtigen Informationen zur Beantragung der THG-Quote für dein E-Auto.
-share-img: images/posts/thg-quote-geld-sichern.jpg
+share-img: images/logo_white-png
 sections:
   - section_id: faq
     component: faq_block.html
     type: faqblock
     bg: gray
-    title: Häufige Fragen
-    subtitle: Deine Frage ist nicht dabei? Schreibe uns gerne eine <a href="mailto:info@wirkaufendeinethg.de">E-Mail</a>.
+    title: 
+    subtitle: 
     faqitems:
-      - question: Wieso erhalte ich für mein E-Fahrzeug eine THG-Quote? 
+      - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
-          Wenn du elektrisch fährst, sparst Du CO2 ein. Diese Einsparungen können wir nun für Dich vermarkten, da es seit 2022 eine neue Gesetzesgrundlage für die THG-Quote gibt.
-      - question: Wie hoch ist die Prämie für die THG-Quote?
+          Ein Lastaufnahmemittel benötigt dann eine CE-Kennzeichnung, wenn dieses in den Geltungsbereich der Maschinenrichtlinie fällt. Dies ist abhängig vom Verwendungszweck. Wenn das Lastaufnahmemittel zum Ergreifen einer Last dient und zwischen Maschine und Last oder an der Last selber angebracht wird oder dazu dient integraler Bestandteil der Last zu werden, fällt das Lastaufnahmemittel in den Geltungsbereich der Maschinenrichtlinie.
+      - question: CE-Kennzeichnung . Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
         answer: >-
-          Die aktuelle Auszahlungshöhe der THG-Quote kannst Du immer auf unserer Startseite finden. Schaue einfach nach der entsprechenden Fahrzeugklasse. Wir garantieren mindestens die angegebenen Preise für die THG-Quote!
-      - question: Wie oft kann ich die THG-Quote beantragen?
+          Es kommt auf den Verwendungszweck sowie die konstruktive Gestaltung der Vorrichtung an. Enthält die Vorrichtung elektrische, pneumatische oder hydraulische Komponenten fällt die Vorrichtung in den Geltungsbereich der Maschinenrichtlinie, da nicht ausschließlich die unmittelbar menschliche Kraft zum Einsatz kommt. In Abhängigkeit von der Verwendung kann es sich nun um eine unvollständige Maschine oder eine auswechselbare Ausrüstung handeln. Unvollständige Maschinen erhalten keine eigene CE-Kennzeichnung, während auswechselbare Ausrüstungen eine CE-Kennzeichnung erhalten müssen.
+          Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
+      - question: CE-Kennzeichnung - Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
-          Du kannst die THG-Quote für jedes vollelektrische Fahrzeug einmal pro Kalenderjahr beantragen.
-      - question: Welche Unterlagen benötige ich zur Registrierung der THG-Quote?
+          TABELLE
+      - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
-         Um die THG-Quote für Dich zu beantragen, benötigen wir neben deinen persönlichen Daten nur ein aktuelles Foto der Vorder- und Rückseite deines Fahrzeugscheins (Zulassungsbescheinigung Teil 1). <br/> <br/> Das Foto kannst Du bequem auf dieser Website hochladen.
-      - question: Kann ich die THG-Quote auch für Leasing-Fahrzeuge beantragen? 
+         Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
+         • Allgemeine Beschreibung der Maschine/ des Produkts,
+         • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
+         • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
+         • Übersichts- und vollständige Detailzeichnungen
+         • Schaltpläne und Versuchsberichte
+         • Vollständige Unterlagen zur Risikobeurteilung
+         • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
+         • Reparatur- und Ersatzteillisten
+         • Eine Kopie der EG-Konformitätserklärung
+         • Zuliefererdokumentation
+         • Mess- und Inbetriebnahmeprotokolle
+         • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
+      - question: Was sind ortsfeste Zugänge an maschinellen Anlagen?
         answer: >-
-          Ja, die THG-Quote gilt auch für E-Fahrzeuge, die geleast werden.
-      - question: Gilt die THG-Quote auch für E-Roller und S-Pedelecs?
+          "Ortsfeste" Zugänge sind solche, die so montiert sind (zum Beispiel durch Schrauben, Muttern, Schweißen), dass sie nur mit Werkzeugen entfernt werden können. Beispiele für ortsfeste Zugänge, die Bestandteil einer Maschine oder Anlage sind, sind Arbeitsbühnen, Laufstege und Leitern. 
+          Die harmonisierten Normen der EN ISO 14122-Reihe konkretisieren die Anforderungen der MRL an ortsfeste Zugänge. Die Normenreihe gilt dabei sowohl für stationäre als auch für mobile Maschinen, bei denen ortsfeste Zugänge erforderlich sind. 
+      - question: E-Kennzeichnung - Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
         answer: >-
-          Ja, die THG-Quote gilt auch für E-Roller und S-Pedelecs. Vorraussetzung zur Beantragung ist jedoch, dass du eine Zulassungsbescheinigung Teil I für deinen E-Roller oder dein S-Pedelec besitzt.
-      - question: Muss ich die Erlöse aus der THG-Quote als Privatperson versteuern?
+          Ortsfeste Zugänge an maschinellen Anlagen fallen in den Geltungsbereich der Maschinenrichtlinie und gelten als unvollständige Maschine. Damit erhalten ortsfeste Zugänge keine CE-Kennzeichnung, jedoch ist ein Konformitätsbewertungsverfahren für die unvollständige Maschine gemäß MRL durchzuführen.
+          Die harmonisierten Normen der EN ISO 14122-Reihe beschreiben allgemeine Anforderungen für den Zugang zu stationären Maschinen und geben Anleitung zur richtigen Wahl der Zugänge, wenn der erforderliche Zugang zu der stationären Maschine nicht direkt vom Boden oder von einer Ebene aus möglich ist.
+      - question: Welche Informationen müssen auf dem Typenschild stehen?
         answer: >-
-            Die Erlöse der THG Quote müssen für Privatpersonen **nicht** versteuert werden.<br/>
-            Bitte beachte noch unseren Hinweis: Das ist keine steuerliche Beratung oder eine Empfehlung für eine Anlageentscheidung; bei Fragen zu der Thematik empfehlen wir einen Steuerberater zu kontaktieren.
-      - question: Kann ich für mehrere Fahrzeuge die THG-Quote beantragen?
+           Produkte benötigen eine eindeutige und vollständige Kennzeichnung. Auf dem Typenschild müssen in Abhängigkeit von der zutreffenden EU-Richtlinie verschiedene Pflichtangaben stehen. Nach Maschinenrichtlinie sind dies für ortsfeste Maschinen folgende Inhalte:
+           • Firmenname und vollständige Anschrift des Herstellers
+           • Bezeichnung der Maschine
+           • CE-Kennzeichnung
+           • Baureihen- oder Typbezeichnung
+           • Ggf. Seriennummer
+           • Baujahr
+           • Weitere wichtige Daten entsprechend der angewendeten Normen
+      - question: Ist die Bereitstellung von Betriebsanleitungen in Papierform verpflichtend?
         answer: >-
-          Selbstverständlich. Jedes Elektrofahrzeug (Hybridfahrzeuge sind ausgenommen) in Deutschland ist quotenberechtigt. Dabei ist es egal ob Du gewerblich Halter des Fahrzeuges bist oder sich das Fahrzeug in Privatbesitz befindet. <br/>
-      - question: Kann ich die THG-Quote für meinen Furhpark beantragen?
+          Die Maschinenrichtlinie verlangt in Anhang I Ziffer 1.7.4 das „Beilegen“ einer Betriebsanleitung: „Jeder Maschine muss eine Betriebsanleitung in der oder den Amtssprachen der Gemeinschaft des Mitgliedstaats beiliegen, in dem die Maschine in Verkehr gebracht und/oder in Betrieb genommen wird.“ – Weitere Formerfordernisse sind im Gesetz nicht definiert.​ Die MRL wird aktuell jedoch einer Revision unterzogen und liegt im Entwurf vor. Schwerpunkte dieser Überarbeitung sind die Themen Digitalisierung und Künstliche Intelligenz. Gemäß diesem Entwurf sollen Maschineninformationen, wie z.B. Betriebsanleitungen, auch digital bereitgestellt werden können.
+      - question: Muss der Dokumentationsbevollmächtigte im Herstellerunternehmen beschäftigt sein?
         answer: >-
-          Wenn Du eine Reihe an E-Fahrzeugen hast, profitierst Du sogar noch mehr, da Du für jedes E-Fahrzeug aus dem Furhpark die THG-Quote beantragen kannst.
-      - question: Kann ich auch als Fahrer eins Hybridfahrzeugs von der THG Quote profitieren?
+          In der Maschinenrichtlinie 2006/42/EG gibt es keine Anforderung, dass der Dokumentationsbevollmächtigte beim Herstellerunternehmen beschäftigt sein muss. Somit steht es dem Hersteller grundsätzlich frei, wen er mit dieser Aufgabe beauftragt, sofern es sich um eine juristische Person handeln.
+          Die Maschinenrichtlinie legt jedoch fest, dass Name und Anschrift der bevollmächtigten Person angegeben werden müssen und dass die juristische Person in der Europäischen Gemeinschaft ansässig sein muss.
+      - question: Was muss in einer technischen Dokumentation enthalten sein?
         answer: >-
-          Leider nein. Derzeit sind weder Hybrid- noch Plug-In-Hybridfahrzeuge quotenberechtigt.
-      - question: Was passiert, wenn ich meine THG-Quote nicht verkaufe?
+          Zum Umfang der technischen Dokumentation gehören i.d.R. sämtliche Konstruktions- und Berechnungsunterlagen, Versuchsberichte, Risikobeurteilungen, Zeichnungen und CAD-Daten, Fertigungsunterlagen, Prüf- und Inbetriebnahmeprotokolle, Performance Level Verifikationsprotokoll, usw.
+      - question: Hat der Käufer eines Produkts Anspruch auf eine technische Dokumentation?
         answer: >-
-          In diesem Fall kannst Du nicht von der Prämie profitieren, da die Bundesregierung sich vorbehalten hat, nicht veräußerte THG-Quoten zu vermarkten. Die Erlöse fließen dann in den Bundeshaushalt. Deswegen empfehlen wir dir, die THG-Quote zu verkaufen. Sichere dir jetzt deine Prämie.
-      - question: Was passiert, wenn ich mein Elektrofahrzeug verkaufe?  
-        answer: >-
-          In diesem Fall möchten wir dich bitten uns eine formlose E-Mail zu senden. <br/>
-          Sollte die Auszahlung der THG-Quote bereits erfolgt sein, musst Du jedoch nicht aktiv werden. Wir bieten auch eine Empfehlungsprämie bei der Weiterleitung an Freunde an. <br/>
-          Um dich jedoch im Hinblick auf die THG-Quote zu beruhigen, unter keinen Umständen musst Du die erhaltene Prämie zurückzahlen. Die Auszahlung steht jedem Elektrofahrzeug einmal pro Jahr zu. Der neue Besitzer deines Elektrofahrzeuges ist dann im Folgejahr antragsberechtigt und darf gerne über wirkaufendeinethg.de seinen Antrag stellen.    
-      - question: Gibt es eine gesetzliche Grundlage für die THG-Quote? 
-        answer: >-
-          Auf EU-Ebene verpflichtet die Renewable Energy Directive II (RED II) (2018/2001/EU) ihre Mitgliedsstaaten die CO2-Emissionen stark zu reduzieren. <br/>
-          In Deutschland findet sich die gesetzliche Grundlage für die THG-Quote im Bundes-Immissionsschutzgesetz (BImSchG), sowie in der 38. Bundes-Immissionsschutzverordnung (38. BImSchV). Zudem ist in § 37 des Bundes-Immissionsschutzgesetzes geregelt, dass deutsche Unternehmen, die 2022 mehr CO2 als erlaubt in Umlauf bringen, für jede zusätzliche Tonne 600 Euro Strafe zu zahlen haben. Daher wird der Erwerb von THG-Quoten in größeren Paketen für große Unternehmen ab 2022 spannend.   
-      - question: Wie verdient wirkaufendeinethg.de Geld? 
-        answer: >-
-          Wir verdienen anteilig am Verkauf der THG-Quote. Unsere Provision liegt bei lediglich 10 % und ist in den angegebenen Preisen auf dieser Website schon eingerechnet!
-      - question: Wie genau läuft der Handel mit den Treibhausgasquoten ab? 
-        answer: >-
-          Wir sammeln von vielen Fahrern von Elektrofahrzeugen die Fotos der Fahrzeugscheine ein. Mit diesen Dokumenten werden wir dann beim Umweltbundesamt vorstellig und beantragen die Zertifizierung der eingesparten CO2-Mengen – die THG-Quote. <br/>
-          Mit den Zertifikaten treten wir dann in den Handel mit großen Mineralölunternehmen. Sobald die THG-Quoten veräußert wurden, zahlen wir die THG-Quote aus. <br/>
-          Dieser Handel ist gesetzlich verankert in der 38. Bundes-Immissionsschutzverordnung (38. BImSchV) als Reaktion auf die Renewable Energy Directive II (RED II) (2018/2001/EU) welche die Mitgliedsstaaten der EU dazu verpflichtet ihre Treibhausgase zu reduzieren. <br/>
-          Jedes Elektrofahrzeug ist pro Jahr 1 mal antragsberechtigt.    
-      - question: Welche Fahrzeuge sind antragsberechtigt für die THG-Quote?
-        answer: >-
-          Es sind alle rein batterieelektrisch betriebenen Fahrzeuge antragsberechtigt. <br/>
-          icht berechtigt sind beispielsweise Hybridfahrzeuge. Zudem sind neben dem klassischem E-PKW auch E-Nutzfahrzeuge und E-Busse, sowie sonstige rein elektrischen Fahrzeuge (Klasse L3e, L4e, L5e, L7e) antragsberechtigt.
-      - question: Ist die Höhe der THG-Quote abhängig vom Fahrzeugmodell?
-        answer: >-
-          Nein, aktuell gibt es keine Modellunterschiede für PKWs - größer oder kleiner macht keinen Unterschied - außer wir sprechen über Elektro-LKWs oder Busse.
-      - question: Sind neben Elektrofahrzeugen auch beispielsweise Ladesäulen quotenberechtigt?
-        answer: >-
-          Ja, vorausgesetzt es handelt sich um eine öffentliche, bei der Bundesnetzagentur eingetragene und geeichte Ladesäule, die frei zugänglich für Dritte ist.
-      - question: Werden die Daten sicher und DSGVO-konform gespeichert?
-        answer: >-
-          Alle Daten werden ausschließlich in deutschen Rechenzentren gespeichert und können nur mit entsprechender Zugriffsberechtigung abgerufen werden. Besonders sensible Daten, wie z. B. die Bankverbindungen, werden zusätzlich besonders verschlüsselt gespeichert. Die Plattform ist DSGVO-konform und unterliegt laufenden Prüfungen.
-      - question: Ich möchte meinen Daten löschen. Geht das?
-        answer: >-
-          Selbstverständlich können wir Deine Daten löschen. Eine formlose E-Mail reicht dazu aus.
-      - question: Wie kann ich als Kfz-Betrieb die THG-Quote sinnvoll nutzen?
-        answer: >-
-          Hierfür bieten sich verschiedene Möglichkeiten an. <br/>
-          Im Automobilhandel kann die THG-Quote für die Subventionierung der Leasingrate eingesetzt werden. <br/>
-          Im Kontext eines Unfallschadens kann die THG-Quote von 370€ beispielsweise dafür genutzt werden, die Selbstbeteiligung des Kunden zu finanzieren. <br/>
-          Bei Bedarf kann wirkaufendeinethg.de die App im Design des jeweiligen Kfz-Betriebs oder Autohauses bereitstellen und bietet dem Kunden so eine einfache und schnelle Beantragung der Quote CI-konform an. Dies erhöht die Kundenbindung und das Image des Kfz-Betriebs.
-      - question: Wie differenziert wirkaufendeinethg.de sich von anderen Anbietern?
-        answer: >-
-          Bei wirkaufendeinethg.de steht ein nachhaltiger und fairer Quotenhandel im Vordergrund. <br/>
-          wirkaufendeinethg.de gibt den Großteil der Verkaufserlöse direkt an den Endkunden weiter (90 % der Erlöse werden ausgezahlt, im Gegensatz zu anderen Wettbewerbern, bei denen die Marge häufig zwischen 15 % und 35 % liegt). <br/>
-          wirkaufendeinethg.de ist fest davon überzeugt, dass die Weitergabe des Großteils der Erlöse aus dem Verkauf der THG-Quoten der fairste und nachhaltigste Weg im bislang undurchsichtigen und schwer verständlichen THG-Quotenhandel ist. <br/>
-          Realisierbar wird die hohe Auszahlung durch digitalisierte und automatisierte Prozesse. <br/> 
-          Neben der reinen Auszahlung bietet die Plattform die Möglichkeit an in nachhaltige Projekte zu investieren. Beispielsweise investiert das Startup in den Ausbau von Ladeinfrastruktur in Deutschland. <br/>
-          Der Bau der ersten Ladesäule ist bereits in Ende Q1 2022 geplant.
+          Die Pflicht zur Erstellung von technischer Dokumentation ist gesetzlich verankert. EU-Richtlinien und nationale Gesetze fordern vom Hersteller, dem Produkt Informationen beizulegen, die Informationen zu einer sicheren Verwendung enthalten (bspw. Produktsicherheitsgesetz (ProdSG)).
 layout: faq
 ---
 

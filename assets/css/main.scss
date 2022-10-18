@@ -94,30 +94,15 @@ $font: (
 
 // Palette.
 $palette: (
-  primary: #444443,
-  secondary: #444443,
-  meta: lighten(#444443, 20%),
-  border: lighten(#444443, 58%),
+  primary: #1c1c1c,
+  secondary: #1c1c1c,
+  meta: lighten(#1c1c1c, 20%),
+  border: lighten(#1c1c1c, 58%),
   bg: #f7f9fb,
-  accent: #86c900,
-  accent-alt: #86c900,
-  accent-neon: #aaff00,
-  accent-purple: #b5267b,
-  accent-purple-alt: #632695,
-  accent-orange: #fe8c00,
-  accent-orange-alt: #f83600,
-  accent-green: #86c900,
-  accent-dark-green: #527b00,
-  accent-green-alt: #c2c200,
-  // ci colors wirkaufendeinethg.de
-  wkthg-nature: #86c900,
-  wkthg-energyt: #c2c200,
-  wkthg-erde: #a67338,
-  wkthg-strom: #e4f2ee,
-  wkthg-strom-dark: darken(#e4f2ee, 10%),
-  wkthg-asphalt: #3e5b66,
-  wkthg-footer: #4E4E4E,
-  wkthg-footer-font-color: #CFFF00
+  accent: #f7bd00,
+  accent-alt: #f7bd00,
+  wkthg-footer: #1c1c1c,
+  wkthg-footer-font-color: #f7bd00
 );
 
 @import "imports/slider";
@@ -300,6 +285,7 @@ $palette: (
   top: 200px;
   left: 15%;
   right: 15%;
+  text-align: center;
 
   h1 {
     color: white;

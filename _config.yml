@@ -14,6 +14,7 @@ header:
   logo_img: images/logo/rgb_logo.png
   has_nav: true
   nav:
+    FAQ: "faq"
     Unternehmen: "company"
     Diensleistungen: "services"
     Kunden: "customers"
@@ -41,15 +42,16 @@ footer:
 
   nav_title: Firma
   nav:
-    Home: "index"
-    Karriere: "career"
-    Blog: "blog"
-    Transparenz: "transparency"
     FAQ: "faq"
-    AGB: "agbs"
-    Teilen: "share"
+    Unternehmen: "company"
+    Diensleistungen: "services"
+    Kunden: "customers"
+    Lösungen: "solutions"
+    Kontakt: "contact"
+    Blog: "blog"
+    Infos: "infos"
 
-  products_title: Produkte
+  products_title: Lösungen
   products:
     E-Auto: "e-auto"
     E-Roller: "e-roller"
