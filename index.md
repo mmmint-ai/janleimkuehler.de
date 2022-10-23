@@ -1,5 +1,5 @@
 ---
-title: Home - Ingenieurbüro Leimkühler
+title: Ingenieurbüro Leimkühler
 subtitle: >-
   CE-Kennzeichnung für den Sondermaschinenbau
 
@@ -56,7 +56,7 @@ sections:
     bg: white
     featureslist:
       - title: Erklärvideo - Der schnellste Weg zur CE-Dokumentation
-        video: <video playsinline class="iframe-video" src="/videos/video.mp4" controls playsinline title="CE-Dokumentation Erklärvideo"> </video>
+        video: /videos/video.mp4
         content: >-
           Erfahren Sie im Video, wie mein Auftragsabwicklungsprozess funktioniert und Sie direkt mehr Zeit für Ihr Kerngeschäft gewinnen.
         actions:
@@ -145,27 +145,36 @@ sections:
     component: faq_block.html
     type: faqblock
     bg: gray
-    title: FAQ - Häufige Fragen
-    subtitle:
+    title: FAQ - Häufig gestelle Fragen
+    subtitle: 
     faqitems:
-      - question: Wie sieht das unverbindliche Erstgespräch aus?
+      - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
-          Wenn du elektrisch fährst, sparst Du CO2 ein. Diese Einsparungen können wir nun für Dich vermarkten, da es seit 2022 eine neue Gesetzesgrundlage für die THG-Quote gibt.
-      - question: Ich bin mir nicht ganz sicher, ob mir bei meinem Projekt geholfen werden kann?
+          Ein Lastaufnahmemittel benötigt dann eine CE-Kennzeichnung, wenn dieses in den Geltungsbereich der Maschinenrichtlinie fällt. Dies ist abhängig vom Verwendungszweck. Wenn das Lastaufnahmemittel zum Ergreifen einer Last dient und zwischen Maschine und Last oder an der Last selber angebracht wird oder dazu dient integraler Bestandteil der Last zu werden, fällt das Lastaufnahmemittel in den Geltungsbereich der Maschinenrichtlinie.
+      - question: CE-Kennzeichnung . Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
         answer: >-
-          Die aktuelle Auszahlungshöhe der THG-Quote kannst Du immer auf unserer Startseite finden. Schaue einfach nach der entsprechenden Fahrzeugklasse. Wir garantieren mindestens die angegebenen Preise für die THG-Quote!
-      - question: Ich bin mir nicht sicher, ob mein Produkt CE-kennzeichnungspflichtig ist und was zu tun ist?
+          Es kommt auf den Verwendungszweck sowie die konstruktive Gestaltung der Vorrichtung an. Enthält die Vorrichtung elektrische, pneumatische oder hydraulische Komponenten fällt die Vorrichtung in den Geltungsbereich der Maschinenrichtlinie, da nicht ausschließlich die unmittelbar menschliche Kraft zum Einsatz kommt. In Abhängigkeit von der Verwendung kann es sich nun um eine unvollständige Maschine oder eine auswechselbare Ausrüstung handeln. Unvollständige Maschinen erhalten keine eigene CE-Kennzeichnung, während auswechselbare Ausrüstungen eine CE-Kennzeichnung erhalten müssen.
+          Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
+      - question: CE-Kennzeichnung - Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
-          Du kannst die THG-Quote für jedes vollelektrische Fahrzeug einmal pro Kalenderjahr beantragen.
-      - question: Ich bin mir unsicher, ob mein Produkt sicher ist? Dürfen wir so ausliefern?
+          TABELLE
+      - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
-          Um die THG-Quote für Dich zu beantragen, benötigen wir neben deinen persönlichen Daten nur ein aktuelles Foto der Vorder- und Rückseite deines Fahrzeugscheins (Zulassungsbescheinigung Teil 1). <br/> <br/> Das Foto kannst Du bequem auf dieser Website hochladen.
-      - question: Wie lange dauert der Beratungsprozess?
-        answer: >-
-          Ja, die THG-Quote gilt auch für E-Fahrzeuge, die geleast werden.
-      - question: Mit welchen Kosten ist zu rechnen?
-        answer: >-
-          Ja, die THG-Quote gilt auch für E-Roller und S-Pedelecs. Vorraussetzung zur Beantragung ist jedoch, dass du eine Zulassungsbescheinigung Teil I für deinen E-Roller oder dein S-Pedelec besitzt.
+         Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
+         • Allgemeine Beschreibung der Maschine/ des Produkts,
+         • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
+         • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
+         • Übersichts- und vollständige Detailzeichnungen
+         • Schaltpläne und Versuchsberichte
+         • Vollständige Unterlagen zur Risikobeurteilung
+         • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
+         • Reparatur- und Ersatzteillisten
+         • Eine Kopie der EG-Konformitätserklärung
+         • Zuliefererdokumentation
+         • Mess- und Inbetriebnahmeprotokolle
+         • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
+
+      
 
 layout: home
 ---
