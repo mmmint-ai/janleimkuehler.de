@@ -20,7 +20,7 @@ sections:
         source: images/solutions/schaltschraenke.png
       - link: Moderne Landingpage für Werkstätten
         source: images/solutions/ortsfeste.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /lastaufnahmemittel
         source: images/solutions/lastaufnahmemittel.png
       - link: Moderne Landingpage für Werkstätten
         source: images/solutions/drehpositionierer.png
