@@ -7,8 +7,8 @@ sections:
     component: faq_block.html
     type: faqblock
     bg: gray
-    title: 
-    subtitle: 
+    title: FAQ - Häufig gestelle Fragen
+    subtitle: Deine Frage ist nicht dabei? Schreibe uns gerne eine <a href="mailto:jan.leimkuehler@ib-leimkuehler.de">E-Mail</a>.
     faqitems:
       - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
@@ -22,37 +22,37 @@ sections:
           TABELLE
       - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
-         Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
-         • Allgemeine Beschreibung der Maschine/ des Produkts,
-         • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
-         • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
-         • Übersichts- und vollständige Detailzeichnungen
-         • Schaltpläne und Versuchsberichte
-         • Vollständige Unterlagen zur Risikobeurteilung
-         • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
-         • Reparatur- und Ersatzteillisten
-         • Eine Kopie der EG-Konformitätserklärung
-         • Zuliefererdokumentation
-         • Mess- und Inbetriebnahmeprotokolle
-         • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
+          Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
+          • Allgemeine Beschreibung der Maschine/ des Produkts,
+          • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
+          • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
+          • Übersichts- und vollständige Detailzeichnungen
+          • Schaltpläne und Versuchsberichte
+          • Vollständige Unterlagen zur Risikobeurteilung
+          • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
+          • Reparatur- und Ersatzteillisten
+          • Eine Kopie der EG-Konformitätserklärung
+          • Zuliefererdokumentation
+          • Mess- und Inbetriebnahmeprotokolle
+          • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
       - question: Was sind ortsfeste Zugänge an maschinellen Anlagen?
         answer: >-
           "Ortsfeste" Zugänge sind solche, die so montiert sind (zum Beispiel durch Schrauben, Muttern, Schweißen), dass sie nur mit Werkzeugen entfernt werden können. Beispiele für ortsfeste Zugänge, die Bestandteil einer Maschine oder Anlage sind, sind Arbeitsbühnen, Laufstege und Leitern. 
-          Die harmonisierten Normen der EN ISO 14122-Reihe konkretisieren die Anforderungen der MRL an ortsfeste Zugänge. Die Normenreihe gilt dabei sowohl für stationäre als auch für mobile Maschinen, bei denen ortsfeste Zugänge erforderlich sind. 
+          Die harmonisierten Normen der EN ISO 14122-Reihe konkretisieren die Anforderungen der MRL an ortsfeste Zugänge. Die Normenreihe gilt dabei sowohl für stationäre als auch für mobile Maschinen, bei denen ortsfeste Zugänge erforderlich sind.
       - question: E-Kennzeichnung - Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
         answer: >-
           Ortsfeste Zugänge an maschinellen Anlagen fallen in den Geltungsbereich der Maschinenrichtlinie und gelten als unvollständige Maschine. Damit erhalten ortsfeste Zugänge keine CE-Kennzeichnung, jedoch ist ein Konformitätsbewertungsverfahren für die unvollständige Maschine gemäß MRL durchzuführen.
           Die harmonisierten Normen der EN ISO 14122-Reihe beschreiben allgemeine Anforderungen für den Zugang zu stationären Maschinen und geben Anleitung zur richtigen Wahl der Zugänge, wenn der erforderliche Zugang zu der stationären Maschine nicht direkt vom Boden oder von einer Ebene aus möglich ist.
       - question: Welche Informationen müssen auf dem Typenschild stehen?
         answer: >-
-           Produkte benötigen eine eindeutige und vollständige Kennzeichnung. Auf dem Typenschild müssen in Abhängigkeit von der zutreffenden EU-Richtlinie verschiedene Pflichtangaben stehen. Nach Maschinenrichtlinie sind dies für ortsfeste Maschinen folgende Inhalte:
-           • Firmenname und vollständige Anschrift des Herstellers
-           • Bezeichnung der Maschine
-           • CE-Kennzeichnung
-           • Baureihen- oder Typbezeichnung
-           • Ggf. Seriennummer
-           • Baujahr
-           • Weitere wichtige Daten entsprechend der angewendeten Normen
+          Produkte benötigen eine eindeutige und vollständige Kennzeichnung. Auf dem Typenschild müssen in Abhängigkeit von der zutreffenden EU-Richtlinie verschiedene Pflichtangaben stehen. Nach Maschinenrichtlinie sind dies für ortsfeste Maschinen folgende Inhalte:
+          • Firmenname und vollständige Anschrift des Herstellers
+          • Bezeichnung der Maschine
+          • CE-Kennzeichnung
+          • Baureihen- oder Typbezeichnung
+          • Ggf. Seriennummer
+          • Baujahr
+          • Weitere wichtige Daten entsprechend der angewendeten Normen
       - question: Ist die Bereitstellung von Betriebsanleitungen in Papierform verpflichtend?
         answer: >-
           Die Maschinenrichtlinie verlangt in Anhang I Ziffer 1.7.4 das „Beilegen“ einer Betriebsanleitung: „Jeder Maschine muss eine Betriebsanleitung in der oder den Amtssprachen der Gemeinschaft des Mitgliedstaats beiliegen, in dem die Maschine in Verkehr gebracht und/oder in Betrieb genommen wird.“ – Weitere Formerfordernisse sind im Gesetz nicht definiert.​ Die MRL wird aktuell jedoch einer Revision unterzogen und liegt im Entwurf vor. Schwerpunkte dieser Überarbeitung sind die Themen Digitalisierung und Künstliche Intelligenz. Gemäß diesem Entwurf sollen Maschineninformationen, wie z.B. Betriebsanleitungen, auch digital bereitgestellt werden können.
@@ -68,4 +68,3 @@ sections:
           Die Pflicht zur Erstellung von technischer Dokumentation ist gesetzlich verankert. EU-Richtlinien und nationale Gesetze fordern vom Hersteller, dem Produkt Informationen beizulegen, die Informationen zu einer sicheren Verwendung enthalten (bspw. Produktsicherheitsgesetz (ProdSG)).
 layout: faq
 ---
-

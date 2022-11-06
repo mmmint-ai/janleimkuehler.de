@@ -2,28 +2,55 @@
   id="{{ include.section.section_id }}"
   class="block solution-block bg-{{ include.section.bg }} outer"
 >
-  <div class="block-header inner-small">
-    <h2 class="block-title">{{ include.section.title }}</h2>
+  <div class="block-header inner">
+    <h2 class="solution-title">{{ include.section.title }}</h2>
     {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
     {% if subtitle_is_not_empty %}
     <p class="block-subtitle">{{ include.section.subtitle }}</p>
     {% endif %}
   </div>
   <div class="inner">
-    <div class="block-item">
-      <div class="grid">
-        <div class="cell block-preview">
-          <img
-            class="feature-block-image"
-            src="{{ section.image | relative_url }}"
-            alt="{{ feature.title }}"
-            style="height: 600px; width: 500px"
-          />
-        </div>
-        <div class="cell block-content">
-          <div class="block-copy">{{ section.content | markdownify }}</div>
-        </div>
+    <div class="solution-description-container">
+      <img
+        class="solution-description-image"
+        src="{{ section.image | relative_url }}"
+        alt="{{ section.title }}"
+        style="height: auto; width: 450px"
+      />
+
+      <div class="solution-description-text">{{ section.content | markdownify }}</div>
+    </div>
+
+    <div class="solution-advantage-container">
+      <div class="solution-contact-container">
+			<div class="solution-contact-image-container">
+				<img
+				src="{{ section.contactimage | relative_url }}"
+				alt="{{ section.title }}"
+				style="height: auto; min-width: 2px"
+			/>
+			</div>
+			<div class="solution-contact-info-container">
+				<h4 class="solution-contact-info-header">{{ section.contactinfoheader }}</h4>
+				<div class="solution-contact-info-text">{{ section.contactinfocontent | markdownify }}</div>
+			</div>
+	  </div>
+
+      <div class="solution-advantage-list">
+		<div class="solution-advantage-list-header">
+			<h4>{{ section.advantageheader }}</h2>
+		</div>
+
+		<div class="solution-advantage-list-container">
+			{% for advantage in section.advantages %}
+			<div class="iconContainer">
+				<img src="{{ advantage.icon | relative_url}}" alt="check" width="40" height="40"> {{ advantage.title }}</img>
+			</div>
+			{% endfor %}
+		</div>
+        
       </div>
+
     </div>
   </div>
 </section>

@@ -9,38 +9,36 @@ subtitle: >-
   und Betriebsanleitung rechtssicher zu dokumentieren? – dann bist du hier genau richtig.
 sections:
   - section_id: pricing
-    component: pricing_image_block.html
-    type: pricingblock
-    bg: gray
+    component: offer_block.html
+    type: offerblock
+    bg: white
     title: Die drei häufigsten Probleme von Unternehmen in der CE-Kennzeichnung
     subtitle:
     pricingplans:
-      - title: E-Unsicherheit
-        image: images/piktogramme/19.png
+      - title: Sorge / Unsicherheit
+        image: images/piktogramme/question.png
         highlight: true
-        actions:
-          - label: Unverbindliches Angebot
-            url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+        label: Unverbindliches Angebot
+        url:
       - title: Zeitmangel
-        image: images/piktogramme/17.png
+        image: images/piktogramme/fast-time.png
         highlight: true
-        actions:
-          - label: Unverbindliches Angebot
-            url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+        label: Unverbindliches Angebot
+        url:
       - title: Komplexität der Richtlinien
-        image: images/piktogramme/18.png
+        image: images/piktogramme/iceberg.png
         highlight: true
-        actions:
-          - label: Unverbindliches Angebot
-            url: https://app.wirkaufendeinethg.de/#/thgimpactselector
-  
+        label: Unverbindliches Angebot
+        url:
+
   - section_id: call-to-action
     component: cta_block.html
     type: ctablock
     title: Digitale CE-Kennzeichnung für den Sondermaschinen-, Vorrichtungs- und Werkzeugbau.
-    subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung. 
+    subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
     actions:
       - label: Jetzt beraten lassen
         url: https://app.wirkaufendeinethg.de/#/thgimpactselector
 layout: features
 ---
+

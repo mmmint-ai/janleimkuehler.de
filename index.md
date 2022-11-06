@@ -9,6 +9,7 @@ sections:
     component: hero_image_block.html
     image: /images/banner.jpeg
     title: CE-Kennzeichnung für Sondermaschinen von Spezialisten
+    content: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     subtitle: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     actions:
       - label: Zum kostenlosen Erstgespräch
@@ -21,32 +22,52 @@ sections:
     linklist:
       - url: https://www.ingenieurkammer.de/
         image: /images/verbaende/ingenieurkammer.gif
+      - url: https://vdsi.de/
+        image: /images/verbaende/vdsi.jpg
       - url: https://www.tekom.de/
         image: /images/verbaende/tekom.svg
       - url: https://www.vdi.de/
         image: /images/verbaende/vdi.jpg
-      - url: https://vdsi.de/
-        image: /images/verbaende/vdsi.jpg
 
   - section_id: aboutme
     component: features_block.html
     type: featuresblock
-    bg: gray
-    title:
-    subtitle:
+    bg: white
+    title: Herzlich Willkommen bei Ingenieurbüro Leimkühler.
+    subtitle: Ihr Partner für CE-Kennzeichnung im Sondermaschinenbau.
     featureslist:
-      - title: Über mich
+      - title: Schnell. Fundiert. Lösungsorientiert.
         image: images/jan.png
         content: >-
-          - Geboren im Jahr 1989, verheiratet und in Osnabrück beheimatet.
+          Als zertifizierter CE-Koordinator (TÜV) und Maschinensicherheitsexperte (ZMSE®) unterstütze ich Sie bei der CE-Kennzeichnung Ihres Produkts. Gemeinsam entwickeln wir eine individuelle Strategie. Beispielsweise auf folgende Probleme und Fragen:
+          <br>
+          <br>
+          - Welche Unterlagen benötige ich für die CE-Kennzeichnung meines Produkts?
+          <br>
+          - Wie kann ich den CE-Prozess optimieren und dadurch Zeit für mein Kerngeschäft gewinnen?
+          <br>
+          - Wie dokumentiere ich normkonform, um Haftungsrisiken zu reduzieren?
 
-          - Ingenieur und ausgebildeter Elektroniker für Betriebstechnik
+          <br>
+          <br>
 
-          - ZMSE®  Zertifizierter Maschinensicherheitsexperte, CE-Koordinator (TÜV).
+          Vor Gründung meines Ingenieurbüros habe ich erfolgreich 10 Jahre als Projekt- und Teamleiter im Sondermaschinen gearbeitet. Darum weiß ich aus der Praxis wo die Herausforderungen liegen.
+          Gerne unterstütze ich auch Sie und Ihr Team bei der Lösung dieser Fragestellungen.
 
-          - 10 Jahre Berufserfahrung im Sondermaschinenbau und in der CE-Kennzeichnung.
-
-          - seit 2021 geschäftsführender Gesellschafter der Ingenieurbüro Leimkühler UG (haftungsbeschränkt).
+  - section_id: aboutme
+    component: text_block.html
+    bg: white
+    title: Über mich
+    content: >-
+      - Geboren im Jahr 1989, verheiratet und in Osnabrück beheimatet.
+      <br>
+      - Ingenieur und ausgebildeter Elektroniker für Betriebstechnik.
+        <br>
+      - ZMSE®  Zertifizierter Maschinensicherheitsexperte, CE-Koordinator (TÜV), Sicherheitsingenieur.
+        <br>
+      - 10 Jahre Berufserfahrung im Sondermaschinenbau und in der CE-Kennzeichnung.
+        <br>
+      - seit 2021 geschäftsführender Gesellschafter der Ingenieurbüro Leimkühler UG (haftungsbeschränkt).
 
   - section_id: video
     component: features_block.html
@@ -70,19 +91,19 @@ sections:
     bg: white
     title: Ihre Vorteile
     images:
-      - image: /images/piktogramme/01.png
+      - image: /images/piktogramme/focus.png
         title: 100% Spezialisierung auf den Sondermaschinen-, Vorrichtungs- und Werkzeugbau.
-      - image: /images/piktogramme/02.png
-        title: Keine Sorgen – Sichere, normkonforme Produkte
-      - image: /images/piktogramme/03.png
-        title: Unkomplizierte, digitale Auftragsabwicklung.
-      - image: /images/piktogramme/04.png
+      - image: /images/piktogramme/save-time.png
         title: Mehr Zeit für Ihr Kerngeschäft
+      - image: /images/piktogramme/zoom.png
+        title: Unkomplizierte, digitale Auftragsabwicklung.
+      - image: /images/piktogramme/headache.png
+        title: Keine Sorgen – Sichere, normkonforme Produkte
 
   - section_id: leistungen
     component: features_block.html
     type: featuresblock
-    bg: gray
+    bg: white
     title:
     subtitle:
     featureslist:
@@ -111,6 +132,28 @@ sections:
           - Alt-Bestandsanlagen ohne CE-Kennzeichnung
 
           - Wesentliche Änderung an bestehenden Maschinen und Anlagen
+        actions:
+          - label: Mehr Erfahren
+            url: /solutions/landingpage
+      - title: Verifikation und Validierung gem. EN ISO 13849
+        image: images/solutions/ce.png
+        content: >-
+          - Festlegen aller notwendigen Sicherheitsfunktionen sofern nicht in RB erfolgt
+
+          - Ermittlung des erforderlichen Performance-Levels (PLr)
+
+          - Identifizierung der sicherheitsbezogenen Bauteile (SRP/CS)
+
+          - Erstellung der sicherheitsbezogenen Blockdiagramme
+
+          - Berechnung des erreichten Performance Level (PL) mithilfe SISTEMA
+
+          - SISTEMA-Ergebnisbericht in PDF-Format für Ihre Dokumentation
+
+          - Abgleich der verbauten Sicherheitsbauteile (SRP/CS) mit der Dokumentation
+
+          - Prüfprotokollerstellung für die elektrotechnischen Sicherheitsfunktionen
+
         actions:
           - label: Mehr Erfahren
             url: /solutions/landingpage
@@ -144,9 +187,9 @@ sections:
   - section_id: faq
     component: faq_block.html
     type: faqblock
-    bg: gray
+    bg: white
     title: FAQ - Häufig gestelle Fragen
-    subtitle: 
+    subtitle:
     faqitems:
       - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
@@ -160,21 +203,19 @@ sections:
           TABELLE
       - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
-         Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
-         • Allgemeine Beschreibung der Maschine/ des Produkts,
-         • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
-         • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
-         • Übersichts- und vollständige Detailzeichnungen
-         • Schaltpläne und Versuchsberichte
-         • Vollständige Unterlagen zur Risikobeurteilung
-         • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
-         • Reparatur- und Ersatzteillisten
-         • Eine Kopie der EG-Konformitätserklärung
-         • Zuliefererdokumentation
-         • Mess- und Inbetriebnahmeprotokolle
-         • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
-
-      
+          Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
+          • Allgemeine Beschreibung der Maschine/ des Produkts,
+          • Eine Auflistung der angewendeten Normen und sonstigen technischen Spezifikationen,
+          • Liste der grundlegenden Sicherheits- und Gesundheitsschutzanforderungen, die für die Maschine/ das Produkt berücksichtigt wurden,
+          • Übersichts- und vollständige Detailzeichnungen
+          • Schaltpläne und Versuchsberichte
+          • Vollständige Unterlagen zur Risikobeurteilung
+          • Ein Exemplar der Original-Betriebsanleitung der Maschine/ des Produkts
+          • Reparatur- und Ersatzteillisten
+          • Eine Kopie der EG-Konformitätserklärung
+          • Zuliefererdokumentation
+          • Mess- und Inbetriebnahmeprotokolle
+          • Prüfergebnisse und Ergebnisse aus Qualitätskontrollen
 
 layout: home
 ---

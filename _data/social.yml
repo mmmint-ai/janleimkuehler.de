@@ -1,22 +1,15 @@
 - name: LinkedIn
-  link: https://www.linkedin.com/company/wirkaufendeinethg/
+  link: https://www.linkedin.com/in/jan-leimk%C3%BChler-74b729168/
   image: /images/social/linkedin-brands.svg
 - name: Instagram
-  link: https://www.instagram.com/wirkaufendeinethg.de/
+  link:
   image: /images/social/instagram-square-brands.svg
-- name: Facebook
-  link: https://www.facebook.com/wirkaufendeinethg/
-  image: /images/social/facebook-square-brands.svg
-- name: Twitter
-  link: https://twitter.com/wkdthg/
-  image: /images/social/twitter-square-brands.svg
-- name: Xing
-  link: https://www.xing.com/pages/wirkaufendeinethg-de
-  image: /images/social/xing-square-brands.svg
 - name: Google
-  link: https://g.page/r/CXTEJQalPANhEAE
+  link: https://goo.gl/maps/RC9krfgYknksW24n8
   image: /images/social/google-brands.svg
 - name: Email
-  link: mailto:info@wirkaufendeinethg.de
+  link: jan.leimkuehler@ib-leimkuehler.de
   image: /images/social/envelope-square-solid.svg
-  
+- name: Xing
+  link: https://www.xing.com/profile/Jan_Leimkuehler/cv
+  image: /images/social/xing-square-brands.svg

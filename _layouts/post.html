@@ -2,30 +2,6 @@
 layout: body
 ---
 
-{% assign image_is_not_empty = page.share-img | is_not_empty %}
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "{{ page.title }}",
-    "image": [
-      {% if image_is_not_empty %}"{{ page.share-img | absolute_url }}"{% endif %}
-    ],
-    "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "author": {
-      "@type": "Organization",
-      "name": "mint future GmbH",
-      "url": "https://www.wirkaufendeinethg.de"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "mint future GmbH",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.wirkaufendeinethg.de/images/logo.png"
-      }
-    }
-  }
 </script>
 <div class="outer">
   <div class=" inner">
@@ -70,8 +46,6 @@ layout: body
         <!-- .post-meta -->
       </article>
       <!-- .post -->
-
-      {% include posts_static_latest_block.html %}
     </div>
     <!-- .inner-large -->
   </div>

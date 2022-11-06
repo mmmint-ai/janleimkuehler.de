@@ -2,7 +2,7 @@
   id="{{ include.section.section_id }}"
   class="block features-block bg-{{ include.section.bg }} outer"
 >
-  <div class="block-header inner-small">
+  <div class="block-header inner">
     <h2 class="block-title">{{ include.section.title }}</h2>
     {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
     {% if subtitle_is_not_empty %}
@@ -23,7 +23,7 @@
             class="feature-block-image"
             src="{{ feature.image | relative_url }}"
             alt="{{ feature.title }}"
-            style="height: 600px; width: 500px"
+            style="height: auto; width: 500px"
           />
         </div>
         <!-- .block-preview -->

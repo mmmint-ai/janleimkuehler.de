@@ -1,4 +1,4 @@
-title: Jan Leimkühler - Maschinenbauexperte 
+title: Jan Leimkühler - Maschinenbauexperte
 subtitle: Wir übernehmen für dich die komplette Abwicklung der THG-Prämie zum Höchstpreis, so kannst du am besten mit deinem E-Auto Geld verdienen. Einfach. Nachhaltig.
 keywords: thg, quote, verkaufen, verdienen, höchstpreis, beste, e-auto, elektroauto, treibhausgasquote
 baseurl: /
@@ -10,8 +10,8 @@ collections:
     permalink: "/blog/:year/:month/:day/:title/"
 
 header:
-  title: Jan Leimkühler - Maschinenbauexperte 
-  logo_img: images/logo/rgb_logo.png
+  title: Jan Leimkühler - Maschinenbauexperte
+  logo_img: images/logo/rgb_logo.svg
   has_nav: true
   nav:
     FAQ: "faq"
@@ -26,7 +26,7 @@ header:
 footer:
   logo_img: images/logo/logo_white.svg
   tagline:
-  content: "&copy; mint future GmbH. All rights reserved."
+  content:
   links:
     - text: Impressum
       url: "/impressum"
@@ -34,42 +34,32 @@ footer:
     - text: Datenschutz
       url: "/datenschutz"
       new_window: false
-    - text: Status
-      url: "http://status.wirkaufendeinethg.de/"
-      new_window: true
 
-  social_title: Community
-
-  nav_title: Firma
+  nav_title: Unternehmen
   nav:
-    FAQ: "faq"
-    Unternehmen: "company"
-    Diensleistungen: "services"
+    Jobs: "company"
     Kunden: "customers"
-    Lösungen: "solutions"
+    Diensleistungen: "services"
     Kontakt: "contact"
     Blog: "blog"
     Infos: "infos"
 
+  social_title: Community
+
   products_title: Lösungen
   products:
-    E-Auto: "e-auto"
-    E-Roller: "e-roller"
-    E-Bus: "e-bus"
-    E-Nutzfahrzeug: "e-nutzfahrzeug"
-    Ladestation: "ladestation"
-    Autohaus: "autohaus"
+    Maschinen: "/solutions/maschinen"
+    Unvollständige Maschinen: "/solutions/unvollstaendigemaschinen"
+    Lastaufnahmemittel: "/solutions/lastaufnahmemittel"
+    Treppen & Podeste: "/solutions/treppen"
+    Schaltschränke: "/solutions/schaltschraenke"
+    Drehpositionierer: "/solutions/drehpositionierer"
     Stadtwerke: "stadtwerke"
-  has_subscribe: true
-  subscribe_title: "Newsletter abonnieren"
-  subscribe_content: "Melde Dich jetzt bei unserem Newsletter an und bleibe immer auf dem neusten Stand. Wir berichten laufend zur THG Quote und Elektromobilität."
 
   # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
   linkedin: true
-  
+
 defaults:
   - scope:
       path: "drafts/**"

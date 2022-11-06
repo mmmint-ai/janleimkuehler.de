@@ -1,5 +1,5 @@
 ---
-title: Neuigkeiten rund um die THG-Quote
+title: Blog
 menus:
   secondary:
     weight: 2

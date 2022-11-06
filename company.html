@@ -1,12 +1,15 @@
 ---
 title: Karriere
-layout: page
+layout: body
 subtitle: Werde Teil des Teams!
 ---
 
-<div class="row">
-  <div class="col-8 col-12-medium imp-medium">
-    <!-- Content -->
+<section id="career" class="block career-block outer">
+  <div class="inner">
+    <div class="block-header">
+      <h2 class="block-title">{{ page.title }}</h2>
+      <p class="block-subtitle">{{ page.subtitle }}</p>
+    </div>
     <article class="box post">
       {% for career in site.data.career %}
       <section>
@@ -26,5 +29,4 @@ subtitle: Werde Teil des Teams!
       {% endfor %}
     </article>
   </div>
-</div>
-
+</section>

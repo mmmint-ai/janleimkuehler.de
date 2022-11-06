@@ -14,10 +14,10 @@
 }
 
 .block-title {
-font-size: 1.5rem;
-margin: 0px 0px 1.66667rem;
-font-weight: bold;
-text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0px 0px 1.66667rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .block-preview {
@@ -258,19 +258,18 @@ text-transform: uppercase;
 }
 
 .reviews-block {
-    .grid {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin: 0 -0.83333rem;
-      justify-content: center;
-    }
+  .grid {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -0.83333rem;
+    justify-content: center;
+  }
 
-@media only screen and (max-width: 850px) {
-  
+  @media only screen and (max-width: 850px) {
     .cell {
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -317,7 +316,7 @@ text-transform: uppercase;
 .plan {
   font-size: 0.88889rem;
   margin: 0 auto 1.66667rem;
-  
+
   text-align: center;
 
   &.highlight {
@@ -341,24 +340,23 @@ text-transform: uppercase;
 }
 
 .offer-dense {
-	max-width: 320px;
-  }
+  max-width: 320px;
+}
 
 .offer-inside {
-	background: #fff;
-	border-radius: 15px;
-	box-shadow: 0 3px 20px 0 black;
-	padding: 1.2rem 1.66667rem 0.83333rem;
-  
-	.block-buttons {
-	  margin-top: 1.2rem;
-	}
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 _palette(accent);
+  padding: 1.2rem 1.66667rem 0.83333rem;
 
-	p {
-		font-size: 16px;
-	}
+  .block-buttons {
+    margin-top: 1.2rem;
   }
 
+  p {
+    font-size: 16px;
+  }
+}
 
 .plan-inside {
   background: #fff;
@@ -399,8 +397,8 @@ text-transform: uppercase;
 
 .plan-image {
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
 }
 
@@ -424,18 +422,18 @@ text-transform: uppercase;
 }
 
 @media only screen and (max-width: 800px) {
-	.plan-dense {
-		-webkit-flex: 0 0 90%;
-		-ms-flex: 0 0 90%;
-		flex: 0 0 90%;
-		max-width: none;
-	}
+  .plan-dense {
+    -webkit-flex: 0 0 90%;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: none;
+  }
 
-	.plan-inside {
-		display: flex;
-    	flex-direction: column;
-    	align-items: center;
-	}
+  .plan-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -488,22 +486,22 @@ text-transform: uppercase;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       margin: 0 -0.83333rem;
-  
+
       justify-content: center;
     }
-  
+
     .cell {
       -webkit-flex: 1 1 290px;
       -ms-flex: 1 1 290px;
       flex: 1 1 290px;
       margin: 0 0 1.66667em;
-  
+
       &:first-child:nth-last-child(4),
-      &:first-child:nth-last-child(4)~.cell {
+      &:first-child:nth-last-child(4) ~ .cell {
         min-width: 40%;
       }
     }
-  
+
     .plan-inside {
       margin: 0 0.833333em;
     }
@@ -527,7 +525,7 @@ text-transform: uppercase;
     -webkit-align-items: center;
     align-items: center;
     background: 0;
-	border-radius: 14px;
+    border-radius: 14px;
     border-radius: 0;
     box-shadow: none;
     color: _palette(secondary);
@@ -543,7 +541,7 @@ text-transform: uppercase;
     padding: 1rem 15px;
     text-align: left;
     width: 100%;
-	border: none !important;
+    border: none !important;
   }
 
   .accordion-icon {
@@ -667,120 +665,118 @@ text-transform: uppercase;
 }
 
 .peoples-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 .people-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0px 20px 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 40px 0px;
 }
 
 .people-container:nth-of-type(even) {
-	.people-image {
-		order: 2;
-	}
+  .people-image {
+    order: 2;
+  }
 
-	.people-text-container {
-		margin-right: 20px;
-	}
+  .people-text-container {
+    margin-right: 20px;
+  }
 
-	.people-name-container {
-		justify-content: flex-end;
-	}
+  .people-name-container {
+    justify-content: flex-end;
+  }
 
-	.people-subtitle {
-		text-align: right;
-	}
+  .people-subtitle {
+    text-align: right;
+  }
 }
 
 .people-text-container {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .people-name-container {
-	display: flex;
+  display: flex;
 }
 
 .people-title {
-	font-size: 1.3em;
-	font-weight: bold;
-	margin: 0;
-	text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .people-subtitle {
-	margin-top: -10px;
-	font-size: 1.1em;
-	color: grey;
+  margin-top: -10px;
+  font-size: 1.1em;
+  color: grey;
 }
 
 .people-image {
-	max-width: 225px;
-	max-height: 225px;
+  max-width: 225px;
+  max-height: 225px;
 }
 
 .linked-in-icon {
-	height: 25px;
-	width: 25px;
-	margin-left: 5px;
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
 }
 
 .people-details {
-	text-align: justify;
+  text-align: justify;
 }
 
 .people-image-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
-	img {
-		max-width: 150px;
-		max-height: 150px;
-		margin: 10px;
-	}
+  img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-	.benefit-container {
-		width: 100%;
-	}
+  .benefit-container {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	.people-container {
-		flex-wrap: wrap;
-	}
+  .people-container {
+    flex-wrap: wrap;
+  }
 
-	.people-name-container {
-		margin-top: 20px;
-	}
+  .people-name-container {
+    margin-top: 20px;
+  }
 
-	.people-container:nth-of-type(even) {
-		.people-image {
-			order: initial;
-		}
-	
-		.people-text-container {
-			margin-right: 0px;
-		}
-	
-		.people-name-container {
-			justify-content: flex-start;
-			margin-top: 20px;
-		}
-	
-		.people-subtitle {
-			text-align: initial;
-		}
-	}
+  .people-container:nth-of-type(even) {
+    .people-image {
+      order: initial;
+    }
+
+    .people-text-container {
+      margin-right: 0px;
+    }
+
+    .people-name-container {
+      justify-content: flex-start;
+      margin-top: 20px;
+    }
+
+    .people-subtitle {
+      text-align: initial;
+    }
+  }
 }
-
-

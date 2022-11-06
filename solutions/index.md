@@ -10,17 +10,17 @@ sections:
     title: Mein Dienstleistungsportfolio umfasst folgende Lösungen
     subtitle:
     images:
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/maschinen
         source: images/solutions/fertigungszellen.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/unvollstaendigemaschinen
         source: images/solutions/maschinen.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/gesamtheitvonmaschinen
         source: images/solutions/gesamtheit.png
       - link: Moderne Landingpage für Werkstätten
         source: images/solutions/schaltschraenke.png
       - link: Moderne Landingpage für Werkstätten
         source: images/solutions/ortsfeste.png
-      - link: /lastaufnahmemittel
+      - link: /solutions/lastaufnahmemittel
         source: images/solutions/lastaufnahmemittel.png
       - link: Moderne Landingpage für Werkstätten
         source: images/solutions/drehpositionierer.png
@@ -29,4 +29,3 @@ sections:
 
 layout: features
 ---
-
