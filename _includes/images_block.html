@@ -15,20 +15,16 @@
   <div class="inner">
     <div class="grid">
       <div class="images-container">
-        {% for review in include.section.images %} {% assign image_is_not_empty
-        = review.image | is_not_empty %} {% if image_is_not_empty %}
+        {% for image in include.section.images %} {% assign image_is_not_empty
+        = image.source | is_not_empty %} {% if image_is_not_empty %}
         <div class="image-block-container">
-          <img
-            src="{{ review.image | relative_url }}"
-            alt="{{ review.title }}"
-			class="image"
-            style="height:150px; width:150px; object-fit:contain;"
-          />
-          <footer class="image-footer">
-            <h6 class="image-title">{{ review.title }}</h6>
-			<p class="image-text">{{ review.text }}</p>
-          </footer>
-        </div>
+			<a href="{{ image.link}}"><img
+				src="{{ image.source | relative_url }}"
+				class="image"
+				style="object-fit:contain;"
+			  />
+			</div>
+		</a>
         {% endif %} {% endfor %}
       </div>
     </div>
