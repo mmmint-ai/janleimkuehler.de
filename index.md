@@ -8,6 +8,7 @@ sections:
   - section_id: heroimage
     component: hero_image_block.html
     image: /images/banner.jpeg
+    bg: white
     title: CE-Kennzeichnung für Sondermaschinen von Spezialisten
     content: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     subtitle: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
@@ -87,7 +88,7 @@ sections:
             url:
 
   - section_id: ablauf
-    component: images_block.html
+    component: advantage_image_block.html
     bg: white
     title: Ihre Vorteile
     images:
@@ -104,8 +105,6 @@ sections:
     component: features_block.html
     type: featuresblock
     bg: white
-    title:
-    subtitle:
     featureslist:
       - title: CE-Kennzeichnung für
         image: images/solutions/ce.png

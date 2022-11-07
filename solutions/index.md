@@ -16,15 +16,15 @@ sections:
         source: images/solutions/maschinen.png
       - link: /solutions/gesamtheitvonmaschinen
         source: images/solutions/gesamtheit.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/schaltschraenke
         source: images/solutions/schaltschraenke.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/ortsfestezugaenge
         source: images/solutions/ortsfeste.png
       - link: /solutions/lastaufnahmemittel
         source: images/solutions/lastaufnahmemittel.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/drehpositionierer
         source: images/solutions/drehpositionierer.png
-      - link: Moderne Landingpage für Werkstätten
+      - link: /solutions/lof
         source: images/solutions/lof.png
 
 layout: features
