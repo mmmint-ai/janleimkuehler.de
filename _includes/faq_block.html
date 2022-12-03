@@ -1,6 +1,6 @@
-<section id="{{ include.section.section_id }}" class="block faq-block bg-{{ include.section.bg }} outer">
+<section id="{{ include.section.section_id }}" class="block faq-block bg-{{ include.section.bg }} outer ">
   <div class="inner">
-    <div class="block-header">
+    <div class="block-header {{ include.section.headerclass }}">
       <h2 class="block-title">{{ include.section.title }}</h2>
       {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
       {% if subtitle_is_not_empty %}

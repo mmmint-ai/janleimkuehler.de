@@ -14,7 +14,7 @@ sections:
     subtitle: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     actions:
       - label: Zum kostenlosen Erstgespräch
-        url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+        url: /contact
 
   - section_id: trustblock
     component: trust_block.html

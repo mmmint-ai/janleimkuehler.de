@@ -6,6 +6,7 @@ sections:
   - section_id: faq
     component: faq_block.html
     type: faqblock
+    headerclass: center
     bg: white
     title: FAQ - Häufig gestelle Fragen
     subtitle:
@@ -81,7 +82,7 @@ sections:
     content: >-
       Die Inhalte dieser Seite sind nach bestem Wissen und Kenntnisstand erstellt worden und werden kostenfrei zur Verfügung gestellt. Die FAQs basieren auf bei der Veröffentlichung geltenden Gesetzen, Normen und Richtlinien. Normen, Richtlinien und Gesetze können sich verändern. Daher können FAQs veralten und nicht mehr dem aktuellen Stand von Gesetzen, Normen und Richtlinien entsprechen. Die FAQs dienen ausschließlich der generellen Information und ersetzen keine qualifizierte Beratung. Sie stellen keine Beratung juristischer oder anderer Art dar und sollen auch nicht als solche verwendet werden.
       Wir übernehmen keine Haftung von Handlungen, die auf Grundlage des auf dieser Seite enthaltenen Informationsmaterials unternommen werden. Weitere Informationen zum Haftungsausschluss finden Sie auch in unserem Impressum.
-  
+
   - section_id: call-to-action
     component: cta_block.html
     type: ctablock
@@ -89,7 +90,7 @@ sections:
     subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
     actions:
       - label: Jetzt beraten lassen
-        url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+        url: /contact
 
 layout: faq
 ---

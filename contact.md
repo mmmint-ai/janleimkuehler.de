@@ -38,7 +38,7 @@ sections:
     subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
     actions:
       - label: Jetzt beraten lassen
-        url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+        url: 
 layout: features
 ---
 

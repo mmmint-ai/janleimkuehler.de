@@ -544,6 +544,31 @@ $palette: (
   }
 }
 
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .detail-block-container {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+    margin-top: 20px;
+    padding: 25px;
+    width: 100%;
+
+    .detail-image {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
 .grid-block-container {
   width: 45%;
   display: flex;
@@ -649,4 +674,14 @@ $palette: (
 
 .site-content {
   background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.nogrey {
+  p {
+    color: black !important;
+  }
 }
