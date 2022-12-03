@@ -16,7 +16,7 @@ header:
   nav:
     FAQ: "faq"
     Unternehmen: "company"
-    Diensleistungen: "services"
+    Dienstleistungen: "services"
     Kunden: "customers"
     Lösungen: "solutions"
     Kontakt: "contact"
@@ -26,14 +26,7 @@ header:
 footer:
   logo_img: images/logo/logo_white.svg
   tagline:
-  content:
-  links:
-    - text: Impressum
-      url: "/impressum"
-      new_window: false
-    - text: Datenschutz
-      url: "/datenschutz"
-      new_window: false
+  content: © Ingenieurbüro Leimkühler GmbH
 
   nav_title: Unternehmen
   nav:
@@ -44,6 +37,12 @@ footer:
     Blog: "blog"
     Infos: "infos"
 
+  legal_title: Rechtliches
+  legal_nav:
+    Impressum: "impressum"
+    Datenschutz: "datenschutz"
+    AGB: "agb"
+ 
   social_title: Community
 
   products_title: Lösungen

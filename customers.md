@@ -34,6 +34,8 @@ sections:
         image: /images/referenzen/abkanttechnik.png
       - url: https://www.bvmw.de/
         image: /images/referenzen/ahlers.svg
+      - url: https://www.bvmw.de/
+        image: /images/referenzen/mbh.png
 
 layout: features
 ---

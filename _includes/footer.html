@@ -56,6 +56,19 @@
           </div><!-- .secondary-nav -->
         </nav> <!-- .widget -->
 
+		<nav class="widget footer-second">
+			<div class="secondary-nav">
+			  <h4 class="widget-title">{{ site.footer.legal_title }}</h4>
+			  <ul class="secondary-menu">
+				{%- for link in site.footer.legal_nav -%}
+				<li>
+				  <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+				</li>
+				{% endfor %}
+			  </ul>
+			</div><!-- .secondary-nav -->
+		  </nav> <!-- .widget -->
+
         <nav class="widget footer-social">
           <div class="social-nav">
             <h4 class="widget-title">{{ site.footer.social_title }}</h4>

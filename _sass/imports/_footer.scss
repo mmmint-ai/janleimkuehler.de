@@ -24,8 +24,6 @@
 
 .footer-image {
   width: 200px;
-  height: 100px;
-  padding-bottom: 2.5rem;
   object-fit: contain;
 }
 
@@ -50,7 +48,7 @@
 }
 
 .widget-title-not-footer {
-	color: black;
+  color: black;
 }
 
 .widget-title {
@@ -110,28 +108,26 @@
   text-align: center;
 }
 
-
 @media only screen and (max-width: 1200px) {
-	.footer-widgets,
-	.footer-nav-inside {
-	  flex-wrap: wrap;
-	  -webkit-flex-wrap: wrap;
-	  -ms-flex-wrap: wrap;
-	}
+  .footer-widgets,
+  .footer-nav-inside {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
 
-	.widget {
-		-webkit-flex: 0 0 25%;
-    	-ms-flex: 0 0 25%;
-    	flex: 0 0 25%;
-	}
+  .widget {
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+  }
 
-	.footer-subscribe {
-		-webkit-flex: 0 0 100%;
-    	-ms-flex: 0 0 100%;
-    	flex: 0 0 100%;
-	}
+  .footer-subscribe {
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
 }
-
 
 @media only screen and (max-width: 800px) {
   .footer-branding {
@@ -149,9 +145,9 @@
 
   .footer-widgets,
   .footer-nav-inside {
-	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
   }
 }
 

@@ -6,9 +6,16 @@ sections:
   - section_id: faq
     component: faq_block.html
     type: faqblock
-    bg: gray
+    bg: white
     title: FAQ - Häufig gestelle Fragen
-    subtitle: Deine Frage ist nicht dabei? Schreibe uns gerne eine <a href="mailto:jan.leimkuehler@ib-leimkuehler.de">E-Mail</a>.
+    subtitle:
+      Auf dieser FAQ Seite finden Sie häufig gestellte Fragen und Antworten zu den Themen CE-Kennzeichnung, Maschinensicherheit, PL-Verifikation und technische Dokumentation.
+      <br>
+      <br>
+      Ziel dieser FAQ Seite ist es, Antworten auf grundlegende Fragen zu geben und dadurch Mehrwert für Sie zu schaffen. Dieses Wissen kann helfen, ein besseres Verständnis für dieses komplexe Themengebiet zu erlangen.
+      <br>
+      <br>
+      Haben Sie keine Antwort auf Ihre Fragen gefunden? Sie brauchen Hilfe oder suchen nach weiteren Infos? Nehmen Sie Kontakt zu uns auf. Gerne helfen wir Ihnen bei der Lösung Ihres Problems.
     faqitems:
       - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
@@ -66,5 +73,24 @@ sections:
       - question: Hat der Käufer eines Produkts Anspruch auf eine technische Dokumentation?
         answer: >-
           Die Pflicht zur Erstellung von technischer Dokumentation ist gesetzlich verankert. EU-Richtlinien und nationale Gesetze fordern vom Hersteller, dem Produkt Informationen beizulegen, die Informationen zu einer sicheren Verwendung enthalten (bspw. Produktsicherheitsgesetz (ProdSG)).
+
+  - section_id: aboutme
+    component: text_block.html
+    bg: white
+    title: Haftungsausschluss
+    content: >-
+      Die Inhalte dieser Seite sind nach bestem Wissen und Kenntnisstand erstellt worden und werden kostenfrei zur Verfügung gestellt. Die FAQs basieren auf bei der Veröffentlichung geltenden Gesetzen, Normen und Richtlinien. Normen, Richtlinien und Gesetze können sich verändern. Daher können FAQs veralten und nicht mehr dem aktuellen Stand von Gesetzen, Normen und Richtlinien entsprechen. Die FAQs dienen ausschließlich der generellen Information und ersetzen keine qualifizierte Beratung. Sie stellen keine Beratung juristischer oder anderer Art dar und sollen auch nicht als solche verwendet werden.
+      Wir übernehmen keine Haftung von Handlungen, die auf Grundlage des auf dieser Seite enthaltenen Informationsmaterials unternommen werden. Weitere Informationen zum Haftungsausschluss finden Sie auch in unserem Impressum.
+  
+  - section_id: call-to-action
+    component: cta_block.html
+    type: ctablock
+    title: Digitale CE-Kennzeichnung für den Sondermaschinen-, Vorrichtungs- und Werkzeugbau.
+    subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
+    actions:
+      - label: Jetzt beraten lassen
+        url: https://app.wirkaufendeinethg.de/#/thgimpactselector
+
 layout: faq
 ---
+

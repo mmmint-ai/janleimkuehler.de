@@ -9,7 +9,7 @@ sections:
     component: hero_image_block.html
     image: /images/banner.jpeg
     bg: white
-    title: CE-Kennzeichnung für Sondermaschinen von Spezialisten
+    title: CE-Kennzeichnung für Sondermaschinen ab Losgröße 1
     content: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     subtitle: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
     actions:
@@ -19,6 +19,7 @@ sections:
   - section_id: trustblock
     component: trust_block.html
     type: trustblock
+    bg: white
     title:
     linklist:
       - url: https://www.ingenieurkammer.de/
@@ -29,7 +30,7 @@ sections:
         image: /images/verbaende/tekom.svg
       - url: https://www.vdi.de/
         image: /images/verbaende/vdi.jpg
-
+        
   - section_id: aboutme
     component: features_block.html
     type: featuresblock
@@ -37,7 +38,7 @@ sections:
     title: Herzlich Willkommen bei Ingenieurbüro Leimkühler.
     subtitle: Ihr Partner für CE-Kennzeichnung im Sondermaschinenbau.
     featureslist:
-      - title: Schnell. Fundiert. Lösungsorientiert.
+      - title: Maschinensicherheit. Fundiert. Lösungsorientiert.
         image: images/jan.png
         content: >-
           Als zertifizierter CE-Koordinator (TÜV) und Maschinensicherheitsexperte (ZMSE®) unterstütze ich Sie bei der CE-Kennzeichnung Ihres Produkts. Gemeinsam entwickeln wir eine individuelle Strategie. Beispielsweise auf folgende Probleme und Fragen:
@@ -73,19 +74,17 @@ sections:
   - section_id: video
     component: features_block.html
     type: featuresblock
-    title:
-    subtitle:
     bg: white
     featureslist:
       - title: Erklärvideo - Der schnellste Weg zur CE-Dokumentation
-        video: /videos/video.mp4
+        video: https://static.mmmint.ai/digitalmanual/erklaervideo.mp4
         content: >-
           Erfahren Sie im Video, wie mein Auftragsabwicklungsprozess funktioniert und Sie direkt mehr Zeit für Ihr Kerngeschäft gewinnen.
         actions:
           - label: Checkliste Projektanfrage
             url: /solutions/landingpage
           - label: Jetzt Kontakt aufnehmen
-            url:
+            url: /contact
 
   - section_id: ablauf
     component: advantage_image_block.html
@@ -218,4 +217,3 @@ sections:
 
 layout: home
 ---
-
