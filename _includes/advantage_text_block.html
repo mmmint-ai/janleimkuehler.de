@@ -4,7 +4,6 @@
 >
   <div class="block-header inner {{ include.section.headerclass }}">
     <h2 class="block-title">{{ include.section.title }}</h2>
-
   </div>
   <!-- .block-header -->
   {% assign images_is_not_empty = include.section.images | is_not_empty %} {% if
@@ -14,12 +13,7 @@
       <div class="images-container">
         {% for review in include.section.images %}
         <div class="image-block-container">
-          <img
-            src="{{ review.image | relative_url }}"
-            alt="{{ review.title }}"
-            class="image"
-            style="height: 150px; width: 150px; object-fit: contain"
-          />
+          <p class="image-number">{{ review.number }}</p>
           <footer class="image-footer">
             <h6 class="image-title">{{ review.title }}</h6>
             <p class="image-text">{{ review.text }}</p>

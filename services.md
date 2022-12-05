@@ -9,7 +9,7 @@ sections:
     title: CE-Kennzeichnung für Ihr Produkt
     headerclass: center
     customtextclass: nogrey
-    subtitle: Mein Dienstleistungsangebot richtet sich an unterschiedliche Zielgruppen. Für jede Zielgruppe habe ich ein individuelles Konzept entwickelt, um die Anforderungen an die EU-Vorschriften zu erfüllen.
+    subtitle: Mein <b>Dienstleistungsangebot</b> richtet sich an <b>unterschiedliche Zielgruppen</b>. Für jede Zielgruppe habe ich ein individuelles Konzept entwickelt, um die Anforderungen an die EU-Vorschriften zu erfüllen.
     images:
       - source: images/solutions/hersteller.png
         text: Sie benötigen Unterstützung bei der Erstellung der Risikobeurteilung, des Sicherheitskonzepts und der Betriebs- bzw. Montageanleitung? Gerne erstellen wir die notwendige Dokumentation für Sie.
@@ -76,6 +76,7 @@ sections:
   - section_id: prozesse
     component: details_text_block.html
     title: Ablauf Retrofit im Detail
+    headerclass: center
     subtitle:
     images:
       - source: images/piktogramme/agile.png
@@ -83,11 +84,13 @@ sections:
         text:
           Zunächst erfolgt die Festlegung des Betrachtungsgegenstandes, in dem das Arbeitssystem definiert wird. Hierbei werden die zeitlichen und räumlichen Systemgrenzen definiert, die Arbeitsaufgabe, die Maschine (Arbeitsmittel) sowie weitere Informationen, die von Relevanz sind. Der Arbeitsbereich um deine Maschine gehört dabei immer mit zum Betrachtungsgegenstand, um auch Gefährdungen durch benachbarte Arbeitssysteme zu erfassen.
           <br>
+          <br>
           Anschließend erfolgt die systematische Gefährdungsermittlung. Eine Gefährdung entsteht durch das räumliche und/oder zeitliche Zusammentreffen einer Gefahrenquelle mit dem/den Beschäftigten, bei dem eine schädigende Wirkung eintreten kann. Das Zusammentreffen kann durch gefahrbringende Bedingungen und/oder mögliche außerberufliche Einflüsse beeinflusst sein.
       - source: images/piktogramme/traffic-light.png
         title: 02 | Risikobewertung und Schutzmaßnahmen
         text: >
           Wird eine Gefährdung ermittelt, besteht immer ein Risiko. Im Rahmen der Beurteilung/Bewertung schätzen wir das Risikoausmaß für die vorhandenen Gefährdungen an deiner Maschine ein und leiten den Handlungsbedarf ab. Die Beurteilung berücksichtigt dabei die Komponenten „mögliche Schadensschwere“ und „Schadenseintrittswahrscheinlichkeit“.
+          <br>
           <br>
           Nach Einschätzung des Risikos erfolgt die Festlegung von Maßnahmen zur Risikominderung in enger Abstimmung mit Ihnen/ Ihrer Konstruktion. Falls mehrere Maßnahmen zur Minderung des Risikos eingesetzt werden, so bauen diese aufeinander auf.
       - source: images/piktogramme/check-mark.png
@@ -100,7 +103,7 @@ sections:
     bg: white
     headerclass: center
     title: Funktionale Sicherheit – EN ISO 13849
-    subtitle: Die Betriebssicherheitsverordnung fordert, dass nur Maschinen betrieben werden, die auch dem Stand der Technik entsprechen. Die Sicherheit muss daher auch bei Altmaschinen und unvollständigen Maschinen ohne CE-Kennzeichnung bzw. ohne ein EG-Konformitätsbewertungsverfahren gewährleistet sein.
+    subtitle:
     featureslist:
       - title: Verifikation und Validierung  nach DIN EN ISO 13489-1
         image: images/solutions/altmaschinen.png
@@ -146,7 +149,7 @@ sections:
     subtitle: Sie möchten mehr über erfahren oder über ein konkretes Projekt sprechen? Buchen Sie jetzt Ihren Online-Termin. Ganz flexibel via MS-Teams oder telefonisch.
     actions:
       - label: Zum Kalender
-        url: /contact
+        url: /jan
 
   - section_id: faq
     component: faq_block.html
@@ -197,21 +200,13 @@ sections:
           Ortsfeste Zugänge an maschinellen Anlagen fallen in den Geltungsbereich der Maschinenrichtlinie und gelten als unvollständige Maschine. Damit erhalten ortsfeste Zugänge keine CE-Kennzeichnung, jedoch ist ein Konformitätsbewertungsverfahren für die unvollständige Maschine gemäß MRL durchzuführen.
           Die harmonisierten Normen der EN ISO 14122-Reihe beschreiben allgemeine Anforderungen für den Zugang zu stationären Maschinen und geben Anleitung zur richtigen Wahl der Zugänge, wenn der erforderliche Zugang zu der stationären Maschine nicht direkt vom Boden oder von einer Ebene aus möglich ist.
 
-  - section_id: aboutme
-    component: text_block.html
-    bg: white
-    title: Haftungsausschluss
-    content: >-
-      Die Inhalte dieser Seite sind nach bestem Wissen und Kenntnisstand erstellt worden und werden kostenfrei zur Verfügung gestellt. Die FAQs basieren auf bei der Veröffentlichung geltenden Gesetzen, Normen und Richtlinien. Normen, Richtlinien und Gesetze können sich verändern. Daher können FAQs veralten und nicht mehr dem aktuellen Stand von Gesetzen, Normen und Richtlinien entsprechen. Die FAQs dienen ausschließlich der generellen Information und ersetzen keine qualifizierte Beratung. Sie stellen keine Beratung juristischer oder anderer Art dar und sollen auch nicht als solche verwendet werden.
-      Wir übernehmen keine Haftung von Handlungen, die auf Grundlage des auf dieser Seite enthaltenen Informationsmaterials unternommen werden. Weitere Informationen zum Haftungsausschluss finden Sie auch in unserem Impressum.
-
   - section_id: coaching
     component: features_block.html
     type: featuresblock
     bg: white
     headerclass: center
     title: Coaching & Schulung
-    subtitle: „Wer es versteht eigenes Personal in kürzester Zeit zu qualifizieren, leidet nie unter Fachkräftemangel“
+    subtitle: <i> „Wer es versteht eigenes Personal in kürzester Zeit zu qualifizieren, leidet nie unter Fachkräftemangel“</i>
     featureslist:
       - title: Verifikation und Validierung  nach DIN EN ISO 13489-1
         image: images/solutions/coaching.png

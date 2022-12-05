@@ -30,7 +30,7 @@ sections:
         image: /images/verbaende/tekom.svg
       - url: https://www.vdi.de/
         image: /images/verbaende/vdi.jpg
-        
+
   - section_id: aboutme
     component: features_block.html
     type: featuresblock
@@ -86,9 +86,32 @@ sections:
           - label: Jetzt Kontakt aufnehmen
             url: /contact
 
+  - section_id: map
+    component: features_block.html
+    type: featuresblock
+    bg: white
+    featureslist:
+      - title: CE-Kennzeichnung aus Osnabrück
+        image: /images/map.png
+        content: >-
+          Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
+          <br>
+          Obere Findelstätte 7
+           <br>
+          49124 Georgsmarienhütte
+           <br>
+          info@ib-leimkuehler.de
+           <br>
+
+           Buchen Sie jetzt Ihren Online-Termin. Ganz flexibel via MS-Teams oder telefonisch.
+        actions:
+          - label: Zum Kalender
+            url: /jan
+
   - section_id: ablauf
     component: advantage_image_block.html
     bg: white
+    headerclass: center
     title: Ihre Vorteile
     images:
       - image: /images/piktogramme/focus.png
@@ -123,7 +146,7 @@ sections:
           - Schaltschränke für Maschinen
         actions:
           - label: Mehr Erfahren
-            url: /solutions/landingpage
+            url: /services
       - title: Retrofit und sicherheitstechnische Beurteilung für
         image: images/solutions/ce.png
         content: >-
@@ -132,7 +155,7 @@ sections:
           - Wesentliche Änderung an bestehenden Maschinen und Anlagen
         actions:
           - label: Mehr Erfahren
-            url: /solutions/landingpage
+            url: /services
       - title: Verifikation und Validierung gem. EN ISO 13849
         image: images/solutions/ce.png
         content: >-
@@ -154,7 +177,7 @@ sections:
 
         actions:
           - label: Mehr Erfahren
-            url: /solutions/landingpage
+            url: /services
       - title: Coaching, Schulungen und Workshops
         image: images/solutions/coaching.png
         content: >-
@@ -171,7 +194,7 @@ sections:
           - Betriebsanleitungen normgerecht erstellen
         actions:
           - label: Mehr Erfahren
-            url: /solutions/landingpage
+            url: /services
       - title: Dokumentationsüberprüfung
         image: images/solutions/dokumentationsprüfung.png
         content: >-
@@ -180,7 +203,7 @@ sections:
           - Schneller, leicht nachvollziehbarer Überblick, ob Ihre technische Dokumentation den aktuellen Normen und Richtlinien innerhalb der EU entspricht
         actions:
           - label: Mehr Erfahren
-            url: /solutions/landingpage
+            url: /services
 
   - section_id: faq
     component: faq_block.html
@@ -217,3 +240,4 @@ sections:
 
 layout: home
 ---
+

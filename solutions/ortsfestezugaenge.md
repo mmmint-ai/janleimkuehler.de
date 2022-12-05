@@ -17,7 +17,7 @@ sections:
       Im Rahmen der Konformitätsbewertung berücksichtigen wir alle relevanten Normen wie bspw. die Typ-C-Normen der EN ISO 14122-1 bis EN ISO 14122-4-Reihe.
       <br>
       <br>
-      Weitere spannende Informationen zur EG-Konformitätsbewertung für Schaltschränke und Schaltgerätekombinationen finden Sie in unserem Blog.
+      Weitere spannende Informationen zur EG-Konformitätsbewertung für Schaltschränke und Schaltgerätekombinationen finden Sie in unserem <a href="/blog">Blog.</a>
     contactimage: images/jan-contact.png
     contactinfoheader: Dokumentation für ortsfeste Zugänge
     contactinfocontent: >

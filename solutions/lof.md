@@ -17,7 +17,7 @@ sections:
       Sie sind Hersteller von Anbaugeräten und wollen diese Thematik nicht eigenständig bearbeiten? wenden Sie sich gerne an uns. Mit unseren Erfahrungen in diesem Bereich können wir Ihnen helfen.
       <br>
       <br>
-      Weitere spannende Informationen zur EG-Konformitätsbewertung für Anbaugeräte finden Sie in unserem Blog.
+      Weitere spannende Informationen zur EG-Konformitätsbewertung für Anbaugeräte finden Sie in unserem <a href="/blog">Blog.</a>
     contactimage: images/jan-contact.png
     contactinfoheader: CE-Kennzeichnung für Ihr Anbaugerät
     contactinfocontent: >

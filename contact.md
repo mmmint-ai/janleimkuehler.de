@@ -19,17 +19,17 @@ sections:
         image: images/piktogramme/question.png
         highlight: true
         label: Unverbindliches Angebot
-        url:
+        url: /jan
       - title: Zeitmangel
         image: images/piktogramme/fast-time.png
         highlight: true
         label: Unverbindliches Angebot
-        url:
+        url: /jan
       - title: Komplexität der Richtlinien
         image: images/piktogramme/iceberg.png
         highlight: true
         label: Unverbindliches Angebot
-        url:
+        url: /jan
 
   - section_id: call-to-action
     component: cta_block.html
@@ -38,7 +38,28 @@ sections:
     subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
     actions:
       - label: Jetzt beraten lassen
-        url: 
-layout: features
+        url: /jan
+
+  - section_id: ablauf
+    component: advantage_text_block.html
+    bg: white
+    headerclass: center
+    title: So funktioniert die Zusammenarbeit
+    images:
+      - number: / 01
+        title: Kontaktaufnahme
+        text: Tragen Sie sich unten ganz einfach im Kalender ein oder kontaktieren uns telefonisch um einen Termin zu vereinbaren.
+      - number: / 02
+        title: Beratungsgespräch
+        text:
+          Wie das Erstgespräch aussieht, ist Ihnen überlassen. Wir sprechen allgemein über die Themen, die für Sie aktuell relevant sind oder über ein ganz konkretes Projekt. Wir schauen gemeinsam, was Ihre Ziele sind und wie wir Sie dabei unterstützen können.
+          Wenn beide Seiten merken, dass eine Zusammenarbeit sinnvoll ist, können wir jederzeit loslegen.
+      - number: / 03
+        title: Auftragsabwicklung
+        text:
+          Sie stellen alle vorhandenen Unterlagen zu Ihrem Produkt per E-Mail oder WeTransfer bereitund erhalten nach 14 Tagenerste Entwürfe für Risikobeurteilung und Betriebsanleitung.
+          Eine Checkliste zu den benötigten Unterlagen hilft Ihnen, alle wesentlichen Informationen einfach zusammenzutragen.
+layout: home
+
 ---
 

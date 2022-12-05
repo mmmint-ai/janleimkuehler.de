@@ -1,8 +1,7 @@
 ---
 title: Lastaufnahmemittel
 subtitle: >-
-  mmmint.ai ist die Osnabrücker Talentschmiede für Künstliche Intelligenz und Digitales.
-  Sie möchten Prozesse und Workflows digitalisieren und haben bereits konkrete Ideen? Wir entwickeln gemeinsam mit Ihnen datenbasierte digitale Services. Maßgeschneiderte Lösungen mit modernster Technologie. Die Projekte werden gemeinsam erarbeitet. Sprechen Sie uns gerne an.
+  Lastaufnahmemittel
 share-img: images/banner.jpeg
 sections:
   - section_id: Lastaufnahmemittel

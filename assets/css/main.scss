@@ -685,3 +685,8 @@ $palette: (
     color: black !important;
   }
 }
+
+.image-number {
+  color: _palette(accent);
+  font-size: 48px;
+}

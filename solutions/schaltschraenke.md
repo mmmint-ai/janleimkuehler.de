@@ -14,7 +14,7 @@ sections:
       Im Rahmen der Konformitätsbewertung berücksichtigen wir alle relevanten Normen wie bspw. die EN ISO 60204-1, dokumentieren die Risikobeurteilung entsprechend EN ISO 12100 und Erstellen im Anschluss eine Original-Betriebsanleitung sowie EG-Konformitätserklärung für Sie.
       <br>
       <br>
-      Weitere spannende Informationen zur EG-Konformitätsbewertung für Schaltschränke und Schaltgerätekombinationen finden Sie in unserem Blog.
+      Weitere spannende Informationen zur EG-Konformitätsbewertung für Schaltschränke und Schaltgerätekombinationen finden Sie in unserem <a href="/blog">Blog.</a>
     contactimage: images/jan-contact.png
     contactinfoheader: CE-Kennzeichnung für Ihren Schaltschrank
     contactinfocontent: >
