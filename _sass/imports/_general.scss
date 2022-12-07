@@ -496,6 +496,7 @@ img {
 .advantages-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 
   .offer-name {
     font-size: 1rem;
@@ -807,6 +808,7 @@ img {
 .solution-advantage-container {
   display: flex;
   font-size: 16px;
+  flex-wrap: wrap;
 }
 
 .solution-advantage-container {
@@ -824,8 +826,18 @@ img {
 .solution-contact-container {
   display: flex;
   width: 50%;
-  height: 260px;
   border: 1px solid _palette(accent);
+}
+
+@media only screen and (max-width: 800px) {
+  .solution-contact-container {
+    width: 100%;
+  }
+
+  .solution-advantage-list {
+    width: 100% !important;
+    margin-top: 20px;
+  }
 }
 
 .solution-contact-info-container {

@@ -106,7 +106,7 @@ sections:
     subtitle:
     featureslist:
       - title: Verifikation und Validierung  nach DIN EN ISO 13489-1
-        image: images/solutions/altmaschinen.png
+        image: images/solutions/funktionaleSicherheit.png
         content: >-
           Verifikation und Validierung  nach DIN EN ISO 13489-1
           Sie benötigen Unterstützung im Bereich Funktionale Sicherheit?
@@ -293,4 +293,3 @@ sections:
 
 layout: features
 ---
-
