@@ -15,25 +15,29 @@ header:
   has_nav: true
   nav:
     FAQ: "faq"
-    Unternehmen: "company"
-    Dienstleistungen: "services"
+    Leistungen: "services"
     Kunden: "customers"
     Lösungen: "solutions"
-    Kontakt: "contact"
     Blog: "blog"
     Infos: "infos"
 
 footer:
-  logo_img: images/logo/logo_white.svg
+  logo_img:
   tagline:
-  content: © Ingenieurbüro Leimkühler GmbH
+  content: © Ingenieurbüro Leimkühler (haftungsbeschränkt)
+
+  products_title: Ing.-Büro Leimkühler
+  products:
+    Obere Findelstätte 7:
+    49124 Georgsmarienhütte:
+    Deutschland:
+    jan.leimkuehler@ib-leimkuehler.de:
 
   nav_title: Unternehmen
   nav:
     Jobs: "company"
     Kunden: "customers"
-    Diensleistungen: "services"
-    Kontakt: "contact"
+    Leistungen: "services"
     Blog: "blog"
     Infos: "infos"
 
@@ -42,18 +46,12 @@ footer:
     Impressum: "impressum"
     Datenschutz: "datenschutz"
     AGB: "agbs"
- 
+
   social_title: Community
 
-  products_title: Lösungen
-  products:
-    Maschinen: "/solutions/maschinen"
-    Unvollständige Maschinen: "/solutions/unvollstaendigemaschinen"
-    Lastaufnahmemittel: "/solutions/lastaufnahmemittel"
-    Treppen & Podeste: "/solutions/treppen"
-    Schaltschränke: "/solutions/schaltschraenke"
-    Drehpositionierer: "/solutions/drehpositionierer"
-    Stadtwerke: "stadtwerke"
+  has_subscribe: true
+  subscribe_title: "Newsletter abonnieren"
+  subscribe_content: "Melde Dich jetzt bei unserem Newsletter an und bleibe immer auf dem neusten Stand."
 
   # Select which share links to show in posts
 share-links-active:

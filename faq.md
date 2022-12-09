@@ -18,17 +18,57 @@ sections:
       <br>
       Haben Sie keine Antwort auf Ihre Fragen gefunden? Sie brauchen Hilfe oder suchen nach weiteren Infos? Nehmen Sie Kontakt zu uns auf. Gerne helfen wir Ihnen bei der Lösung Ihres Problems.
     faqitems:
-      - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
+      - question: Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
           Ein Lastaufnahmemittel benötigt dann eine CE-Kennzeichnung, wenn dieses in den Geltungsbereich der Maschinenrichtlinie fällt. Dies ist abhängig vom Verwendungszweck. Wenn das Lastaufnahmemittel zum Ergreifen einer Last dient und zwischen Maschine und Last oder an der Last selber angebracht wird oder dazu dient integraler Bestandteil der Last zu werden, fällt das Lastaufnahmemittel in den Geltungsbereich der Maschinenrichtlinie.
-      - question: CE-Kennzeichnung . Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
+      - question: Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
         answer: >-
           Es kommt auf den Verwendungszweck sowie die konstruktive Gestaltung der Vorrichtung an. Enthält die Vorrichtung elektrische, pneumatische oder hydraulische Komponenten fällt die Vorrichtung in den Geltungsbereich der Maschinenrichtlinie, da nicht ausschließlich die unmittelbar menschliche Kraft zum Einsatz kommt. In Abhängigkeit von der Verwendung kann es sich nun um eine unvollständige Maschine oder eine auswechselbare Ausrüstung handeln. Unvollständige Maschinen erhalten keine eigene CE-Kennzeichnung, während auswechselbare Ausrüstungen eine CE-Kennzeichnung erhalten müssen.
           Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
-      - question: CE-Kennzeichnung - Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
+      - question: Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
-          TABELLE
-      - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
+          Ob eine Treppe, ein Treppenpodest oder eine Arbeitsbühne mit dem CE-Kennzeichen versehen werden muss, hängt maßgeblich vom Einsatzort und dem Verwendungszweck ab. In Abhängigkeit vom Anwendungsfall fällt die Treppe in den Geltungsbereich verschiedener EU-Richtlinien und Gesetze. Die nachfolgende Tabelle ermöglicht einen ersten Überblick.
+
+          <table>
+            <tr>
+            <th>Fall</th>
+            <th>Einsatzort/ Verwendungszweck</th>
+            <th>Kategorie</th>
+            <th>Zutreffende Richtlinie/ Norm</th>
+            <th>CE-Kennzeichnung</th>
+            <th>Erforderliche Technische Dokumentation</th>
+            </tr>
+            <tr>
+            <td>01</td>
+            <td>Treppen als ortsfeste Zugänge zu Maschinen und Anlagen</td>
+            <td>Unvollständige Maschine</td>
+            <td>RL 2006/42/EGEN 14122</td>
+            <td>NEIN</td>
+            <td>Risikobeurteilung Montageanleitung EG-Einbauerklärung</td>
+            </tr>
+
+            <tr>
+            <td>02</td>
+            <td>Treppen, die in Gebäude bzw. Bauwerke eingebaut werden</td>
+            <td>Bauprodukt (Eigenständiges Bau- und Tragwerk)</td>
+            <td>BauProdV EN 1090-1 EN 14122</td>
+            <td>JA</td>
+            <td>Risikobeurteilung Montageanleitung Leistungserklärung</td>
+            </tr>
+
+            <tr>
+            <td>03</td>
+            <td>Treppen, mobil/ nicht ortsfest</td>
+            <td>Arbeitsmittel im Sinne des ProdSG</td>
+            <td>ProdSG EN 14122</td>
+            <td>NEIN</td>
+            <td>Risikobeurteilung Gebrauchsanleitung Herstellererklärung</td>
+            </tr>
+
+            </table>
+
+          In der Praxis ist eine eindeutige Abgrenzung zwischen Bauprodukteverordnung und dem Anlagen- und Maschinenbau nicht immer einfach. Das VDMA-Einheitsblatt 24408-1 unterstützt bei der Bewertung. Im Dokument ist die Abgrenzung verfahrenstechnischer Anlagen und Maschinen vom Geltungsbereich der europäischen Bauprodukteverordnung (EU) Nr. 305/2011/EU beschrieben.
+      - question: Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
           Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
           • Allgemeine Beschreibung der Maschine/ des Produkts,
@@ -47,7 +87,7 @@ sections:
         answer: >-
           "Ortsfeste" Zugänge sind solche, die so montiert sind (zum Beispiel durch Schrauben, Muttern, Schweißen), dass sie nur mit Werkzeugen entfernt werden können. Beispiele für ortsfeste Zugänge, die Bestandteil einer Maschine oder Anlage sind, sind Arbeitsbühnen, Laufstege und Leitern. 
           Die harmonisierten Normen der EN ISO 14122-Reihe konkretisieren die Anforderungen der MRL an ortsfeste Zugänge. Die Normenreihe gilt dabei sowohl für stationäre als auch für mobile Maschinen, bei denen ortsfeste Zugänge erforderlich sind.
-      - question: E-Kennzeichnung - Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
+      - question: Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
         answer: >-
           Ortsfeste Zugänge an maschinellen Anlagen fallen in den Geltungsbereich der Maschinenrichtlinie und gelten als unvollständige Maschine. Damit erhalten ortsfeste Zugänge keine CE-Kennzeichnung, jedoch ist ein Konformitätsbewertungsverfahren für die unvollständige Maschine gemäß MRL durchzuführen.
           Die harmonisierten Normen der EN ISO 14122-Reihe beschreiben allgemeine Anforderungen für den Zugang zu stationären Maschinen und geben Anleitung zur richtigen Wahl der Zugänge, wenn der erforderliche Zugang zu der stationären Maschine nicht direkt vom Boden oder von einer Ebene aus möglich ist.

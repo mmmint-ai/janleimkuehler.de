@@ -10,26 +10,11 @@ sections:
     image: /images/banner.jpeg
     bg: white
     title: CE-Kennzeichnung für Sondermaschinen ab Losgröße 1
-    content: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
-    subtitle: Für Hersteller, Betreiber und Inverkehrbringer von Sondermaschinen
+    content: Für Hersteller, Betreiber und Inverkehrbringer
+    subtitle: Für Hersteller, Betreiber und Inverkehrbringer
     actions:
       - label: Zum kostenlosen Erstgespräch
         url: /contact
-
-  - section_id: trustblock
-    component: trust_block.html
-    type: trustblock
-    bg: white
-    title:
-    linklist:
-      - url: https://www.ingenieurkammer.de/
-        image: /images/verbaende/ingenieurkammer.gif
-      - url: https://vdsi.de/
-        image: /images/verbaende/vdsi.jpg
-      - url: https://www.tekom.de/
-        image: /images/verbaende/tekom.svg
-      - url: https://www.vdi.de/
-        image: /images/verbaende/vdi.jpg
 
   - section_id: aboutme
     component: features_block.html
@@ -56,10 +41,25 @@ sections:
           Vor Gründung meines Ingenieurbüros habe ich erfolgreich 10 Jahre als Projekt- und Teamleiter im Sondermaschinen gearbeitet. Darum weiß ich aus der Praxis wo die Herausforderungen liegen.
           Gerne unterstütze ich auch Sie und Ihr Team bei der Lösung dieser Fragestellungen.
 
+  - section_id: trustblock
+    component: trust_block.html
+    type: trustblock
+    bg: white
+    title:
+    linklist:
+      - url: https://www.ingenieurkammer.de/
+        image: /images/verbaende/ingenieurkammer.gif
+      - url: https://vdsi.de/
+        image: /images/verbaende/vdsi.jpg
+      - url: https://www.tekom.de/
+        image: /images/verbaende/tekom.svg
+      - url: https://www.vdi.de/
+        image: /images/verbaende/vdi.jpg
+
   - section_id: aboutme
     component: text_block.html
     bg: white
-    title: Über mich
+    title: Persönliches
     content: >-
       - Geboren im Jahr 1989, verheiratet und in Osnabrück beheimatet.
       <br>
@@ -93,6 +93,7 @@ sections:
     featureslist:
       - title: CE-Kennzeichnung aus Osnabrück
         image: /images/map.png
+        customimageclass: small-image
         content: >-
           Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
           <br>
@@ -148,7 +149,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Retrofit und sicherheitstechnische Beurteilung für
-        image: images/solutions/ce.png
+        image: images/solutions/retrofit.png
         content: >-
           - Alt-Bestandsanlagen ohne CE-Kennzeichnung
 
@@ -157,7 +158,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Verifikation und Validierung gem. EN ISO 13849
-        image: images/solutions/ce.png
+        image: images/solutions/funktionaleSicherheit.png
         content: >-
           - Festlegen aller notwendigen Sicherheitsfunktionen sofern nicht in RB erfolgt
 
@@ -212,17 +213,17 @@ sections:
     title: FAQ - Häufig gestelle Fragen
     subtitle:
     faqitems:
-      - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
+      - question: Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
           Ein Lastaufnahmemittel benötigt dann eine CE-Kennzeichnung, wenn dieses in den Geltungsbereich der Maschinenrichtlinie fällt. Dies ist abhängig vom Verwendungszweck. Wenn das Lastaufnahmemittel zum Ergreifen einer Last dient und zwischen Maschine und Last oder an der Last selber angebracht wird oder dazu dient integraler Bestandteil der Last zu werden, fällt das Lastaufnahmemittel in den Geltungsbereich der Maschinenrichtlinie.
-      - question: CE-Kennzeichnung . Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
+      - question: Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
         answer: >-
           Es kommt auf den Verwendungszweck sowie die konstruktive Gestaltung der Vorrichtung an. Enthält die Vorrichtung elektrische, pneumatische oder hydraulische Komponenten fällt die Vorrichtung in den Geltungsbereich der Maschinenrichtlinie, da nicht ausschließlich die unmittelbar menschliche Kraft zum Einsatz kommt. In Abhängigkeit von der Verwendung kann es sich nun um eine unvollständige Maschine oder eine auswechselbare Ausrüstung handeln. Unvollständige Maschinen erhalten keine eigene CE-Kennzeichnung, während auswechselbare Ausrüstungen eine CE-Kennzeichnung erhalten müssen.
           Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
-      - question: CE-Kennzeichnung - Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
+      - question: Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
           TABELLE
-      - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
+      - question: Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
           Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
           • Allgemeine Beschreibung der Maschine/ des Produkts,

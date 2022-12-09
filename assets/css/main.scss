@@ -310,12 +310,12 @@ $palette: (
 
   h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h2 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 20px;
   }
 }
@@ -533,6 +533,8 @@ $palette: (
   text-align: center;
   width: 21%;
   margin-bottom: 5%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 
   .image-title {
     margin: 25px 0px 25px 0px;
@@ -543,6 +545,15 @@ $palette: (
     font-size: 16px;
     color: grey;
   }
+}
+
+.image-block-container:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.large-image {
+  width: 30%;
 }
 
 .details-container {
@@ -595,6 +606,10 @@ $palette: (
     width: 30%;
   }
 
+  .large-image {
+    width: 45%;
+  }
+
   .imagetitle {
     position: absolute;
     top: 200px;
@@ -619,6 +634,10 @@ $palette: (
 
 @media only screen and (max-width: 850px) {
   .image-block-container {
+    width: 80%;
+  }
+
+  .large-image {
     width: 80%;
   }
 
@@ -648,8 +667,8 @@ $palette: (
 }
 
 .iframe-video {
-  width: 700px;
-  height: 395px;
+  min-width: 600px;
+  min-height: 395px;
   margin-top: 25px;
 }
 
@@ -714,4 +733,9 @@ $palette: (
       width: 80%;
     }
   }
+}
+
+.small-image {
+  height: 300px;
+  width: 300px;
 }

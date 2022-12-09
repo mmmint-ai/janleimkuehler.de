@@ -2,46 +2,21 @@
   <div class="footer-top outer">
     <div class="inner">
       <div class="footer-widgets">
-
-        <div class="widget footer-branding">
-          {% assign logo_img_is_not_empty = site.footer.logo_img | is_not_empty %}
-          {% if logo_img_is_not_empty %}
-            <a href='{{ '/' | relative_url }}'><img loading="lazy" src="{{ site.footer.logo_img | relative_url }}" alt="Logo"
-                class="footer-image" /></a>
-		  {% else %}
-          <p class="site-title">
-            <a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a>
-          </p>
-          {% endif %}
-
-          {% assign elfsight_is_not_empty = site.elfsight | is_not_empty %}
-          {% if elfsight_is_not_empty %}
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="{{ site.elfsight }}" style="max-width: 150px;"></div>
-          {% endif %}
-          {% assign tagline_is_not_empty = site.footer.tagline | is_not_empty %}
-          {% if tagline_is_not_empty %}
-          <p class="site-description">
-            {{ site.footer.tagline }}
-          </p>
-          {% endif %}
-        </div><!-- .widget -->
-
         <nav class="widget footer-products">
-          {% assign products_is_not_empty = site.footer.products_title | is_not_empty %}
-          {% if products_is_not_empty %}
+          {% assign products_is_not_empty = site.footer.products_title |
+          is_not_empty %} {% if products_is_not_empty %}
           <div class="secondary-nav">
             <h4 class="widget-title">{{ site.footer.products_title }}</h4>
             <ul class="secondary-menu">
               {%- for link in site.footer.products -%}
-              <li>
-                <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-              </li>
+              <li>{{ link[0] }}</li>
               {% endfor %}
             </ul>
-          </div><!-- .secondary-nav -->
+          </div>
+          <!-- .secondary-nav -->
           {% endif %}
-        </nav><!-- .widget -->
+        </nav>
+        <!-- .widget -->
 
         <nav class="widget footer-second">
           <div class="secondary-nav">
@@ -53,53 +28,77 @@
               </li>
               {% endfor %}
             </ul>
-          </div><!-- .secondary-nav -->
-        </nav> <!-- .widget -->
+          </div>
+          <!-- .secondary-nav -->
+        </nav>
+        <!-- .widget -->
 
-		<nav class="widget footer-second">
-			<div class="secondary-nav">
-			  <h4 class="widget-title">{{ site.footer.legal_title }}</h4>
-			  <ul class="secondary-menu">
-				{%- for link in site.footer.legal_nav -%}
-				<li>
-				  <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-				</li>
-				{% endfor %}
-			  </ul>
-			</div><!-- .secondary-nav -->
-		  </nav> <!-- .widget -->
+        <nav class="widget footer-second">
+          <div class="secondary-nav">
+            <h4 class="widget-title">{{ site.footer.legal_title }}</h4>
+            <ul class="secondary-menu">
+              {%- for link in site.footer.legal_nav -%}
+              <li>
+                <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <!-- .secondary-nav -->
+        </nav>
+        <!-- .widget -->
 
         <nav class="widget footer-social">
           <div class="social-nav">
             <h4 class="widget-title">{{ site.footer.social_title }}</h4>
             {% include social.html %}
-          </div><!-- .social-nav -->
-        </nav><!-- .widget -->
+          </div>
+          <!-- .social-nav -->
+        </nav>
+        <!-- .widget -->
 
-        {% assign has_subscribe_is_not_empty = site.footer.has_subscribe | is_not_empty %}
-        {% if has_subscribe_is_not_empty %}
+        {% assign has_subscribe_is_not_empty = site.footer.has_subscribe |
+        is_not_empty %} {% if has_subscribe_is_not_empty %}
         <div class="widget footer-subscribe">
           <h4 class="widget-title">{{ site.footer.subscribe_title }}</h4>
-          {% assign subscribe_content_is_not_empty = site.footer.subscribe_content | is_not_empty %}
-          {% if subscribe_content_is_not_empty %}
+          {% assign subscribe_content_is_not_empty =
+          site.footer.subscribe_content | is_not_empty %} {% if
+          subscribe_content_is_not_empty %}
           <p>{{ site.footer.subscribe_content }}</p>
-          {% endif %}
-          {% include subscribe_form_footer.html %}
-        </div><!-- .widget -->
+          {% endif %} {% include subscribe_form_footer.html %}
+        </div>
+        <!-- .widget -->
         {% endif %}
-      </div><!-- .footer-widgets -->
-    </div><!-- .inner -->
-  </div><!-- .outer -->
+      </div>
+      <!-- .footer-widgets -->
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .outer -->
 
   <div class="site-info outer">
     <div class="inner">
-      {{ site.footer.content }}
-      &nbsp;
-      {% for link in site.footer.links %}
-      <a href="{{ link.url }}" {% assign new_window_is_not_empty=link.new_window | is_not_empty %}{% if
-        new_window_is_not_empty %}target="_blank" rel="noopener" {% endif %}>{{ link.text }}</a>.
-      {% endfor %}
-    </div><!-- .inner -->
-  </div><!-- .site-info -->
-
-</footer><!-- .site-footer -->
+      {{ site.footer.content }} &nbsp; {% for link in site.footer.links %}
+      <a
+        href="{{ link.url }}"
+        {%
+        assign
+        new_window_is_not_empty="link.new_window"
+        |
+        is_not_empty
+        %}{%
+        if
+        new_window_is_not_empty
+        %}target="_blank"
+        rel="noopener"
+        {%
+        endif
+        %}
+        >{{ link.text }}</a
+      >. {% endfor %}
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .site-info -->
+</footer>
+<!-- .site-footer -->

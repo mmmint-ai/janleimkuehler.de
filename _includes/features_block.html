@@ -20,7 +20,7 @@
         image_is_not_empty %}
         <div class="cell block-preview">
           <img
-            class="feature-block-image"
+            class="feature-block-image {{ feature.customimageclass }}"
             src="{{ feature.image | relative_url }}"
             alt="{{ feature.title }}"
             style="height: auto; width: 500px"

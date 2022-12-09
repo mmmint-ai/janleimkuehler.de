@@ -1,24 +1,32 @@
 ---
-title: Dienstleistungen
+title: Leistungen
 subtitle: >-
-  Dienstleistungen
+  Leistungen
 share-img: images/banner.jpeg
 sections:
-  - section_id: dienstleistungen
-    component: images_text_block.html
-    title: CE-Kennzeichnung für Ihr Produkt
-    headerclass: center
-    customtextclass: nogrey
-    subtitle: Mein <b>Dienstleistungsangebot</b> richtet sich an <b>unterschiedliche Zielgruppen</b>. Für jede Zielgruppe habe ich ein individuelles Konzept entwickelt, um die Anforderungen an die EU-Vorschriften zu erfüllen.
+  - section_id: leistungen
+    component: images_block.html
+    title: Mein Dienstleistungsportfolio umfasst folgende Lösungen
+    subtitle:
     images:
-      - source: images/solutions/hersteller.png
-        text: Sie benötigen Unterstützung bei der Erstellung der Risikobeurteilung, des Sicherheitskonzepts und der Betriebs- bzw. Montageanleitung? Gerne erstellen wir die notwendige Dokumentation für Sie.
-      - source: images/solutions/automatisierungstechniker.png
-        text: Sie liefern Schaltschränke für Maschinen und Anlagen oder verketten diese miteinander? Gerne unterstützen wir Sie in diesen Bereichen.
-      - source: images/solutions/lastaufnahmemittel.png
-        text: Konstruktionsbüros
-      - source: images/solutions/importeure.png
-        text: Mindestvoraussetzung für ein Inverkehrbringen in der EU ist das Vorhandensein einer Betriebsanleitung in Landessprache, die CE-Kennzeichnung und EG-Konformitätserklärung. Wir unterstützen Sie dabei die Pflichten von Einführern / Importeuren und Händlern zu erfüllen.
+      - link: /services/#prozesse
+        source: images/solutions/ce.png
+        customclass: large-image
+      - link: /services/#retrofit
+        source: images/solutions/retrofit.png
+        customclass: large-image
+      - link: /services/#funktionalesicherheit
+        source: images/solutions/funktionaleSicherheit.png
+        customclass: large-image
+      - link: /services/#coaching
+        source: images/solutions/coaching.png
+        customclass: large-image
+      - link: /services/#dokumentationscheck
+        source: images/solutions/dokumentationsprüfung.png
+        customclass: large-image
+      - link: /services/#betriebsanleitung
+        source: images/solutions/digitaleBetriebsanleitung.png
+        customclass: large-image
 
   - section_id: prozesse
     component: details_text_block.html
@@ -293,3 +301,4 @@ sections:
 
 layout: features
 ---
+

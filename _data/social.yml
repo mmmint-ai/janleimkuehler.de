@@ -1,9 +1,6 @@
 - name: LinkedIn
   link: https://www.linkedin.com/in/jan-leimk%C3%BChler-74b729168/
   image: /images/social/linkedin-brands.svg
-- name: Instagram
-  link:
-  image: /images/social/instagram-square-brands.svg
 - name: Google
   link: https://goo.gl/maps/RC9krfgYknksW24n8
   image: /images/social/google-brands.svg

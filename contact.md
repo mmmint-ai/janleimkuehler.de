@@ -17,17 +17,14 @@ sections:
     pricingplans:
       - title: Sorge / Unsicherheit
         image: images/piktogramme/question.png
-        highlight: true
         label: Unverbindliches Angebot
         url: /jan
       - title: Zeitmangel
         image: images/piktogramme/fast-time.png
-        highlight: true
         label: Unverbindliches Angebot
         url: /jan
       - title: Komplexität der Richtlinien
         image: images/piktogramme/iceberg.png
-        highlight: true
         label: Unverbindliches Angebot
         url: /jan
 
@@ -35,9 +32,17 @@ sections:
     component: cta_block.html
     type: ctablock
     title: Digitale CE-Kennzeichnung für den Sondermaschinen-, Vorrichtungs- und Werkzeugbau.
-    subtitle: Innerhalb von 14 Tagen zum CE-Kennzeichen. Einhaltung gesetzlicher Pflichten, digitale und unkomplizierte Abwicklung.
+    subtitle: Ing. Büro Leimkühler
+      <br>
+      Obere Findelstätte 7
+      <br>
+      49124 Georgsmarienhütte
+      <br>
+      05401 1591022
+      <br>
+      info@ib-leimkuehler.de
     actions:
-      - label: Jetzt beraten lassen
+      - label: Kostenloses Erstgespräch
         url: /jan
 
   - section_id: ablauf
