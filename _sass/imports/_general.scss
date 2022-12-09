@@ -193,15 +193,6 @@ th {
   font-weight: bold;
 }
 
-/* Form fields */
-label {
-  color: _palette(secondary);
-}
-
-footer label {
-  color: _palette(wkthg-strom);
-}
-
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   cursor: pointer;
