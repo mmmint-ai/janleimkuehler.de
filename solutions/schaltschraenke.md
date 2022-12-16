@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: Schaltschrank nach Maschinenrichtlinie – EN 12100 und EN 60204-1 sicher umsetzen.
-    image: images/solutions/schaltschraenke.png
+    image: images/solutions/schaltschraenke.webp
     content:
       Sie planen Schaltschränke für Maschinen in eigener Verantwortung? Ihre Schaltschränke enthalten Bauteile zur Realisierung von Sicherheitsfunktionen, wie bspw. Sicherheitsrelais oder Sicherheitssteuerungen? - In diesem Fall handelt es sich beim Schaltschrank um ein Sicherheitsbauteil im Sinne der Maschinenrichtlinie 2006/42/EG. Der Schaltschrank muss eine CE-Kennzeichnung erhalten.
       <br>

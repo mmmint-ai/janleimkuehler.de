@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: Treppen, Treppenleitern, Podeste und Arbeitsbühnen – Risikobeurteilung für Ortsfeste Zugänge zu maschinellen Anlagen
-    image: images/solutions/ortsfeste.png
+    image: images/solutions/ortsfeste.webp
     content:
       Werden Treppen, Treppenleitern und Podeste oder Arbeitsbühnen ortsfest an maschinellen Anlagen eingesetzt, fallen diese in den Geltungsbereich der Maschinenrichtlinie 2006/42/EG.
       <br>

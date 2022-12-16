@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: CE-Kennzeichnung - Vorrichtungen und auswechselbare Ausrüstungen für Drehpositionierer & Hub-Drehpositionierer
-    image: images/solutions/drehpositionierer.png
+    image: images/solutions/drehpositionierer.webp
     content:
       Das Handling von Bauteilen und Baugruppen ist in vielen Unternehmen eine Herausforderung.
       Drehvorrichtungen und Hub-Drehvorrichtungen sind eine gute Möglichkeit zur Lösung dieses Problems. Am Markt gibt es etablierte Hersteller, die entsprechende Maschinen liefern.

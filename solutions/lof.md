@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: CE-Kennzeichnung für Land- oder forstwirtschaftliche Maschinen und Stapleranbaugeräte!
-    image: images/solutions/lof.png
+    image: images/solutions/lof.webp
     content:
       Land- oder forstwirtschaftliche und Stapleranbaugeräte erweitern die Funktion von Trägerfahrzeugen vielseitig. Oft handelt es sich bei diesen Anbaugeräten um Lösungen für spezifische Anwendungsfälle. Klarer Vorteil dieser Lösungen ist, dass nicht für jeden Aufgabenbereich ein eigenes Gerät oder eine Spezialmaschine angeschafft werden muss. Dies spart Platz und Kosten bei der Anschaffung.
       <br>

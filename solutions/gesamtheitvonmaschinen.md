@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: Gesamtheit von Maschinen/ Verkettung von Maschinen.
-    image: images/solutions/gesamtheit.png
+    image: images/solutions/gesamtheit.webp
     content:
       Wirken mehrere Einzelmaschinen zusammen bzw. sind so angeordnet, dass es einen produktions- und sicherheitstechnischen Zusammenhang gibt, funktionieren diese als „Gesamtheit“ und bilden eine Einheit.
       <br>

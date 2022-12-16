@@ -2,7 +2,7 @@
 title: Leistungen
 subtitle: >-
   Leistungen
-share-img: images/banner.jpeg
+share-img: images/banner.webp
 sections:
   - section_id: leistungen
     component: images_block.html
@@ -10,22 +10,22 @@ sections:
     subtitle:
     images:
       - link: /services/#prozesse
-        source: images/solutions/ce.png
+        source: images/solutions/ce.webp
         customclass: large-image
       - link: /services/#retrofit
-        source: images/solutions/retrofit.png
+        source: images/solutions/retrofit.webp
         customclass: large-image
       - link: /services/#funktionalesicherheit
-        source: images/solutions/funktionaleSicherheit.png
+        source: images/solutions/funktionaleSicherheit.webp
         customclass: large-image
       - link: /services/#coaching
-        source: images/solutions/coaching.png
+        source: images/solutions/coaching.webp
         customclass: large-image
       - link: /services/#dokumentationscheck
-        source: images/solutions/dokumentationsprüfung.png
+        source: images/solutions/dokumentationsprüfung.webp
         customclass: large-image
       - link: /services/#betriebsanleitung
-        source: images/solutions/Informationsplattform.png
+        source: images/solutions/Informationsplattform.webp
         customclass: large-image
 
   - section_id: prozesse

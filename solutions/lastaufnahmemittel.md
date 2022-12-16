@@ -2,12 +2,12 @@
 title: Lastaufnahmemittel
 subtitle: >-
   Lastaufnahmemittel
-share-img: images/banner.jpeg
+share-img: images/banner.webp
 sections:
   - section_id: Lastaufnahmemittel
     component: solution_block.html
     title: Sichere Lastaufnahmemittel durch standardisierten CE-Kennzeichnungsprozess!
-    image: images/solutions/lastaufnahmemittel.png
+    image: images/solutions/lastaufnahmemittel.webp
     content:
       Wir sind Ihr Partner, wenn es um die Erstellung der CE-Dokumentation für Lastaufnahmemittel geht
       Wir begleiten Sie bereits in der Konzept- und Konstruktionsphase und erstellen die Risikobeurteilung gemäß EN ISO 12100, sodass Ihr Produkt die Anforderungen der Maschinenrichtlinie (RL 2006/42/EG) erfüllt. Darüber hinaus übernehmen wir die Erstellung der Original-Betriebsanleitung und EG-Konformitätserklärung für Services.

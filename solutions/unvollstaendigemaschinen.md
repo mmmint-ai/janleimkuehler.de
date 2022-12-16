@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: Unvollständige Maschinen – Einbauerklärung und Montageanleitung leicht gemacht.
-    image: images/solutions/maschinen.png
+    image: images/solutions/maschinen.webp
     content:
       Sie bauen Schweißvorrichtungen, welche in bestehende Fertigungszellen integriert werden und nicht mit der unmittelbar menschlichen Kraft Bauteile spannen und positionieren?
       <br>

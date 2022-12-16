@@ -2,7 +2,7 @@
 title: Lösungen
 subtitle: >-
   Unsere Kösungen
-share-img: images/banner.jpeg
+share-img: images/banner.webp
 sections:
   - section_id: loesungen
     component: images_block.html
@@ -10,21 +10,21 @@ sections:
     subtitle:
     images:
       - link: /solutions/maschinen
-        source: images/solutions/fertigungszellen.png
+        source: images/solutions/fertigungszellen.webp
       - link: /solutions/unvollstaendigemaschinen
-        source: images/solutions/maschinen.png
+        source: images/solutions/maschinen.webp
       - link: /solutions/gesamtheitvonmaschinen
-        source: images/solutions/gesamtheit.png
+        source: images/solutions/gesamtheit.webp
       - link: /solutions/schaltschraenke
-        source: images/solutions/schaltschraenke.png
+        source: images/solutions/schaltschraenke.webp
       - link: /solutions/ortsfestezugaenge
-        source: images/solutions/ortsfeste.png
+        source: images/solutions/ortsfeste.webp
       - link: /solutions/lastaufnahmemittel
-        source: images/solutions/lastaufnahmemittel.png
+        source: images/solutions/lastaufnahmemittel.webp
       - link: /solutions/drehpositionierer
-        source: images/solutions/drehpositionierer.png
+        source: images/solutions/drehpositionierer.webp
       - link: /solutions/lof
-        source: images/solutions/lof.png
+        source: images/solutions/lof.webp
 
 layout: features
 ---

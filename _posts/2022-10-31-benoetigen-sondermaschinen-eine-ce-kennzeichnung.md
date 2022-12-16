@@ -6,13 +6,13 @@ excerpt: >-
   Sondermaschinen sind Maschinen, die speziell nach Kundenwunsch für einen spezifischen Anwendungsfall konstruiert und in Verkehr gebracht werden.
 date: "2022-10-15"
 author: Jan Leimkühler
-authorimage: /images/jan.jpg
+authorimage: /images/jan.webp
 time: 2 Minuten
-thumb_img_path: images/banner.jpeg
-content_img_path: images/banner.jpeg
-share-img: images/banner.jpeg
+thumb_img_path: images/banner.webp
+content_img_path: images/banner.webp
+share-img: images/banner.webp
 keywords:
-  [THG Quote für die Photovoltaik Anlage, CO2-Zertifikat, erneuerbare Energien]
+  [CE-Kennzeichnung, Sondermaschinen, Leimkuehler]
 layout: post
 ---
 

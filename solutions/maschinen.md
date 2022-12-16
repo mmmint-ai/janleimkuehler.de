@@ -6,7 +6,7 @@ sections:
   - section_id: Maschinen
     component: solution_block.html
     title: CE-Kennzeichnung für Ihre Maschinen und Fertigungszellen.
-    image: images/solutions/fertigungszellen.png
+    image: images/solutions/fertigungszellen.webp
     content:
       Risikobeurteilung und Betriebsanleitung zur CE-Kennzeichnung nach Maschinenrichtlinie, EMV-Richtlinie, Niederspannungsrichtlinie sowie weiterer EU-Richtlinien für Ihre Maschine.
       <br>

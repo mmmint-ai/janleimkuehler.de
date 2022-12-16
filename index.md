@@ -3,11 +3,11 @@ title: Ingenieurbüro Leimkühler
 subtitle: >-
   CE-Kennzeichnung für den Sondermaschinenbau
 
-share-img: images/posts/thg-quote-geld-sichern.jpg
+share-img: /images/banner.webp
 sections:
   - section_id: heroimage
     component: hero_image_block.html
-    image: /images/banner.jpeg
+    image: /images/banner.webp
     bg: white
     title: CE-Kennzeichnung für Sondermaschinen ab Losgröße 1
     content: Für Hersteller, Betreiber und Inverkehrbringer
@@ -130,7 +130,7 @@ sections:
     bg: white
     featureslist:
       - title: CE-Kennzeichnung für
-        image: images/solutions/ce.png
+        image: images/solutions/ce.webp
         content: >-
           - Maschinen
 
@@ -149,7 +149,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Retrofit und sicherheitstechnische Beurteilung für
-        image: images/solutions/retrofit.png
+        image: images/solutions/retrofit.webp
         content: >-
           - Alt-Bestandsanlagen ohne CE-Kennzeichnung
 
@@ -158,7 +158,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Verifikation und Validierung gem. EN ISO 13849
-        image: images/solutions/funktionaleSicherheit.png
+        image: images/solutions/funktionaleSicherheit.webp
         content: >-
           - Festlegen aller notwendigen Sicherheitsfunktionen sofern nicht in RB erfolgt
 
@@ -180,7 +180,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Coaching, Schulungen und Workshops
-        image: images/solutions/coaching.png
+        image: images/solutions/coaching.webp
         content: >-
           - Grundlagen Produktsicherheit
 
@@ -197,7 +197,7 @@ sections:
           - label: Mehr Erfahren
             url: /services
       - title: Dokumentationsüberprüfung
-        image: images/solutions/dokumentationsprüfung.png
+        image: images/solutions/dokumentationsprüfung.webp
         content: >-
           - Dokumentationsüberprüfung für eine normkonforme Dokumentation zur Reduzierung von Haftungsrisiken
 
