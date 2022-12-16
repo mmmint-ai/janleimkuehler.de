@@ -13,37 +13,35 @@ sections:
     type: offerblock
     bg: white
     title: Die drei häufigsten Probleme von Unternehmen in der CE-Kennzeichnung
-    subtitle:
+    subtitle: Nutzen Sie meine Expertise und schaffen Entlastung für Ihr Unternehmen!
     pricingplans:
       - title: Sorge / Unsicherheit
         image: images/piktogramme/question.png
-        label: Unverbindliches Angebot
         url: /jan
       - title: Zeitmangel
         image: images/piktogramme/fast-time.png
-        label: Unverbindliches Angebot
         url: /jan
       - title: Komplexität der Richtlinien
         image: images/piktogramme/iceberg.png
-        label: Unverbindliches Angebot
         url: /jan
 
-  - section_id: call-to-action
-    component: cta_block.html
-    type: ctablock
-    title: Digitale CE-Kennzeichnung für den Sondermaschinen-, Vorrichtungs- und Werkzeugbau.
-    subtitle: Ing. Büro Leimkühler
-      <br>
-      Obere Findelstätte 7
-      <br>
-      49124 Georgsmarienhütte
-      <br>
-      05401 1591022
-      <br>
-      info@ib-leimkuehler.de
-    actions:
-      - label: Kostenloses Erstgespräch
-        url: /jan
+  - section_id: kontakt
+    component: advantage_image_block.html
+    bg: accent
+    headerclass: center
+    title: Kontakt
+    images:
+      - image: images/piktogramme/location.png
+        title: Anschrift
+        text: Obere Findelstätte 7​
+          <br>
+          49124 Georgsmarienhütte​
+      - image: images/piktogramme/phone.png
+        title: Telefon
+        text: 05401/1591022​
+      - image: images/piktogramme/mail.png
+        title: E-Mail
+        text: <a href="mailto:jan.leimkuehler@ib-leimkuehler.de"> jan.leimkuehler@ib-leimkuehler.de</a>
 
   - section_id: ablauf
     component: advantage_text_block.html
@@ -65,6 +63,5 @@ sections:
           Sie stellen alle vorhandenen Unterlagen zu Ihrem Produkt per E-Mail oder WeTransfer bereitund erhalten nach 14 Tagenerste Entwürfe für Risikobeurteilung und Betriebsanleitung.
           Eine Checkliste zu den benötigten Unterlagen hilft Ihnen, alle wesentlichen Informationen einfach zusammenzutragen.
 layout: home
-
 ---
 

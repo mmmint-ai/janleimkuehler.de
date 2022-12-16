@@ -24,7 +24,7 @@ sections:
     subtitle: Ihr Partner für CE-Kennzeichnung im Sondermaschinenbau.
     featureslist:
       - title: Maschinensicherheit. Fundiert. Lösungsorientiert.
-        image: images/jan.png
+        image: images/jan.jpg
         content: >-
           Als zertifizierter CE-Koordinator (TÜV) und Maschinensicherheitsexperte (ZMSE®) unterstütze ich Sie bei der CE-Kennzeichnung Ihres Produkts. Gemeinsam entwickeln wir eine individuelle Strategie. Beispielsweise auf folgende Probleme und Fragen:
           <br>
@@ -101,7 +101,7 @@ sections:
            <br>
           49124 Georgsmarienhütte
            <br>
-          info@ib-leimkuehler.de
+          <a href="mailto:jan.leimkuehler@ib-leimkuehler.de"> jan.leimkuehler@ib-leimkuehler.de</a>
            <br>
 
            Buchen Sie jetzt Ihren Online-Termin. Ganz flexibel via MS-Teams oder telefonisch.
@@ -241,4 +241,3 @@ sections:
 
 layout: home
 ---
-

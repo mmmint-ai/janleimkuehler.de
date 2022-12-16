@@ -18,7 +18,7 @@ sections:
       <br>
       <br>
       Möchten Sie Ihre individuellen Fragen beantwortet bekommen und erfahren, wie wir Sie Schritt für Schritt durch das EG-Konformitätsbewertungsverfahren begleiten? Buchen Sie jetzt Ihr kostenloses Online-Beratungsgespräch mit uns.
-    contactimage: images/jan-contact.png
+    contactimage: images/jan.jpg
     contactinfoheader: CE-Kennzeichnung für Ihre Maschine
     contactinfocontent: >
       Lassen Sie Ihre unvollständige Maschine in einer frühen Phase sicherheitstechnisch von uns bewerten. Fragen Sie kostenfrei ein Angebot zur Erstellung der Risikobeurteilung und Montageanleitung bei uns an. 

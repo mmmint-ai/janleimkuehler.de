@@ -25,7 +25,7 @@ sections:
         source: images/solutions/dokumentationsprüfung.png
         customclass: large-image
       - link: /services/#betriebsanleitung
-        source: images/solutions/digitaleBetriebsanleitung.png
+        source: images/solutions/Informationsplattform.png
         customclass: large-image
 
   - section_id: prozesse
@@ -288,17 +288,12 @@ sections:
     type: featuresblock
     bg: white
     headerclass: center
-    title: Digitale Betriebsanleitung
+    title: Digitale Informationsplattform
     subtitle: Sie suchen eine Lösung Ihre Betriebsanleitung digital bereitzustellen?
     featureslist:
-      - title: Digitale Betriebsanleitung - Whitelabellösung.
-        image: images/solutions/digitaleBetriebsanleitung.png
-        content:
-
-        actions:
-          - label: Mehr erfahren
-            url: /contact
+      - title:
+        image: images/solutions/Informationsplattform.png
+        content: Stellen Sie Ihre technische Dokumentation wie Originalbetriebsanleitungen, Zusammenbauzeichnungen, Stücklisten und weitere Informationen auf unserer Informationsplattform bereit. Alle Dokumente sind an jedem Ort der Welt schnell abrufbar. ​Der Zugriff auf die Plattform erfolgt durch einen QR-Code, den Sie auf Ihrem Produkt anbringen.
 
 layout: features
 ---
-

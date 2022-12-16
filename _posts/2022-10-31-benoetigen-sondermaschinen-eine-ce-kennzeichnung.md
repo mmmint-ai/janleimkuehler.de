@@ -6,7 +6,7 @@ excerpt: >-
   Sondermaschinen sind Maschinen, die speziell nach Kundenwunsch für einen spezifischen Anwendungsfall konstruiert und in Verkehr gebracht werden.
 date: "2022-10-15"
 author: Jan Leimkühler
-authorimage: /images/jan.jpeg
+authorimage: /images/jan.jpg
 time: 2 Minuten
 thumb_img_path: images/banner.jpeg
 content_img_path: images/banner.jpeg

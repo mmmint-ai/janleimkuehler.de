@@ -17,7 +17,7 @@ sections:
       <br>
       Vor jedem Projekt sind die Rollen der Wirtschaftsakteure klar zu definieren. Wer ist Hersteller des Gesamtsystems im Sinne der MRL? Gerne unterstützen wir Sie in Ihrem Projekt und erstellen die technische Dokumentation für Sie.
       Weitere spannende Informationen zur EG-Konformitätsbewertung für Lastaufnahmeeinrichtungen und auswechselbare Ausrüstungen für Drehpositionierer und Hub-Drehpositionierer finden Sie in unserem <a href="/blog">Blog.</a>
-    contactimage: images/jan-contact.png
+    contactimage: images/jan.jpg
     contactinfoheader: Dokumentation für Ihren Drehpositionierer
     contactinfocontent: >
       Lassen Sie Ihre Vorrichtungen und auswechselbaren Ausrüstungen für Drehpositionierer in einer frühen Phase sicherheitstechnisch von uns bewerten. Fragen Sie kostenfrei ein Angebot zur Erstellung der Risikobeurteilung und Original-Betriebsanleitung bzw. Montageanleitung bei uns an. 

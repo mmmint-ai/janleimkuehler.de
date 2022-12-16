@@ -14,7 +14,7 @@ sections:
 
       In vielen Fällen handelt es sich bei Lastaufnahmemitteln um spezifische Sonderkonstruktionen, die von Unternehmen eigenständig konstruiert und im eigenen Betrieb eingesetzt werden. Auch in diesem Fall gibt es keine Ausnahme zum Verzicht auf einen CE-Kennzeichnungsprozess. Die Unternehmen sind Hersteller im Sinne der Maschinenrichtlinie und selbst verantwortlich dafür, dass Ihre Konstruktionen sicher sind
       Weitere spannende Informationen zur EG-Konformitätsbewertung für lose Lastaufnahmemittel finden Sie in unserem <a href="/blog">Blog.</a>
-    contactimage: images/jan-contact.png
+    contactimage: images/jan.jpg
     contactinfoheader: CE-Kennzeichnung für Ihr Lastaufnahmemittel
     contactinfocontent: >
       Lassen Sie Ihr Lastaufnahmemittel in einer frühen Phase sicherheitstechnisch von uns bewerten. Fragen Sie kostenfrei ein Angebot zur Erstellung der Risikobeurteilung und Original-Betriebsanleitung bei uns an.

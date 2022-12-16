@@ -18,7 +18,7 @@ sections:
       <br>
       <br>
       Weitere spannende Informationen zur EG-Konformitätsbewertung für Anbaugeräte finden Sie in unserem <a href="/blog">Blog.</a>
-    contactimage: images/jan-contact.png
+    contactimage: images/jan.jpg
     contactinfoheader: CE-Kennzeichnung für Ihr Anbaugerät
     contactinfocontent: >
       Lassen Sie Ihr Anbaugerät in einer frühen Phase sicherheitstechnisch von uns bewerten. Fragen Sie kostenfrei ein Angebot zur Erstellung der Risikobeurteilung und Original-Betriebsanleitung bei uns an. 

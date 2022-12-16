@@ -4,9 +4,6 @@
 - name: Google
   link: https://goo.gl/maps/RC9krfgYknksW24n8
   image: /images/social/google-brands.svg
-- name: Email
-  link: jan.leimkuehler@ib-leimkuehler.de
-  image: /images/social/envelope-square-solid.svg
 - name: Xing
   link: https://www.xing.com/profile/Jan_Leimkuehler/cv
   image: /images/social/xing-square-brands.svg

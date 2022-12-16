@@ -1,9 +1,9 @@
 title: Jan Leimkühler - Maschinenbauexperte
-subtitle: Wir übernehmen für dich die komplette Abwicklung der THG-Prämie zum Höchstpreis, so kannst du am besten mit deinem E-Auto Geld verdienen. Einfach. Nachhaltig.
-keywords: thg, quote, verkaufen, verdienen, höchstpreis, beste, e-auto, elektroauto, treibhausgasquote
+subtitle: CE-Kennzeichnung für den Sondermaschinenbau
+keywords: CE-Kennzeichnun
 baseurl: /
 permalink: "/:year/:month/:day/:title/"
-hubspot: 25801309
+hubspot:
 
 collections:
   posts:
@@ -24,7 +24,7 @@ header:
 footer:
   logo_img:
   tagline:
-  content: © Ingenieurbüro Leimkühler (haftungsbeschränkt)
+  content: © Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
 
   products_title: Ing.-Büro Leimkühler
   products:
