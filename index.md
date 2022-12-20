@@ -24,7 +24,7 @@ sections:
     subtitle: Ihr Partner für CE-Kennzeichnung im Sondermaschinenbau.
     featureslist:
       - title: Maschinensicherheit. Fundiert. Lösungsorientiert.
-        image: images/jan.jpg
+        image: images/jan_aboutme.png
         content: >-
           Als zertifizierter CE-Koordinator (TÜV) und Maschinensicherheitsexperte (ZMSE®) unterstütze ich Sie bei der CE-Kennzeichnung Ihres Produkts. Gemeinsam entwickeln wir eine individuelle Strategie. Beispielsweise auf folgende Probleme und Fragen:
           <br>
@@ -108,6 +108,32 @@ sections:
         actions:
           - label: Zum Kalender
             url: /jan
+            
+  - section_id: quotes
+    component: quote_slider.html
+    title: Kundenstimmen und Referenzen
+    subtitle: Das sagen Projektleiter, Geschäftsführer und Konstrukteure über meine Leistungen und Ergebnisse. 
+    images:
+      - quote: „Hr. Leimkühler unterstützt uns als externer Dienstleister im Bereich Maschinensicherheit und technische Dokumentation. Projekte werden termingerecht und zuverlässig zum Abschluss gebracht. Vielen Dank für die Zusammenarbeit,gerne empfehlen wir Sie weiter.“
+        author: B. Ritzka-Bogner 
+        image: /images/referenzen/kirschner.gif
+        company: Ltg. Montage-Maschinenbau Kirschner Maschinen- und Metallbau GmbH
+        companyurl: https://www.kirschner-maschinenbau.de/
+      - quote: „Als Hersteller von Sondermaschinen und Lastaufnahmemitteln waren wir auf der Suche nach einem Dienstleister, der uns bei der Erstellung der CE-Dokumentation unterstützt. Gute Zusammenarbeit, schnelle Reaktion, Fachwissen und Begegnung auf Augenhöhe. Termine werden wie besprochen eingehalten. Hr. Leimkühler, vielen Dank für die Unterstützung. Ich freue mich auf die weitere Zusammenarbeit.“
+        author: M. Hatzfeld
+        image: /images/referenzen/mhc.png
+        company: Geschäftsführender Gesellschafter MHC GmbH
+        companyurl: https://mhc-solution.com/
+      - quote: „Vielen Dank für die professionelle und zielführende Zusammenarbeit beim EG-Konformitätsbewertungs-verfahren sowie der Erstellung der Betriebsanleitung für unsere Steuerschränke.“
+        author: Matthias Mayr
+        image: /images/referenzen/mayr.png
+        company: Inhaber Mayr Automation LLC
+        companyurl: https://mayr-automation.com/
+      - quote: „Einfache, partnerschaftliche Projektabwicklung. Pragmatische und sichere Lösungen für unsere Konstruktionen. Vielen Dank für die Zusammenarbeit, gerne empfehle ich Sie weiter.“
+        author: Thomas Halbmeyer 
+        image: /images/referenzen/hape.png
+        company: Inhaber HaPE Konstruktion
+        companyurl: https://hape-konstruktion.de/
 
   - section_id: ablauf
     component: advantage_image_block.html

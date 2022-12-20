@@ -26,6 +26,12 @@ footer:
   tagline:
   content: © Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
 
+
+  contact_title: Direkter Kontakt
+  contacts:
+    Gesprächstermin buchen: "jan"
+    Anfrageformular: "docs/D-2001-CL-Checkliste zur Angebotserstellung.pdf"
+
   products_title: Ing.-Büro Leimkühler
   products:
     Obere Findelstätte 7:

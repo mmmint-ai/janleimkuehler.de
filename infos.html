@@ -1,0 +1,32 @@
+---
+title: Informationen
+layout: body
+subtitle: Hier stehen einige Dokumente zum Download bereit.
+---
+
+<section id="career" class="block career-block outer">
+  <div class="inner">
+    <div class="block-header">
+      <h2 class="block-title">{{ page.title }}</h2>
+      <p class="block-subtitle">{{ page.subtitle }}</p>
+    </div>
+    <article class="box post">
+      {% for download in site.data.downloads %}
+      <section>
+        <h2 id="{{forloop.index}}">{{ download.title }}</h2>
+        <p>{{ download.text }}</p>
+        {% if download.action %}
+        <p class="block-buttons">
+          <a
+            href="{{ career.action.url | relative_url }}"
+            target="_blank"
+            class="button secondary"
+            >{{ download.action.label }}</a
+          >
+        </p>
+        {% endif %}
+      </section>
+      {% endfor %}
+    </article>
+  </div>
+</section>

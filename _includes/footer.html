@@ -19,6 +19,24 @@
         </nav>
         <!-- .widget -->
 
+		<nav class="widget footer-contacts">
+			{% assign contacts_is_not_empty = site.footer.contact_title |
+			is_not_empty %} {% if contacts_is_not_empty %}
+			<div class="secondary-nav">
+			  <h4 class="widget-title">{{ site.footer.contact_title }}</h4>
+			  <ul class="secondary-menu">
+				{%- for link in site.footer.contacts -%}
+				<li>
+				  <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+				</li>
+				{% endfor %}
+			  </ul>
+			</div>
+			<!-- .secondary-nav -->
+			{% endif %}
+		  </nav>
+		  <!-- .widget -->
+
         <nav class="widget footer-second">
           <div class="secondary-nav">
             <h4 class="widget-title">{{ site.footer.nav_title }}</h4>

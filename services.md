@@ -74,7 +74,7 @@ sections:
     subtitle: Die Betriebssicherheitsverordnung fordert, dass nur Maschinen betrieben werden, die auch dem Stand der Technik entsprechen. Die Sicherheit muss daher auch bei Altmaschinen und unvollständigen Maschinen ohne CE-Kennzeichnung bzw. ohne ein EG-Konformitätsbewertungsverfahren gewährleistet sein.
     featureslist:
       - title:
-        image: images/solutions/altmaschinen.png
+        image: images/solutions/altmaschinen.webp
         content: >-
           Unterliegen Ihre Produktionsanlagen ständigen Veränderungen?
           Planen Sie Umbaumaßnahmen und werden aufgrund einer wesentlichen Änderung zum Hersteller?
@@ -114,7 +114,7 @@ sections:
     subtitle:
     featureslist:
       - title: Verifikation und Validierung  nach DIN EN ISO 13489-1
-        image: images/solutions/funktionaleSicherheit.png
+        image: images/solutions/funktionaleSicherheit.webp
         content: >-
           Verifikation und Validierung  nach DIN EN ISO 13489-1
           Sie benötigen Unterstützung im Bereich Funktionale Sicherheit?
@@ -174,17 +174,17 @@ sections:
       <br>
       Haben Sie keine Antwort auf Ihre Fragen gefunden? Sie brauchen Hilfe oder suchen nach weiteren Infos? Nehmen Sie Kontakt zu uns auf. Gerne helfen wir Ihnen bei der Lösung Ihres Problems.
     faqitems:
-      - question: CE-Kennzeichnung - Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
+      - question: Benötigt ein Lastaufnahmemittel eine CE-Kennzeichnung?
         answer: >-
           Ein Lastaufnahmemittel benötigt dann eine CE-Kennzeichnung, wenn dieses in den Geltungsbereich der Maschinenrichtlinie fällt. Dies ist abhängig vom Verwendungszweck. Wenn das Lastaufnahmemittel zum Ergreifen einer Last dient und zwischen Maschine und Last oder an der Last selber angebracht wird oder dazu dient integraler Bestandteil der Last zu werden, fällt das Lastaufnahmemittel in den Geltungsbereich der Maschinenrichtlinie.
-      - question: CE-Kennzeichnung . Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
+      - question: Benötigt eine Schweißvorrichtung eine CE-Kennzeichnung?
         answer: >-
           Es kommt auf den Verwendungszweck sowie die konstruktive Gestaltung der Vorrichtung an. Enthält die Vorrichtung elektrische, pneumatische oder hydraulische Komponenten fällt die Vorrichtung in den Geltungsbereich der Maschinenrichtlinie, da nicht ausschließlich die unmittelbar menschliche Kraft zum Einsatz kommt. In Abhängigkeit von der Verwendung kann es sich nun um eine unvollständige Maschine oder eine auswechselbare Ausrüstung handeln. Unvollständige Maschinen erhalten keine eigene CE-Kennzeichnung, während auswechselbare Ausrüstungen eine CE-Kennzeichnung erhalten müssen.
           Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
-      - question: CE-Kennzeichnung - Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
+      - question: Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
           TABELLE
-      - question: CE-Kennzeichnung - Welche Dokumente muss der Hersteller für Behörden vorhalten?
+      - question: Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
           Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
           • Allgemeine Beschreibung der Maschine/ des Produkts,
@@ -203,7 +203,7 @@ sections:
         answer: >-
           "Ortsfeste" Zugänge sind solche, die so montiert sind (zum Beispiel durch Schrauben, Muttern, Schweißen), dass sie nur mit Werkzeugen entfernt werden können. Beispiele für ortsfeste Zugänge, die Bestandteil einer Maschine oder Anlage sind, sind Arbeitsbühnen, Laufstege und Leitern. 
           Die harmonisierten Normen der EN ISO 14122-Reihe konkretisieren die Anforderungen der MRL an ortsfeste Zugänge. Die Normenreihe gilt dabei sowohl für stationäre als auch für mobile Maschinen, bei denen ortsfeste Zugänge erforderlich sind.
-      - question: CE-Kennzeichnung - Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
+      - question: Benötigen ortsfeste Zugänge an maschinellen Anlagen eine CE-Kennzeichnung?
         answer: >-
           Ortsfeste Zugänge an maschinellen Anlagen fallen in den Geltungsbereich der Maschinenrichtlinie und gelten als unvollständige Maschine. Damit erhalten ortsfeste Zugänge keine CE-Kennzeichnung, jedoch ist ein Konformitätsbewertungsverfahren für die unvollständige Maschine gemäß MRL durchzuführen.
           Die harmonisierten Normen der EN ISO 14122-Reihe beschreiben allgemeine Anforderungen für den Zugang zu stationären Maschinen und geben Anleitung zur richtigen Wahl der Zugänge, wenn der erforderliche Zugang zu der stationären Maschine nicht direkt vom Boden oder von einer Ebene aus möglich ist.
@@ -217,7 +217,7 @@ sections:
     subtitle: <i> „Wer es versteht eigenes Personal in kürzester Zeit zu qualifizieren, leidet nie unter Fachkräftemangel“</i>
     featureslist:
       - title: Verifikation und Validierung  nach DIN EN ISO 13489-1
-        image: images/solutions/coaching.png
+        image: images/solutions/coaching.webp
         content: >-
           Coaching, Schulung und Ausbildung Ihrer Mitarbeiter zu den Themen Produktsicherheit, CE-Kennzeichnung, Risikobeurteilung, Original-Betriebsanleitungen und Geschäftsprozessmanagement.
           Alle Inhalte sind praxisorientiert und auf Ihre individuellen Anforderungen abgestimmt.
@@ -262,7 +262,7 @@ sections:
     subtitle: Im Rahmen unseres Dokumentations-Kurzchecks prüfen wir stichpunktartig ob Ihre technische Dokumentation den aktuellen Normen und Richtlinien innerhalb der EU entspricht.
     featureslist:
       - title: Inhalte des Dokumentationschecks
-        image: images/solutions/dokumentationsprüfung.png
+        image: images/solutions/dokumentationsprüfung.webp
         content: >-
           - Gliederung und Struktur der Risikobeurteilung
 
@@ -292,7 +292,7 @@ sections:
     subtitle: Sie suchen eine Lösung Ihre Betriebsanleitung digital bereitzustellen?
     featureslist:
       - title:
-        image: images/solutions/Informationsplattform.png
+        image: images/solutions/Informationsplattform.webp
         content: Stellen Sie Ihre technische Dokumentation wie Originalbetriebsanleitungen, Zusammenbauzeichnungen, Stücklisten und weitere Informationen auf unserer Informationsplattform bereit. Alle Dokumente sind an jedem Ort der Welt schnell abrufbar. ​Der Zugriff auf die Plattform erfolgt durch einen QR-Code, den Sie auf Ihrem Produkt anbringen.
 
 layout: features

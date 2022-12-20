@@ -804,7 +804,6 @@ img {
 .solution-advantage-container {
   display: flex;
   font-size: 16px;
-  flex-wrap: wrap;
 }
 
 .solution-advantage-container {
@@ -822,7 +821,6 @@ img {
 .solution-contact-container {
   display: flex;
   width: 50%;
-  border: 1px solid _palette(accent);
 }
 
 @media only screen and (max-width: 800px) {
