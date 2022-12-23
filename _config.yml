@@ -73,7 +73,11 @@ defaults:
       path: "images/**"
     values:
       sitemap: false
-
+  - scope:
+      path: "docs/**"
+    values:
+      sitemap: false
+      
 sass:
   indentWidth: 4
   style: nested
