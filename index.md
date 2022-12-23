@@ -82,7 +82,7 @@ sections:
           Erfahren Sie im Video, wie mein Auftragsabwicklungsprozess funktioniert und Sie direkt mehr Zeit für Ihr Kerngeschäft gewinnen.
         actions:
           - label: Checkliste Projektanfrage
-            url: /solutions/landingpage
+            url: docs/D-2001-CL-Checkliste zur Angebotserstellung.pdf
           - label: Jetzt Kontakt aufnehmen
             url: /contact
 
