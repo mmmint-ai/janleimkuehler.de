@@ -248,7 +248,47 @@ sections:
           Fällt die Vorrichtung hingegen nicht in den Geltungsbereich der Maschinenrichtlinie, gelten die Anforderungen des Produktsicherheitsgesetztes – ProdSG.
       - question: Benötigt eine Treppen/ ein Treppenpodest/ eine Arbeitsbühne eine CE-Kennzeichnung?
         answer: >-
-          TABELLE
+          Ob eine Treppe, ein Treppenpodest oder eine Arbeitsbühne mit dem CE-Kennzeichen versehen werden muss, hängt maßgeblich vom Einsatzort und dem Verwendungszweck ab. In Abhängigkeit vom Anwendungsfall fällt die Treppe in den Geltungsbereich verschiedener EU-Richtlinien und Gesetze. Die nachfolgende Tabelle ermöglicht einen ersten Überblick.
+
+          <table>
+            <tr>
+            <th>Fall</th>
+            <th>Einsatzort/ Verwendungszweck</th>
+            <th>Kategorie</th>
+            <th>Zutreffende Richtlinie/ Norm</th>
+            <th>CE-Kennzeichnung</th>
+            <th>Erforderliche Technische Dokumentation</th>
+            </tr>
+            <tr>
+            <td>01</td>
+            <td>Treppen als ortsfeste Zugänge zu Maschinen und Anlagen</td>
+            <td>Unvollständige Maschine</td>
+            <td>RL 2006/42/EGEN 14122</td>
+            <td>NEIN</td>
+            <td>Risikobeurteilung Montageanleitung EG-Einbauerklärung</td>
+            </tr>
+
+            <tr>
+            <td>02</td>
+            <td>Treppen, die in Gebäude bzw. Bauwerke eingebaut werden</td>
+            <td>Bauprodukt (Eigenständiges Bau- und Tragwerk)</td>
+            <td>BauProdV EN 1090-1 EN 14122</td>
+            <td>JA</td>
+            <td>Risikobeurteilung Montageanleitung Leistungserklärung</td>
+            </tr>
+
+            <tr>
+            <td>03</td>
+            <td>Treppen, mobil/ nicht ortsfest</td>
+            <td>Arbeitsmittel im Sinne des ProdSG</td>
+            <td>ProdSG EN 14122</td>
+            <td>NEIN</td>
+            <td>Risikobeurteilung Gebrauchsanleitung Herstellererklärung</td>
+            </tr>
+
+            </table>
+
+          In der Praxis ist eine eindeutige Abgrenzung zwischen Bauprodukteverordnung und dem Anlagen- und Maschinenbau nicht immer einfach. Das VDMA-Einheitsblatt 24408-1 unterstützt bei der Bewertung. Im Dokument ist die Abgrenzung verfahrenstechnischer Anlagen und Maschinen vom Geltungsbereich der europäischen Bauprodukteverordnung (EU) Nr. 305/2011/EU beschrieben.
       - question: Welche Dokumente muss der Hersteller für Behörden vorhalten?
         answer: >-
           Der Hersteller muss die dokumentierten Unterlagen, die während des EG-Konformitätsbewertungsverfahrens erstellt werden für Marktaufsichtsbehörden vorhalten und auf Verlangen vorlegen. Die relevanten Dokumente die hierzu gehören sind:
