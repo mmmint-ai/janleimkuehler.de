@@ -24,7 +24,7 @@ header:
 footer:
   logo_img:
   tagline:
-  content: © Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
+  content: © Ingenieurbüro Leimkühler GmbH
 
 
   contact_title: Direkter Kontakt
@@ -32,7 +32,7 @@ footer:
     Gesprächstermin buchen: "jan"
     Anfrageformular: "docs/D-2001-CL-Checkliste zur Angebotserstellung.pdf"
 
-  products_title: Ing.-Büro Leimkühler
+  products_title: Ing.-Büro Leimkühler GmbH
   products:
     Obere Findelstätte 7:
     49124 Georgsmarienhütte:
