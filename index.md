@@ -69,7 +69,7 @@ sections:
         <br>
       - 10 Jahre Berufserfahrung im Sondermaschinenbau und in der CE-Kennzeichnung.
         <br>
-      - seit 2021 geschäftsführender Gesellschafter der Ingenieurbüro Leimkühler UG (haftungsbeschränkt).
+      - seit 2021 geschäftsführender Gesellschafter der Ingenieurbüro Leimkühler GmbH.
 
   - section_id: video
     component: features_block.html
@@ -95,7 +95,7 @@ sections:
         image: /images/map.png
         customimageclass: small-image
         content: >-
-          Ingenieurbüro Leimkühler UG (haftungsbeschränkt)
+          Ingenieurbüro Leimkühler GmbH
           <br>
           Obere Findelstätte 7
            <br>
