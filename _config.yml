@@ -4,6 +4,7 @@ keywords: CE-Kennzeichnun
 baseurl: /
 permalink: "/:year/:month/:day/:title/"
 hubspot:
+google_tag_manager: GTM-WHZMJ35
 
 collections:
   posts:
